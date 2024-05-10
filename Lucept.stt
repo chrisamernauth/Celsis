@@ -1,0 +1,9 @@
+[Directories]
+Target=.\TrueTime
+Intermediates=.\TrueTime
+[Instrumentation]
+Inlines=No
+Level=Line
+[General]
+BuildModel=0
+Target=Lucept - Win32 Release

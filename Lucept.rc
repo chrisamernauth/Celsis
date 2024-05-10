@@ -1,0 +1,3573 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+// Generated Help ID header file
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "resource.hm"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif\r\n"
+    "#include ""res\\Lucept.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#include ""afxprint.rc""       // printing/print preview resources\r\n"
+    "#include ""afxolecl.rc""       // OLE container resources\r\n"
+    "#if !defined(_AFXDLL)\r\n"
+    "#include ""afxribbon.rc""        // MFC ribbon and control bar resources\r\n"
+    "#endif\r\n"
+    "#include ""Grid/gxres.rc""\r\n"
+    "#endif\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "C:\\Projects\\835\\BuildTree\\EXE\\res\\Lucept.ico"
+IDR_WORKLOAD            ICON                    "res\\workload.ico"
+IDR_REPORT              ICON                    "res\\report.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP                  "res\\mainfram.bmp"
+IDR_REPORT              BITMAP                  "res\\report.bmp"
+IDB_BITMAP1             BITMAP                  "res\\Toolbar.bmp"
+IDB_BITMAP3             BITMAP                  "res\\bitmap3.bmp"
+IDR_WORKLOAD            BITMAP                  "res\\workload.bmp"
+PREVBATCHU              BITMAP                  "res\\prevbatc.bmp"
+PREVBATCHD              BITMAP                  "res\\bitmap5.bmp"
+NEXTBATCHU              BITMAP                  "res\\nextbatc.bmp"
+NEXTBATCHD              BITMAP                  "res\\bmp00001.bmp"
+PREVBATCHF              BITMAP                  "res\\bmp00002.bmp"
+NEXTBATCHF              BITMAP                  "res\\bmp00003.bmp"
+NEXTSAMPLEU             BITMAP                  "res\\nextsamp.bmp"
+NEXTSAMPLED             BITMAP                  "res\\bmp00004.bmp"
+NEXTSAMPLEF             BITMAP                  "res\\bmp00005.bmp"
+PREVSAMPLEU             BITMAP                  "res\\bitmap6.bmp"
+PREVSAMPLED             BITMAP                  "res\\bmp00006.bmp"
+PREVSAMPLEF             BITMAP                  "res\\prevsamp.bmp"
+NEXTBATCHX              BITMAP                  "res\\bmp00008.bmp"
+NEXTSAMPLEX             BITMAP                  "res\\bmp00009.bmp"
+PREVBATCHX              BITMAP                  "res\\prevbath.bmp"
+PREVSAMPLEX             BITMAP                  "res\\bmp00010.bmp"
+IDB_MAINTENANCE_U       BITMAP                  "res\\maintenu.bmp"
+IDB_MAINTENANCE_D       BITMAP                  "res\\maintend.bmp"
+IDB_MAINTENANCE_F       BITMAP                  "res\\maintenf.bmp"
+IDB_MAINTENANCE_X       BITMAP                  "res\\maintenx.bmp"
+IDB_NEWWORKLOAD_U       BITMAP                  "res\\newrkldu.bmp"
+IDB_NEWWORKLOAD_D       BITMAP                  "res\\newrkldd.bmp"
+IDB_NEWWORKLOAD_F       BITMAP                  "res\\newrkldf.bmp"
+IDB_NEWWORKLOAD_X       BITMAP                  "res\\newrkldx.bmp"
+IDB_MANUALMODE_D        BITMAP                  "res\\manualmd.bmp"
+IDB_MANUALMODE_F        BITMAP                  "res\\manualmf.bmp"
+IDB_MANUALMODE_U        BITMAP                  "res\\manualmu.bmp"
+IDB_MANUALMODE_X        BITMAP                  "res\\manualmx.bmp"
+IDB_LOGOUT_F            BITMAP                  "res\\logoutf.bmp"
+IDB_LOGOUT_U            BITMAP                  "res\\logoutu.bmp"
+IDB_LOGOUT_D            BITMAP                  "res\\logoutd.bmp"
+IDB_LOGOUT_X            BITMAP                  "res\\logoutx.bmp"
+IDB_HELP_D              BITMAP                  "res\\bmp00011.bmp"
+IDB_HELP_U              BITMAP                  "res\\bitmap7.bmp"
+IDB_HELP_F              BITMAP                  "res\\bitmap8.bmp"
+IDB_HELP_X              BITMAP                  "res\\bitmap9.bmp"
+IDB_SCANCHAIN_D         BITMAP                  "res\\bmp00012.bmp"
+IDB_SCANCHAIN_F         BITMAP                  "res\\scanchai.bmp"
+IDB_SCANCHAIN_U         BITMAP                  "res\\bmp00013.bmp"
+IDB_SCANCHAIN_X         BITMAP                  "res\\bmp00014.bmp"
+IDB_STOPRUN_D           BITMAP                  "res\\bmp00015.bmp"
+IDB_STOPRUN_F           BITMAP                  "res\\stoprun_.bmp"
+IDB_STOPRUN_U           BITMAP                  "res\\bmp00016.bmp"
+IDB_STOPRUN_X           BITMAP                  "res\\bmp00017.bmp"
+IDB_UNLOCK_U            BITMAP                  "res\\bmp00019.bmp"
+IDB_LOCK_U              BITMAP                  "res\\bmp00020.bmp"
+OFFLINEU                BITMAP                  "res\\offline.bmp"
+OFFLINED                BITMAP                  "res\\offlined.bmp"
+READYU                  BITMAP                  "res\\readyu.bmp"
+READYD                  BITMAP                  "res\\readyd.bmp"
+BUSYU                   BITMAP                  "res\\busyu.bmp"
+BUSYD                   BITMAP                  "res\\busyd.bmp"
+INJECTU                 BITMAP                  "res\\injectu.bmp"
+INJECTD                 BITMAP                  "res\\injectd.bmp"
+INJECTX                 BITMAP                  "res\\injectx.bmp"
+INJECTF                 BITMAP                  "res\\injectf.bmp"
+IDB_GRAPHVIEW_D         BITMAP                  "res\\graph_d.bmp"
+IDB_GRAPHVIEW_F         BITMAP                  "res\\graph_f.bmp"
+IDB_GRAPHVIEW_X         BITMAP                  "res\\graph_x.bmp"
+IDB_GRIDVIEW_D          BITMAP                  "res\\grid_d.bmp"
+IDB_GRIDVIEW_F          BITMAP                  "res\\grid_f.bmp"
+IDB_GRIDVIEW_U          BITMAP                  "res\\grid_u.bmp"
+IDB_GRIDVIEW_X          BITMAP                  "res\\grid_x.bmp"
+IDB_GRAPHVIEW_U         BITMAP                  "res\\graphvie.bmp"
+IDB_LIFT                BITMAP                  "res\\lift.bmp"
+IDB_CHAIN               BITMAP                  "res\\chain.bmp"
+IDB_LUMIN               BITMAP                  "res\\lumin.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR 16, 15
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_FILE_PRINT
+    BUTTON      ID_APP_ABOUT
+    BUTTON      ID_CONTEXT_HELP
+END
+
+IDR_REPORT TOOLBAR 16, 15
+BEGIN
+    BUTTON      ID_INSERT_WORKLOAD
+    SEPARATOR
+    BUTTON      ID_VIEW_COLUMNS
+    BUTTON      ID_VIEW_ROWS
+    SEPARATOR
+    BUTTON      ID_INSERT_HEADER
+    BUTTON      ID_INSERT_FOOTER
+    BUTTON      ID_INSERT_FORMULA
+    BUTTON      ID_INSERT_GRAPH
+END
+
+IDR_WORKLOAD TOOLBAR 16, 15
+BEGIN
+    BUTTON      ID_GRAPHIC_VIEW
+    BUTTON      ID_GRID_VIEW
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New\tCtrl+N",                ID_FILE_NEW
+        MENUITEM "&Open...\tCtrl+O",            ID_FILE_OPEN
+        MENUITEM SEPARATOR
+        MENUITEM "&Print\tCtlr+P",              ID_FILE_PRINT
+        MENUITEM "Print Pre&view\t",            ID_FILE_PRINT_PREVIEW
+        MENUITEM "P&rint Setup...",             ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Recent File",                 ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "Logon",                       ID_FILE_LOGON
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Grid View",                  ID_GRID_VIEW
+        MENUITEM "&Tube View",                  ID_GRAPHIC_VIEW
+        MENUITEM SEPARATOR
+        MENUITEM "Status Bar",                  ID_VIEW_STATUS_BAR, CHECKED
+        MENUITEM "Toolbar",                     ID_VIEW_TOOLBAR, CHECKED
+        MENUITEM SEPARATOR
+        MENUITEM "&Auto-size Columns",          ID_VIEW_AUTOSIZECOLUMNS
+        POPUP "&Font Size"
+        BEGIN
+            MENUITEM "6",                           ID_VIEW_FONTSIZE_6
+            MENUITEM "7",                           ID_VIEW_FONTSIZE_7
+            MENUITEM "8",                           ID_VIEW_FONTSIZE_8
+            MENUITEM "9",                           ID_VIEW_FONTSIZE_9
+            MENUITEM "10",                          ID_VIEW_FONTSIZE_10
+            MENUITEM "11",                          ID_VIEW_FONTSIZE_11
+            MENUITEM "12",                          ID_VIEW_FONTSIZE_12
+            MENUITEM "13",                          ID_VIEW_FONTSIZE_13
+            MENUITEM "14",                          ID_VIEW_FONTSIZE_14
+            MENUITEM "15",                          ID_VIEW_FONTSIZE_15
+            MENUITEM "16",                          ID_VIEW_FONTSIZE_16
+        END
+    END
+    POPUP "&Maintenance"
+    BEGIN
+        POPUP "&Injector "
+        BEGIN
+            MENUITEM "&Startup",                    ID_MAINTENANCE_INJECTOR_STARTUP
+            MENUITEM "Sh&utdown",                   ID_MAINTENANCE_INJECTOR_SHUTDOWN
+            MENUITEM "&Wash",                       ID_MAINTENANCE_INJECTOR_WASH
+            MENUITEM "&Rinse",                      ID_MAINTENANCE_INJECTOR_RINSE
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "&Prime",                      ID_MAINTENANCE_PRIME
+        MENUITEM "&Refresh",                    ID_MAINTENANCE_REFRESH
+        MENUITEM SEPARATOR
+        MENUITEM "&Manual",                     ID_MAINTENANCE_MANUAL
+        MENUITEM "Reagent &Levels",             ID_ROUTINE_REAGENTLEVELS
+    END
+    POPUP "&Setup"
+    BEGIN
+        POPUP "&Assay Definition"
+        BEGIN
+            MENUITEM "&New Assay",                  ID_SETUP_ASSAY_NEW
+            MENUITEM "&Edit Assay",                 ID_SETUP_ASSAY_EDIT
+            MENUITEM "&Delete Assay",               ID_SETUP_ASSAY_DEL
+            MENUITEM "&Print Assay",                ID_SETUP_ASSAY_PRINT
+            MENUITEM SEPARATOR
+            MENUITEM "&Assay History",              ID_SETUP_ASSAY_HISTORY
+        END
+        POPUP "&Measurement Definition"
+        BEGIN
+            MENUITEM "&New Measurement",            ID_SETUP_MEAS_NEW
+            MENUITEM "&Edit Measurement",           ID_SETUP_MEAS_EDIT
+            MENUITEM "&Delete Measurement",         ID_SETUP_MEAS_DEL
+            MENUITEM "&Print Measurement",          ID_SETUP_MEAS_PRINT
+            MENUITEM SEPARATOR
+            MENUITEM "&Measurement History",        ID_SETUP_MEAS_HISTORY
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "&User Administration",        ID_SETUP_USERADMINISTRATION
+        MENUITEM "&System Log",                 ID_SETUP_SYSTEMLOG
+        MENUITEM "&Change Password",            ID_SETUP_CHANGEPASSWORD
+    END
+    POPUP "&Window"
+    BEGIN
+        MENUITEM "&Cascade",                    ID_WINDOW_CASCADE
+        MENUITEM "&Tile",                       ID_WINDOW_TILE_HORZ
+        MENUITEM "&Arrange Icons",              ID_WINDOW_ARRANGE
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&Help Topics",                ID_HELP_FINDER
+        MENUITEM "&Customer Service",           ID_HELP_CUSTOMERSERVICE
+        MENUITEM SEPARATOR
+        MENUITEM "&About Celsis...",         ID_APP_ABOUT
+    END
+END
+
+IDR_WORKLOAD MENU
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New\tCtrl+N",                ID_FILE_NEW
+        MENUITEM "&Open...\tCtrl+O",            ID_FILE_OPEN
+        MENUITEM "&Close",                      ID_FILE_CLOSE
+        MENUITEM "&Save\tCtrl+S",               ID_FILE_SAVE
+        MENUITEM "Save &As...",                 ID_FILE_SAVE_AS
+        MENUITEM "Save As &Template",           ID_FILE_SAVE_TEMPLATE
+        MENUITEM SEPARATOR
+        MENUITEM "Print Properties...",         ID_FILE_PRINTPROPERTIES
+        MENUITEM "&Print...\tCtrl+P",           ID_FILE_PRINT
+        MENUITEM "Print Pre&view",              ID_FILE_PRINT_PREVIEW
+        MENUITEM "P&rint Setup...",             ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Recent File",                 ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "Logon",                       ID_FILE_LOGON
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&Undo",                       ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "Cu&t\tCtrl+X",                ID_EDIT_CUT
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE
+        MENUITEM SEPARATOR
+        POPUP "&Delete..."
+        BEGIN
+            MENUITEM "&Sample",                     ID_EDIT_DELETE_SAMPLE
+            MENUITEM "&Batch",                      ID_EDIT_DELETE_BATCH
+        END
+    END
+    POPUP "&Insert"
+    BEGIN
+        MENUITEM "&Batch",                      ID_INSERT_BATCH
+        MENUITEM "&Sample",                     ID_INSERT_SAMPLE
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Grid View",                  ID_GRID_VIEW
+        MENUITEM "&Tube View",                  ID_GRAPHIC_VIEW
+        MENUITEM "&Sample View",                ID_SAMPLE_VIEW
+        MENUITEM SEPARATOR
+        MENUITEM "Show/&Hide Columns",          ID_VIEW_SHOWHIDECOLUMNS
+        MENUITEM "&Auto-size Columns",          ID_VIEW_AUTOSIZECOLUMNS
+        POPUP "&Font Size"
+        BEGIN
+            MENUITEM "6",                           ID_VIEW_FONTSIZE_6
+            MENUITEM "7",                           ID_VIEW_FONTSIZE_7
+            MENUITEM "8",                           ID_VIEW_FONTSIZE_8
+            MENUITEM "9",                           ID_VIEW_FONTSIZE_9
+            MENUITEM "10",                          ID_VIEW_FONTSIZE_10
+            MENUITEM "11",                          ID_VIEW_FONTSIZE_11
+            MENUITEM "12",                          ID_VIEW_FONTSIZE_12
+            MENUITEM "13",                          ID_VIEW_FONTSIZE_13
+            MENUITEM "14",                          ID_VIEW_FONTSIZE_14
+            MENUITEM "15",                          ID_VIEW_FONTSIZE_15
+            MENUITEM "16",                          ID_VIEW_FONTSIZE_16
+        END
+    END
+    POPUP "&Routine"
+    BEGIN
+        MENUITEM "&Start",                      ID_ROUTINE_RUN
+        MENUITEM "S&top",                       ID_ROUTINE_STOPPAUSE
+        MENUITEM "Scan &Chain",                 ID_ROUTINE_SCANCHAIN
+        MENUITEM "&Unlock",                     ID_ROUTINE_UNLOCK
+    END
+    POPUP "&Maintenance"
+    BEGIN
+        POPUP "&Injector "
+        BEGIN
+            MENUITEM "&Startup",                    ID_MAINTENANCE_INJECTOR_STARTUP
+            MENUITEM "Sh&utdown",                   ID_MAINTENANCE_INJECTOR_SHUTDOWN
+            MENUITEM "&Wash",                       ID_MAINTENANCE_INJECTOR_WASH
+            MENUITEM "&Rinse",                      ID_MAINTENANCE_INJECTOR_RINSE
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "&Prime",                      ID_MAINTENANCE_PRIME
+        MENUITEM "&Refresh",                    ID_MAINTENANCE_REFRESH
+        MENUITEM SEPARATOR
+        MENUITEM "&Manual",                     ID_MAINTENANCE_MANUAL
+        MENUITEM "Reagent &Levels...",          ID_ROUTINE_REAGENTLEVELS
+    END
+    POPUP "&Setup"
+    BEGIN
+        POPUP "&Assay Definition"
+        BEGIN
+            MENUITEM "&New Assay",                  ID_SETUP_ASSAY_NEW
+            MENUITEM "&Edit Assay",                 ID_SETUP_ASSAY_EDIT
+            MENUITEM "&Delete Assay",               ID_SETUP_ASSAY_DEL
+            MENUITEM "&Print Assay",                ID_SETUP_ASSAY_PRINT
+            MENUITEM SEPARATOR
+            MENUITEM "&Assay History",              ID_SETUP_ASSAY_HISTORY
+        END
+        POPUP "&Measurement Definition"
+        BEGIN
+            MENUITEM "&New Measurement",            ID_SETUP_MEAS_NEW
+            MENUITEM "&Edit Measurement",           ID_SETUP_MEAS_EDIT
+            MENUITEM "&Delete Measurement",         ID_SETUP_MEAS_DEL
+            MENUITEM "&Print Measurement",          ID_SETUP_MEAS_PRINT
+            MENUITEM SEPARATOR
+            MENUITEM "&Measurement History",        ID_SETUP_MEAS_HISTORY
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "&User Administration",        ID_SETUP_USERADMINISTRATION
+        MENUITEM "&System Log",                 ID_SETUP_SYSTEMLOG
+        MENUITEM "&Change Password",            ID_SETUP_CHANGEPASSWORD
+    END
+    POPUP "&Window"
+    BEGIN
+        MENUITEM "&Cascade",                    ID_WINDOW_CASCADE
+        MENUITEM "&Tile",                       ID_WINDOW_TILE_HORZ
+        MENUITEM "&Arrange Icons",              ID_WINDOW_ARRANGE
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&Help Topics",                ID_HELP_FINDER
+        MENUITEM "&Customer Service",           ID_HELP_CUSTOMERSERVICE
+        MENUITEM SEPARATOR
+        MENUITEM "&About Celsis...",         ID_APP_ABOUT
+    END
+END
+
+IDR_REPORT MENU
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New\tCtrl+N",                ID_FILE_NEW
+        MENUITEM "&Open...\tCtrl+O",            ID_FILE_OPEN
+        MENUITEM "&Close",                      ID_FILE_CLOSE
+        MENUITEM "&Save\tCtrl+S",               ID_FILE_SAVE
+        MENUITEM "Save &As...",                 ID_FILE_SAVE_AS
+        MENUITEM "Save As Template",            ID_FILE_SAVE_TEMPLATE
+        MENUITEM "Export",                      ID_FILE_EXPORT
+        MENUITEM SEPARATOR
+        MENUITEM "&Print...\tCtrl+P",           ID_FILE_PRINT
+        MENUITEM "Print Pre&view",              ID_FILE_PRINT_PREVIEW
+        MENUITEM "P&rint Setup...",             ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Recent File",                 ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "Logon",                       ID_FILE_LOGON
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Maintenance"
+    BEGIN
+        POPUP "&Injector "
+        BEGIN
+            MENUITEM "&Startup",                    ID_MAINTENANCE_INJECTOR_STARTUP
+            MENUITEM "Sh&utdown",                   ID_MAINTENANCE_INJECTOR_SHUTDOWN
+            MENUITEM "&Wash",                       ID_MAINTENANCE_INJECTOR_WASH
+            MENUITEM "&Rinse",                      ID_MAINTENANCE_INJECTOR_RINSE
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "&Prime",                      ID_MAINTENANCE_PRIME
+        MENUITEM "&Refresh",                    ID_MAINTENANCE_REFRESH
+        MENUITEM SEPARATOR
+        MENUITEM "&Manual",                     ID_MAINTENANCE_MANUAL
+        MENUITEM "Reagent &Levels",             ID_ROUTINE_REAGENTLEVELS
+    END
+    POPUP "&Setup"
+    BEGIN
+        POPUP "&Assay Definition"
+        BEGIN
+            MENUITEM "&New Assay",                  ID_SETUP_ASSAY_NEW
+            MENUITEM "&Edit Assay",                 ID_SETUP_ASSAY_EDIT
+            MENUITEM "&Delete Assay",               ID_SETUP_ASSAY_DEL
+            MENUITEM "&Print Assay",                ID_SETUP_ASSAY_PRINT
+            MENUITEM SEPARATOR
+            MENUITEM "&Assay History",              ID_SETUP_ASSAY_HISTORY
+        END
+        POPUP "&Measurement Definition"
+        BEGIN
+            MENUITEM "&New Measurement",            ID_SETUP_MEAS_NEW
+            MENUITEM "&Edit Measurement",           ID_SETUP_MEAS_EDIT
+            MENUITEM "&Delete Measurement",         ID_SETUP_MEAS_DEL
+            MENUITEM "&Print Measurement",          ID_SETUP_MEAS_PRINT
+            MENUITEM SEPARATOR
+            MENUITEM "&Measurement History",        ID_SETUP_MEAS_HISTORY
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "&User Administration",        ID_SETUP_USERADMINISTRATION
+        MENUITEM "&System Log",                 ID_SETUP_SYSTEMLOG
+        MENUITEM "&Change Password",            ID_SETUP_CHANGEPASSWORD
+    END
+    POPUP "&Window"
+    BEGIN
+        MENUITEM "&Cascade",                    ID_WINDOW_CASCADE
+        MENUITEM "&Tile",                       ID_WINDOW_TILE_HORZ
+        MENUITEM "&Arrange Icons",              ID_WINDOW_ARRANGE
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&Help Topics",                ID_HELP_FINDER
+        MENUITEM "&Customer Service",           ID_HELP_CUSTOMERSERVICE
+        MENUITEM SEPARATOR
+        MENUITEM "&About Celsis...",         ID_APP_ABOUT
+    END
+END
+
+IDR_WORKLOAD_WKT MENU
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New\tCtrl+N",                ID_FILE_NEW
+        MENUITEM "&Open...\tCtrl+O",            ID_FILE_OPEN
+        MENUITEM "&Close",                      ID_FILE_CLOSE
+        MENUITEM "&Save\tCtrl+S",               ID_FILE_SAVE
+        MENUITEM "Save &As...",                 ID_FILE_SAVE_AS
+        MENUITEM "Save As &Template",           ID_FILE_SAVE_TEMPLATE
+        MENUITEM SEPARATOR
+        MENUITEM "Print Properties...",         ID_FILE_PRINTPROPERTIES
+        MENUITEM "&Print...\tCtrl+P",           ID_FILE_PRINT
+        MENUITEM "Print Pre&view",              ID_FILE_PRINT_PREVIEW
+        MENUITEM "P&rint Setup...",             ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Recent File",                 ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "Logon",                       ID_FILE_LOGON
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "Cu&t\tCtrl+X",                ID_EDIT_CUT
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE
+        MENUITEM SEPARATOR
+        POPUP "&Delete..."
+        BEGIN
+            MENUITEM "&Sample",                     ID_EDIT_DELETE_SAMPLE
+            MENUITEM "&Batch",                      ID_EDIT_DELETE_BATCH
+        END
+    END
+    POPUP "&Insert"
+    BEGIN
+        MENUITEM "&Batch",                      ID_INSERT_BATCH
+        MENUITEM "&Sample",                     ID_INSERT_SAMPLE
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Grid View",                  ID_GRID_VIEW
+        MENUITEM "&Tube View",                  ID_GRAPHIC_VIEW
+        MENUITEM "&Sample View",                ID_SAMPLE_VIEW
+        MENUITEM SEPARATOR
+        MENUITEM "Show/&Hide Columns",          ID_VIEW_SHOWHIDECOLUMNS
+        MENUITEM "&Auto-size Columns",          ID_VIEW_AUTOSIZECOLUMNS
+        POPUP "&Font Size"
+        BEGIN
+            MENUITEM "6",                           ID_VIEW_FONTSIZE_6
+            MENUITEM "8",                           ID_VIEW_FONTSIZE_8
+            MENUITEM "10",                          ID_VIEW_FONTSIZE_10
+            MENUITEM "12",                          ID_VIEW_FONTSIZE_12
+            MENUITEM "16",                          ID_VIEW_FONTSIZE_16
+        END
+    END
+    POPUP "&Routine"
+    BEGIN
+        MENUITEM "&Start",                      ID_ROUTINE_RUN
+        MENUITEM "S&top",                       ID_ROUTINE_STOPPAUSE
+        MENUITEM "Scan &Chain",                 ID_ROUTINE_SCANCHAIN
+        MENUITEM "&Unlock",                     ID_ROUTINE_UNLOCK
+    END
+    POPUP "&Maintenance"
+    BEGIN
+        POPUP "&Injector "
+        BEGIN
+            MENUITEM "&Startup",                    ID_MAINTENANCE_INJECTOR_STARTUP
+            MENUITEM "Sh&utdown",                   ID_MAINTENANCE_INJECTOR_SHUTDOWN
+            MENUITEM "&Wash",                       ID_MAINTENANCE_INJECTOR_WASH
+            MENUITEM "&Rinse",                      ID_MAINTENANCE_INJECTOR_RINSE
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "&Prime",                      ID_MAINTENANCE_PRIME
+        MENUITEM "&Refresh",                    ID_MAINTENANCE_REFRESH
+        MENUITEM SEPARATOR
+        MENUITEM "&Manual",                     ID_MAINTENANCE_MANUAL
+        MENUITEM "Reagent &Levels...",          ID_ROUTINE_REAGENTLEVELS
+    END
+    POPUP "&Setup"
+    BEGIN
+        POPUP "&Assay Definition"
+        BEGIN
+            MENUITEM "&New Assay",                  ID_SETUP_ASSAY_NEW
+            MENUITEM "&Edit Assay",                 ID_SETUP_ASSAY_EDIT
+            MENUITEM "&Delete Assay",               ID_SETUP_ASSAY_DEL
+            MENUITEM "&Print Assay",                ID_SETUP_ASSAY_PRINT
+            MENUITEM SEPARATOR
+            MENUITEM "&Assay History",              ID_SETUP_ASSAY_HISTORY
+        END
+        POPUP "&Measurement Definition"
+        BEGIN
+            MENUITEM "&New Measurement",            ID_SETUP_MEAS_NEW
+            MENUITEM "&Edit Measurement",           ID_SETUP_MEAS_EDIT
+            MENUITEM "&Delete Measurement",         ID_SETUP_MEAS_DEL
+            MENUITEM "&Print Measurement",          ID_SETUP_MEAS_PRINT
+            MENUITEM SEPARATOR
+            MENUITEM "&Measurement History",        ID_SETUP_MEAS_HISTORY
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "&User Administration",        ID_SETUP_USERADMINISTRATION
+        MENUITEM "&System Log",                 ID_SETUP_SYSTEMLOG
+        MENUITEM "&Change Password",            ID_SETUP_CHANGEPASSWORD
+    END
+    POPUP "&Window"
+    BEGIN
+        MENUITEM "&Cascade",                    ID_WINDOW_CASCADE
+        MENUITEM "&Tile",                       ID_WINDOW_TILE_HORZ
+        MENUITEM "&Arrange Icons",              ID_WINDOW_ARRANGE
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&Help Topics",                ID_HELP_FINDER
+        MENUITEM "&Customer Service",           ID_HELP_CUSTOMERSERVICE
+        MENUITEM SEPARATOR
+        MENUITEM "&About Celsis...",         ID_APP_ABOUT
+    END
+END
+
+IDR_REPORT_TPT MENU
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New\tCtrl+N",                ID_FILE_NEW
+        MENUITEM "&Open...\tCtrl+O",            ID_FILE_OPEN
+        MENUITEM "&Close",                      ID_FILE_CLOSE
+        MENUITEM "&Save\tCtrl+S",               ID_FILE_SAVE
+        MENUITEM "Save &As...",                 ID_FILE_SAVE_AS
+        MENUITEM "Save As Template",            ID_FILE_SAVE_TEMPLATE
+        MENUITEM "Export",                      ID_FILE_EXPORT
+        MENUITEM SEPARATOR
+        MENUITEM "&Print...\tCtrl+P",           ID_FILE_PRINT
+        MENUITEM "Print Pre&view",              ID_FILE_PRINT_PREVIEW
+        MENUITEM "P&rint Setup...",             ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Recent File",                 ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "Logon",                       ID_FILE_LOGON
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Maintenance"
+    BEGIN
+        POPUP "&Injector "
+        BEGIN
+            MENUITEM "&Startup",                    ID_MAINTENANCE_INJECTOR_STARTUP
+            MENUITEM "Sh&utdown",                   ID_MAINTENANCE_INJECTOR_SHUTDOWN
+            MENUITEM "&Wash",                       ID_MAINTENANCE_INJECTOR_WASH
+            MENUITEM "&Rinse",                      ID_MAINTENANCE_INJECTOR_RINSE
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "&Prime",                      ID_MAINTENANCE_PRIME
+        MENUITEM "&Refresh",                    ID_MAINTENANCE_REFRESH
+        MENUITEM SEPARATOR
+        MENUITEM "&Manual",                     ID_MAINTENANCE_MANUAL
+        MENUITEM "Reagent &Levels",             ID_ROUTINE_REAGENTLEVELS
+    END
+    POPUP "&Setup"
+    BEGIN
+        POPUP "&Assay Definition"
+        BEGIN
+            MENUITEM "&New Assay",                  ID_SETUP_ASSAY_NEW
+            MENUITEM "&Edit Assay",                 ID_SETUP_ASSAY_EDIT
+            MENUITEM "&Delete Assay",               ID_SETUP_ASSAY_DEL
+            MENUITEM "&Print Assay",                ID_SETUP_ASSAY_PRINT
+            MENUITEM SEPARATOR
+            MENUITEM "&Assay History",              ID_SETUP_ASSAY_HISTORY
+        END
+        POPUP "&Measurement Definition"
+        BEGIN
+            MENUITEM "&New Measurement",            ID_SETUP_MEAS_NEW
+            MENUITEM "&Edit Measurement",           ID_SETUP_MEAS_EDIT
+            MENUITEM "&Delete Measurement",         ID_SETUP_MEAS_DEL
+            MENUITEM "&Print Measurement",          ID_SETUP_MEAS_PRINT
+            MENUITEM SEPARATOR
+            MENUITEM "&Measurement History",        ID_SETUP_MEAS_HISTORY
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "&User Administration",        ID_SETUP_USERADMINISTRATION
+        MENUITEM "&System Log",                 ID_SETUP_SYSTEMLOG
+        MENUITEM "&Change Password",            ID_SETUP_CHANGEPASSWORD
+    END
+    POPUP "&Window"
+    BEGIN
+        MENUITEM "&Cascade",                    ID_WINDOW_CASCADE
+        MENUITEM "&Tile",                       ID_WINDOW_TILE_HORZ
+        MENUITEM "&Arrange Icons",              ID_WINDOW_ARRANGE
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&Help Topics",                ID_HELP_FINDER
+        MENUITEM "&Customer Service",           ID_HELP_CUSTOMERSERVICE
+        MENUITEM SEPARATOR
+        MENUITEM "&About Celsis...",         ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS
+BEGIN
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    "K",            ID_LCC_UNVIEW_DIALOG,   VIRTKEY, CONTROL, ALT, NOINVERT
+    "L",            ID_LCC_VIEW_DIALOG,     VIRTKEY, CONTROL, ALT, NOINVERT
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL, NOINVERT
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    VK_ESCAPE,      ID_CANCEL_EDIT_CNTR,    VIRTKEY, NOINVERT
+    VK_F1,          ID_HELP,                VIRTKEY, NOINVERT
+    VK_F1,          ID_CONTEXT_HELP,        VIRTKEY, SHIFT, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+END
+
+IDR_LUCEPTTYPE_CNTR_IP ACCELERATORS
+BEGIN
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY 
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT
+    VK_ESCAPE,      ID_CANCEL_EDIT_CNTR,    VIRTKEY, NOINVERT
+END
+
+IDR_WORKLOAD ACCELERATORS
+BEGIN
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    "K",            ID_LCC_UNVIEW_DIALOG,   VIRTKEY, CONTROL, ALT, NOINVERT
+    "L",            ID_LCC_VIEW_DIALOG,     VIRTKEY, CONTROL, ALT, NOINVERT
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL, NOINVERT
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    VK_ESCAPE,      ID_CANCEL_EDIT_CNTR,    VIRTKEY, NOINVERT
+    VK_F1,          ID_HELP,                VIRTKEY, NOINVERT
+    VK_F1,          ID_CONTEXT_HELP,        VIRTKEY, SHIFT, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 217, 74
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About Celsis"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "Celsis  ",IDC_STATIC_PRODUCT,45,17,114,8,SS_NOPREFIX
+    LTEXT           "Copyright © 1997 - 2015, Celsis Inc",IDC_STATIC_COPYRIGHT,45,47,157,8
+    DEFPUSHBUTTON   "OK",IDOK,178,9,32,14,WS_GROUP
+    LTEXT           "Version 4.0.2, 15th January 2015",IDC_STATIC_VERSION,45,32,159,8
+END
+
+IDD_WORKLOAD DIALOGEX 0, 0, 334, 236
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    PUSHBUTTON      "Append Batch",IDC_ADD_BATCH,111,6,57,12
+    RTEXT           "Operator:",IDC_STATIC,9,4,32,8
+    RTEXT           "Created:",IDC_STATIC,13,15,28,8
+    RTEXT           "Workload Status:",IDC_STATUS_LABEL,95,25,56,8
+    LTEXT           "COMMITTED",IDC_WKL_STAT,155,25,44,10
+    RTEXT           "Modified:",IDC_STATIC,13,26,28,8
+    LTEXT           "",IDC_BATCHGRID_SHEET,12,36,252,150,SS_SUNKEN | NOT WS_VISIBLE
+    PUSHBUTTON      "Insert Calibrators",IDC_ADD_CALS,171,6,57,12
+    PUSHBUTTON      "Append Sample",IDC_ADD_SAMPS,231,6,57,12
+    LTEXT           "Patty O'Furniture",IDC_WKL_CREATOR,45,4,58,8
+    LTEXT           "01-Jan-1999",IDC_WKL_CREATION,45,15,44,8
+    LTEXT           "01-Jan-1999",IDC_WKL_MOD_DATE,45,26,43,8
+END
+
+IDD_ABOUT_GRAPH DIALOG 0, 0, 308, 207
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Graph"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,122,190,50,14
+    LTEXT           "By following the steps in the Graph Wizard, the user may define a graph to be included in the report.",IDC_STATIC,7,7,173,17
+    CONTROL         "",IDC_CHART,"{92D71E93-25A8-11CF-A640-9986B64D9618}",WS_TABSTOP,9,27,291,157
+END
+
+IDD_SCAN_PAGE DIALOGEX 0, 0, 251, 144
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Scan Summary"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    RTEXT           "Batches found:",IDC_STATIC,90,25,49,8
+    RTEXT           "Total tubes found:",IDC_STATIC,81,40,58,8
+    EDITTEXT        IDC_BATCHES_FOUND,145,25,39,12,ES_READONLY | ES_NUMBER | NOT WS_BORDER | NOT WS_TABSTOP
+    EDITTEXT        IDC_TUBES_FOUND,145,40,39,12,ES_READONLY | ES_NUMBER | NOT WS_BORDER | NOT WS_TABSTOP
+    RTEXT           "Real batches defined:",IDC_STATIC,55,72,83,8
+    EDITTEXT        IDC_REAL_DEFINED,144,72,39,12,ES_READONLY | ES_NUMBER | NOT WS_BORDER | NOT WS_TABSTOP
+    RTEXT           "Virtual batches defined:",IDC_STATIC,40,87,98,8
+    EDITTEXT        IDC_NEW_BATCHES,144,102,39,12,ES_READONLY | ES_NUMBER | NOT WS_BORDER | NOT WS_TABSTOP
+    RTEXT           "New batches to define:",IDC_STATIC,44,102,94,8
+    EDITTEXT        IDC_VIRT_DEFINED,144,87,39,12,ES_READONLY | ES_NUMBER | NOT WS_BORDER | NOT WS_TABSTOP
+    RTEXT           "Maximum tubes:",IDC_STATIC,84,56,52,8
+    EDITTEXT        IDC_MAX_TUBES,144,56,39,12,ES_READONLY | ES_NUMBER | NOT WS_BORDER | NOT WS_TABSTOP
+END
+
+IDD_BATCH_PAGE DIALOGEX 0, 0, 237, 188
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Batch"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    COMBOBOX        IDC_ASSAYBOX_BPP,77,3,125,65,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Add calibrator samples",IDC_ADD_CAL_SAMPS,"Button",BS_AUTORADIOBUTTON | WS_GROUP,88,39,87,10
+    CONTROL         "Use default calibrators",IDC_USE_DEF_CALS,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,88,50,86,10
+    CONTROL         "Use existing calibrators",IDC_USE_EXIST_CALS,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,88,61,88,10
+    EDITTEXT        IDC_SAMP_REPL,125,76,44,14,ES_CENTER | ES_NUMBER | WS_GROUP
+    CONTROL         "Spin2",IDC_SPIN_SAMP_REPL,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_NOTHOUSANDS | WS_TABSTOP,171,76,11,14
+    RTEXT           "Sample replicates",IDC_STATIC,59,78,56,8
+    RTEXT           "Total tubes in batch:  ",IDC_STATIC,20,95,68,8
+    EDITTEXT        IDC_BATCH_TUBES,96,96,28,12,ES_READONLY | ES_NUMBER | NOT WS_BORDER | NOT WS_TABSTOP
+    RTEXT           "Sample tubes added:",IDC_STATIC,18,120,70,8
+    EDITTEXT        IDC_ADDED_TUBES,96,120,28,12,ES_READONLY | ES_NUMBER | NOT WS_BORDER | NOT WS_TABSTOP
+    RTEXT           "Reagent 1 usage:",IDC_LABEL_REAGENT_1,132,108,58,8
+    EDITTEXT        IDC_REAGENT_1_REQB,192,108,30,12,ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    RTEXT           "Reagent 2 usage:",IDC_LABEL_REAGENT_2,132,120,58,8
+    EDITTEXT        IDC_REAGENT_2_REQB,192,120,30,12,ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    RTEXT           "Reagent 3 usage:",IDC_LABEL_REAGENT_3,132,132,58,8
+    EDITTEXT        IDC_REAGENT_3_REQB,192,132,30,12,ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    RTEXT           "Calibrator tubes added:",IDC_STATIC,6,108,81,8
+    EDITTEXT        IDC_CAL_TUBES,96,108,28,12,ES_READONLY | ES_NUMBER | NOT WS_BORDER | NOT WS_TABSTOP
+    RTEXT           "Processing time:",IDC_STATIC,18,144,68,8
+    EDITTEXT        IDC_PROC_TIMEB,96,144,30,12,ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    RTEXT           "Orphaned Tubes:",IDC_STATIC,18,132,70,8
+    EDITTEXT        IDC_LEFTOVER_TUBES,96,132,28,12,ES_READONLY | ES_NUMBER | NOT WS_BORDER | NOT WS_TABSTOP
+    CONTROL         "Allow Batch Merging",IDC_ALLOW_MERGE,"Button",BS_AUTOCHECKBOX | WS_GROUP | WS_TABSTOP,88,23,81,10
+    RTEXT           "Assay type:",IDC_STATIC,35,4,37,8
+    RTEXT           "Reagent P usage:",IDC_LABEL_REAGENT_P,132,96,58,8
+    EDITTEXT        IDC_REAGENT_P_REQB,192,96,30,12,ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+END
+
+IDD_LUM_STATUS DIALOG 0, 0, 386, 71
+STYLE DS_SETFONT | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Luminometer Status"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Workload:  WKLFILE",IDC_STATIC,284,18,68,8
+    LTEXT           "Batch:  C",IDC_STATIC,272,28,30,8
+    LTEXT           "Sample:  4",IDC_STATIC,330,28,34,8
+    LTEXT           "Replicate: 2",IDC_STATIC,324,37,39,8
+    LTEXT           "Assay:  OJ",IDC_STATIC,270,36,34,8
+    GROUPBOX        "Workload Processing",IDC_STATIC,256,7,122,55,BS_CENTER
+    LTEXT           "Minutes to completion:  23 ",IDC_STATIC,275,48,86,8
+    LTEXT           "Status:  Active",IDC_STATIC,62,15,47,8
+    LTEXT           "Action: Pipetting",IDC_STATIC,62,23,52,8
+    LTEXT           "Chain position:  54",IDC_STATIC,60,36,59,8
+    LTEXT           "Temperature:  37",IDC_STATIC,64,46,55,8
+    CONTROL         "Progress1",IDC_REAGENT1,"msctls_progress32",WS_BORDER,177,18,69,10
+    CONTROL         "Progress1",IDC_REAGENT2,"msctls_progress32",WS_BORDER,177,31,69,10
+    CONTROL         "Progress1",IDC_REAGENT3,"msctls_progress32",WS_BORDER,177,43,69,10
+    LTEXT           "Reagent 1",IDC_STATIC,139,18,34,8
+    LTEXT           "Reagent 2",IDC_STATIC,139,31,34,8
+    LTEXT           "Reagent 3",IDC_STATIC,139,44,34,8
+    GROUPBOX        "Luminometer",IDC_STATIC,54,7,196,55,BS_CENTER
+    CONTROL         176,IDC_STATIC,"Static",SS_BITMAP,7,14,40,37
+END
+
+IDD_SAMPLE DIALOGEX 0, 0, 440, 242
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_SAMP_NAME,50,43,88,13,ES_AUTOHSCROLL
+    COMBOBOX        IDC_SAMP_TYPE,50,58,88,53,CBS_DROPDOWN | CBS_SORT | WS_TABSTOP
+    EDITTEXT        IDC_SAMP_REPL,50,72,88,14,ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SAMP_SPIN1,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,86,73,11,14
+    EDITTEXT        IDC_SAMP_USER1,50,88,88,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_SAMP_USER2,50,104,88,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_SAMP_USER3,50,120,88,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_SAMP_COMMENTS,6,150,354,84,ES_MULTILINE
+    CONTROL         "NEXTSAMPLE",IDC_NEXT_SAMPLE,"Button",BS_OWNERDRAW | WS_TABSTOP,384,6,22,12
+    PUSHBUTTON      "New Sample",IDC_NEW_SAMPLE,380,25,50,14
+    DEFPUSHBUTTON   "Save Edits",IDC_SAMPVIEW_CLOSE,378,186,50,14
+    PUSHBUTTON      "Discard Edits",IDCANCEL,378,168,50,14
+    CONTROL         "PREVSAMPLE",IDC_PREV_SAMPLE,"Button",BS_OWNERDRAW | WS_TABSTOP,360,6,22,12
+    CONTROL         "NEXTBATCH",IDC_NEXT_BATCH,"Button",BS_OWNERDRAW | WS_TABSTOP,408,6,22,12
+    CONTROL         "PREVBATCH",IDC_PREV_BATCH,"Button",BS_OWNERDRAW | WS_TABSTOP,336,6,22,12
+    RTEXT           "Name:",IDC_STATIC,21,45,22,8
+    RTEXT           "Type:",IDC_STATIC,24,60,19,8
+    LTEXT           "Replicates:",IDC_STATIC,6,75,37,8
+    RTEXT           "unused:",IDC_LABEL_USER1,6,91,37,8
+    RTEXT           "unused:",IDC_LABEL_USER2,6,107,37,8
+    RTEXT           "unused:",IDC_LABEL_USER3,6,123,37,8
+    RTEXT           "Comments:",IDC_STATIC,6,138,37,8
+    RTEXT           "RLU:",IDC_STATIC,144,42,18,8
+    RTEXT           "%CV:",IDC_STATIC,212,42,18,8
+    RTEXT           "Notification:",IDC_STATIC,6,30,38,8
+    GROUPBOX        "Replicate RLU's",IDC_STATIC,144,66,94,76,BS_CENTER
+    DEFPUSHBUTTON   "Close",IDOK2,378,204,50,14
+    LTEXT           "Batch:",IDC_STATIC,21,7,22,8
+    LTEXT           "Sample:",IDC_STATIC,81,7,26,8
+    CTEXT           "A",IDC_SAMP_BAT,50,7,16,10,SS_SUNKEN
+    CTEXT           "1",IDC_SAMP_NUM,115,7,15,10,SS_SUNKEN
+    LTEXT           "This sample has gobs and gobs of special notes.  Get a new one.",IDC_SAMP_NOTIFY,50,30,274,8
+    LTEXT           "99,999,999",IDC_SAMP_RLU,168,42,37,8
+    LTEXT           "0.0",IDC_SAMP_CV,234,42,11,8
+    CONTROL         "Flag 1",IDC_SAMP_FLAG1,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,288,60,35,10
+    CONTROL         "Flag 2",IDC_SAMP_FLAG2,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,288,76,35,10
+    CONTROL         "Flag 3",IDC_SAMP_FLAG3,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,288,95,35,10
+    RTEXT           "99,999,999",IDC_SAMP_RLU01,148,78,39,8
+    RTEXT           "99,999,999",IDC_SAMP_RLU02,194,78,39,8
+    RTEXT           "99,999,999",IDC_SAMP_RLU03,148,90,39,8
+    RTEXT           "99,999,999",IDC_SAMP_RLU04,194,90,39,8
+    RTEXT           "99,999,999",IDC_SAMP_RLU05,148,102,39,8
+    RTEXT           "99,999,999",IDC_SAMP_RLU06,194,102,39,8
+    RTEXT           "99,999,999",IDC_SAMP_RLU07,148,114,39,8
+    RTEXT           "99,999,999",IDC_SAMP_RLU08,194,114,39,8
+    RTEXT           "99,999,999",IDC_SAMP_RLU09,148,126,39,8
+    RTEXT           "99,999,999",IDC_SAMP_RLU10,194,126,39,8
+    RTEXT           "Status:",IDC_STATIC,180,18,23,8
+    LTEXT           "Committed",IDC_SAMP_STAT,209,18,34,8
+    RTEXT           "Result:",IDC_STATIC,20,19,23,8
+    LTEXT           "Indeterminate",IDC_SAMP_RESULT,50,19,45,8
+    RTEXT           "Bkg:",IDC_STATIC,146,54,16,8
+    LTEXT           "99,999,999",IDC_SAMP_BKG,168,54,37,8
+END
+
+IDD_SCANNING DIALOG 0, 0, 186, 71
+STYLE DS_SETFONT | DS_MODALFRAME | DS_SETFOREGROUND | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Scanning"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Abort",IDCANCEL,68,50,50,14
+    LTEXT           "SCANNING LUMINOMETER SAMPLES.",IDC_STATIC,18,14,150,8
+    LTEXT           "PLEASE WAIT.",IDC_STATIC,67,31,51,8
+END
+
+IDD_SCAN_SUM_PG DIALOGEX 0, 0, 251, 170
+STYLE DS_SETFONT | WS_CHILD | WS_VISIBLE | WS_CAPTION
+EXSTYLE WS_EX_TRANSPARENT
+CAPTION "Workload Summary"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    RTEXT           "Workload Batches:",IDC_STATIC,74,7,62,8
+    RTEXT           "Total Tubes:",IDC_STATIC,82,40,54,8
+    RTEXT           "Newly Defined Batches:",IDC_STATIC,59,18,77,8
+    RTEXT           "Batches with LeftoverTubes:",IDC_STATIC,44,29,92,8
+    GROUPBOX        "Reagent Usage",IDC_STATIC,20,66,206,72
+    RTEXT           "Reagent 1 usage:",IDC_LABEL_REAGENT_1,30,96,58,8
+    LTEXT           "of available",IDC_LABEL_AVAILABLE_1,114,96,37,8
+    EDITTEXT        IDC_REAGENT_1_REQ,90,96,20,12,ES_RIGHT | ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    RTEXT           "Reagent 2 usage:",IDC_LABEL_REAGENT_2,30,108,58,8
+    LTEXT           "of available",IDC_LABEL_AVAILABLE_2,114,108,37,8
+    EDITTEXT        IDC_REAGENT_2_REQ,90,108,20,12,ES_RIGHT | ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    RTEXT           "Reagent 3 usage:",IDC_LABEL_REAGENT_3,30,120,58,8
+    LTEXT           "of available",IDC_LABEL_AVAILABLE_3,114,120,37,12
+    EDITTEXT        IDC_REAGENT_3_REQ,90,120,20,12,ES_RIGHT | ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    EDITTEXT        IDC_NUM_BATCHES,146,7,64,12,ES_RIGHT | ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    EDITTEXT        IDC_NEW_BATCHES,146,18,64,12,ES_RIGHT | ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    EDITTEXT        IDC_LEFTOVER_BATCHES,146,29,64,12,ES_RIGHT | ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    EDITTEXT        IDC_NUM_TUBES,146,40,64,12,ES_RIGHT | ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    EDITTEXT        IDC_REAGENT_1_AVAIL,156,96,63,12,ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    EDITTEXT        IDC_REAGENT_2_AVAIL,156,108,63,12,ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    EDITTEXT        IDC_REAGENT_3_AVAIL,156,120,63,12,ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    RTEXT           "Processing Time:",IDC_STATIC,81,51,55,8
+    EDITTEXT        IDC_PROC_TIME,146,51,64,12,ES_RIGHT | ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    PUSHBUTTON      "Add Reagents",IDC_ADD_REAG,90,150,63,14
+    RTEXT           "Reagent P usage:",IDC_LABEL_REAGENT_P,30,84,58,8
+    EDITTEXT        IDC_REAGENT_P_REQ,90,84,20,12,ES_RIGHT | ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    EDITTEXT        IDC_REAGENT_P_AVAIL,156,84,63,12,ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    LTEXT           "of available",IDC_LABEL_AVAILABLE_P,114,84,37,8
+END
+
+IDD_BATCHGRID_PG DIALOGEX 0, 0, 348, 95
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    LTEXT           "Assay:",IDC_ASSAY_LABEL,7,9,22,8
+    LTEXT           " ",IDC_GRID_AREA,7,26,334,15,SS_SUNKEN,WS_EX_STATICEDGE
+    COMBOBOX        IDC_ASSAYBOX_BGP,32,7,102,65,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    RTEXT           "Batch Status:",IDC_STATIC,139,3,44,8
+    LTEXT           "Status",IDC_BAT_STAT,187,3,40,8
+    RTEXT           "",IDC_CALVAL1_NAME,229,3,57,8
+    LTEXT           " ",IDC_CALVAL1_VAL,293,3,33,8
+    RTEXT           "",IDC_CALVAL2_NAME,229,12,57,8
+    LTEXT           "",IDC_CALVAL2_VAL,293,12,33,8
+    CONTROL         "Allow Batch Merging",IDC_ALLOW_MERGE,"Button",BS_AUTOCHECKBOX | WS_GROUP | WS_TABSTOP,139,13,81,10
+    CONTROL         "Custom1",IDC_CUSTOM_CGX_GRID,"GXWND",WS_BORDER | WS_VSCROLL | WS_HSCROLL | WS_TABSTOP,7,26,204,23
+END
+
+IDD_AD_ASSAY_SEL DIALOG 0, 0, 145, 69
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Select Assay"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,17,48,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,77,48,50,14
+    LTEXT           "Assay:",IDC_STATIC,7,5,22,8
+    COMBOBOX        IDC_ASSAY_SEL_CB,7,17,129,100,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_AD_ASSAY_NEW DIALOG 0, 0, 202, 111
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Create Assay"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_AD_NEW_NAME,75,19,110,14,ES_AUTOHSCROLL
+    CONTROL         "Copy from existing",IDC_AD_NEW_FROM_OLD,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,77,48,73,10
+    COMBOBOX        IDC_AD_COPY_FROM,77,62,108,91,CBS_DROPDOWNLIST | WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "OK",IDOK,34,90,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,117,90,50,14
+    LTEXT           "Assay Name",IDC_STATIC,30,22,40,8
+END
+
+IDD_MD_MEAS_NEW DIALOG 0, 0, 208, 111
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Create Measurement "
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_MD_NEW_NAME,81,19,110,14,ES_AUTOHSCROLL
+    CONTROL         "Copy from existing",IDC_MD_NEW_FROM_OLD,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,81,47,73,10
+    COMBOBOX        IDC_MD_COPY_FROM,81,62,110,91,CBS_DROPDOWNLIST | WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "OK",IDOK,37,90,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,123,90,50,14
+    RTEXT           "Measurement Name",IDC_STATIC,14,23,64,8
+END
+
+IDD_MEAS_DEF DIALOG 0, 0, 289, 209
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Measurement Definition - "
+FONT 8, "MS Sans Serif"
+BEGIN
+    RTEXT           "Created by:",IDC_STATIC,20,22,65,8,NOT WS_GROUP
+    RTEXT           "Last modified:",IDC_STATIC,19,46,65,8,NOT WS_GROUP
+    GROUPBOX        "Measurement Definition",IDC_AD_ASSAY_NAME,7,7,275,56
+    LTEXT           "Arthur Author",IDC_MD_CREATOR,96,22,74,8,NOT WS_GROUP
+    LTEXT           "31-Dec-1999",IDC_MD_CREATED_ON,196,22,79,8,NOT WS_GROUP
+    LTEXT           " 01-Jan-2000",IDC_MD_MODIFIED,196,46,79,8,NOT WS_GROUP
+    COMBOBOX        IDC_MD_PROTOCOL,19,85,113,69,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_MD_PROTO_PARMS,19,117,113,52,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "Save",IDOK,76,188,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,153,188,50,14
+    LTEXT           "Parameters",IDC_STATIC,19,105,40,8,NOT WS_GROUP
+    LTEXT           "Value",IDC_STATIC,149,105,47,8,NOT WS_GROUP
+    RTEXT           "Max:",IDC_STATIC,143,146,32,8,NOT WS_GROUP
+    RTEXT           "Default:",IDC_STATIC,149,135,26,8,NOT WS_GROUP
+    RTEXT           "Min:",IDC_STATIC,143,157,32,8,NOT WS_GROUP
+    GROUPBOX        "Luminometer Measurement Protocol",IDC_STATIC,7,71,275,109
+    LTEXT           "66",IDC_MD_DEF_VAL,183,135,51,8,NOT WS_GROUP
+    LTEXT           "999",IDC_MD_MAX_VAL,183,146,51,8,NOT WS_GROUP
+    LTEXT           "0",IDC_MD_MIN_VAL,183,157,51,8,NOT WS_GROUP
+    COMBOBOX        IDC_MD_PPARM_VAL,149,117,124,59,CBS_DROPDOWN | CBS_SORT | WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Arthur Author",IDC_MD_MODIFIER,96,46,74,8,NOT WS_GROUP
+    LTEXT           "Protocol ID:",IDC_STATIC,148,87,38,12
+    EDITTEXT        IDC_PROTOCOL_ID_BOX,201,85,34,12,ES_AUTOHSCROLL | WS_DISABLED
+END
+
+IDD_ACALC_CTNR DIALOG 0, 0, 261, 221
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,97,200,50,14
+    CONTROL         "",IDC_ACALC_CTRL,"{DB21314D-FC3B-11D0-A196-444553540000}",WS_TABSTOP,7,7,247,187
+END
+
+IDD_MD_MEAS_SEL DIALOG 0, 0, 145, 62
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Select Measurement"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,17,41,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,77,41,50,14
+    LTEXT           "Procedure:",IDC_STATIC,7,5,36,8
+    COMBOBOX        IDC_PROC_SEL_CB,7,15,129,106,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_LCC_INQUIRE DIALOG 0, 0, 186, 191
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "LCC Inquire"
+FONT 8, "MS Sans Serif"
+BEGIN
+    RTEXT           "LCC Status:",IDC_STATIC,50,43,38,8
+    EDITTEXT        IDC_LCC_STAT,97,40,57,14,ES_CENTER | ES_READONLY | ES_NUMBER
+    RTEXT           "Luminometer Status:",IDC_STATIC,23,64,65,8
+    EDITTEXT        IDC_LUM_STAT,97,60,57,14,ES_CENTER | ES_READONLY | ES_NUMBER
+    RTEXT           "Firmware Rev.:",IDC_STATIC,40,85,48,8
+    EDITTEXT        IDC_LUM_FW_REV,97,81,57,14,ES_CENTER | ES_READONLY | ES_NUMBER
+    RTEXT           "Temperature:",IDC_STATIC,45,108,43,8
+    EDITTEXT        IDC_LUM_TMPR,97,103,57,14,ES_CENTER | ES_READONLY | ES_NUMBER
+    RTEXT           "Chain Position:",IDC_STATIC,40,127,48,8
+    EDITTEXT        IDC_LUM_CHAIN_POS,97,125,57,14,ES_CENTER | ES_READONLY | ES_NUMBER
+    RTEXT           "Door Lock:",IDC_STATIC,52,149,36,8
+    EDITTEXT        IDC_LUM_DOOR_LOCK,97,146,57,14,ES_CENTER | ES_READONLY | ES_NUMBER
+    DEFPUSHBUTTON   "Inquire",IDC_LCC_INQUIRE,25,171,50,14
+    PUSHBUTTON      "Cancel",IDOK,97,171,50,14
+    RTEXT           "CS Status:",IDC_STATIC,51,23,34,8
+    EDITTEXT        IDC_CS_STAT,97,20,57,14,ES_CENTER | ES_READONLY | ES_NUMBER
+END
+
+IDD_MANUAL_MODE DIALOG 0, 0, 290, 151
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Manual Luminometer Operation"
+FONT 8, "MS Sans Serif"
+BEGIN
+    COMBOBOX        IDC_MD_PROTOCOL,19,26,113,69,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_MD_PROTO_PARMS,19,58,113,52,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "Go",IDC_GO,76,130,50,14
+    PUSHBUTTON      "Close",IDCANCEL,153,130,50,14
+    LTEXT           "Parameters",IDC_STATIC,19,47,40,8,NOT WS_GROUP
+    LTEXT           "Parameter Value",IDC_STATIC,149,47,71,8,NOT WS_GROUP
+    RTEXT           "Max:",IDC_STATIC,143,87,32,8,NOT WS_GROUP
+    RTEXT           "Default:",IDC_STATIC,149,76,26,8,NOT WS_GROUP
+    RTEXT           "Min:",IDC_STATIC,143,98,32,8,NOT WS_GROUP
+    GROUPBOX        "Action",IDC_STATIC,7,12,275,109
+    LTEXT           "66",IDC_MD_DEF_VAL,183,76,51,8,NOT WS_GROUP
+    LTEXT           "999",IDC_MD_MAX_VAL,183,87,51,8,NOT WS_GROUP
+    LTEXT           "0",IDC_MD_MIN_VAL,183,98,51,8,NOT WS_GROUP
+    COMBOBOX        IDC_MD_PPARM_VAL,149,58,124,59,CBS_DROPDOWN | CBS_SORT | WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Arthur Author",IDC_MD_CREATOR,173,28,42,8,NOT WS_VISIBLE | NOT WS_GROUP
+    LTEXT           "31-Dec-1999",IDC_MD_CREATED_ON,218,28,42,8,NOT WS_VISIBLE | NOT WS_GROUP
+    LTEXT           " 01-Jan-2000",IDC_MD_MODIFIED,218,38,42,8,NOT WS_VISIBLE | NOT WS_GROUP
+END
+
+IDD_INJ_SEQUENCE DIALOGEX 0, 0, 345, 223
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_STATICEDGE
+CAPTION "Injector Sequence"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Next >>",ID_NEXT,132,202,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,68,202,50,14
+    EDITTEXT        IDC_PROMPT,6,23,330,71,ES_MULTILINE | ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    GROUPBOX        "Select Reagent Injector Positions",IDC_STATIC,6,163,238,29
+    CONTROL         "All",IDC_RADIO_ALL,"Button",BS_AUTORADIOBUTTON,27,174,53,11
+    CONTROL         "2 and 3",IDC_RADIO_23,"Button",BS_AUTORADIOBUTTON,95,174,53,11
+    CONTROL         "Select",IDC_RADIO_SELECT,"Button",BS_AUTORADIOBUTTON,163,174,53,11
+    CONTROL         "Injector 1",IDC_INJ_1,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,90,114,53,11
+    CONTROL         "Injector 2",IDC_INJ_2,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,156,114,53,11
+    CONTROL         "Injector 3",IDC_INJ_3,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,228,114,53,11
+    GROUPBOX        "Injectors",IDC_STATIC,6,102,330,60
+    EDITTEXT        IDC_RGNT_LEV_1,90,138,41,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_RGNT_LEV_2,156,138,41,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_RGNT_LEV_3,228,138,41,12,ES_AUTOHSCROLL
+    LTEXT           "Reagent Levels(ml):",IDC_STATIC,18,126,71,10
+    EDITTEXT        IDC_SCRIPT_TITLE_BOX,6,7,238,14,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER
+    CONTROL         "Spin1",IDC_REAGENT1_SPIN,"msctls_updown32",UDS_ARROWKEYS | WS_DISABLED,138,138,11,15
+    CONTROL         "Spin2",IDC_REAGENT2_SPIN,"msctls_updown32",UDS_ARROWKEYS | WS_DISABLED,204,138,11,15
+    CONTROL         "Spin3",IDC_REAGENT3_SPIN,"msctls_updown32",UDS_ARROWKEYS | WS_DISABLED,276,138,11,15
+    CONTROL         "Injector P",IDC_INJ_P,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,18,114,53,11
+    EDITTEXT        IDC_RGNT_LEV_P,18,139,41,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_REAGENTP_SPIN,"msctls_updown32",UDS_ARROWKEYS | WS_DISABLED,63,138,11,15
+END
+
+IDD_ADD_REAGENTS DIALOGEX 0, 0, 251, 144
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Reagent Level Adjustments"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Close",IDOK,176,120,61,14
+    LTEXT           "Reagent",IDC_STATIC,6,6,27,8
+    LTEXT           "Present Volume",IDC_STATIC,43,6,49,8
+    LTEXT           "Press to Add (or Subtract)",IDC_STATIC,97,6,88,8
+    LTEXT           "Amount",IDC_STATIC,188,6,24,8
+    EDITTEXT        IDC_VOLUME_P,44,36,40,12,ES_CENTER | ES_AUTOHSCROLL | ES_READONLY | ES_NUMBER | NOT WS_BORDER | NOT WS_TABSTOP
+    LTEXT           "P",IDC_LABEL_P,16,36,8,8
+    EDITTEXT        IDC_AMOUNT_P,180,32,40,14,ES_RIGHT | ES_AUTOHSCROLL
+    PUSHBUTTON      "Add/Subtract",IDC_ADD_REAGENT_P,104,32,61,14
+    CONTROL         "",IDC_ADDRGNT_P_SPIN,"msctls_updown32",UDS_ARROWKEYS,220,32,11,14
+    EDITTEXT        IDC_VOLUME_1,44,56,40,12,ES_CENTER | ES_AUTOHSCROLL | ES_READONLY | ES_NUMBER | NOT WS_BORDER | NOT WS_TABSTOP
+    LTEXT           "1",IDC_LABEL_1,16,56,8,10
+    EDITTEXT        IDC_AMOUNT_1,180,52,40,14,ES_RIGHT | ES_AUTOHSCROLL,WS_EX_RIGHT
+    PUSHBUTTON      "Add/Subtract",IDC_ADD_REAGENT_1,104,52,61,14
+    CONTROL         "Spin1",IDC_ADDRGNT_1_SPIN,"msctls_updown32",UDS_ARROWKEYS,220,52,11,14
+    EDITTEXT        IDC_VOLUME_2,44,76,40,12,ES_CENTER | ES_AUTOHSCROLL | ES_READONLY | ES_NUMBER | NOT WS_BORDER | NOT WS_TABSTOP
+    LTEXT           "2",IDC_LABEL_2,16,76,8,8
+    EDITTEXT        IDC_AMOUNT_2,180,72,40,14,ES_RIGHT | ES_AUTOHSCROLL
+    PUSHBUTTON      "Add/Subtract",IDC_ADD_REAGENT_2,104,72,61,14
+    CONTROL         "Spin2",IDC_ADDRGNT_2_SPIN,"msctls_updown32",UDS_ARROWKEYS,220,72,11,14
+    EDITTEXT        IDC_VOLUME_3,44,96,40,12,ES_CENTER | ES_AUTOHSCROLL | ES_READONLY | ES_NUMBER | NOT WS_BORDER | NOT WS_TABSTOP
+    LTEXT           "3",IDC_LABEL_3,16,96,8,8
+    EDITTEXT        IDC_AMOUNT_3,180,92,40,14,ES_RIGHT | ES_AUTOHSCROLL
+    PUSHBUTTON      "Add/Subtract",IDC_ADD_REAGENT_3,104,92,61,14
+    CONTROL         "Spin3",IDC_ADDRGNT_3_SPIN,"msctls_updown32",UDS_ARROWKEYS,220,92,11,14
+    LTEXT           "---------------    --------------------------  -----------------------------------------  ---------------------------",IDC_STATIC,6,18,237,8
+END
+
+IDD_USER_LOGON DIALOG 0, 0, 184, 79
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "LOGON"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_USER_ID,87,8,88,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PASSWORD,87,25,88,12,ES_PASSWORD | ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,23,60,62,13
+    LTEXT           "User ID:",IDC_STATIC,8,10,52,11
+    LTEXT           "Password:",IDC_STATIC,8,26,52,11
+    PUSHBUTTON      "Exit Application",IDC_EXIT_BUTTON,98,60,62,13
+END
+
+IDD_USER_ADD DIALOGEX 0, 0, 325, 215
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION | WS_SYSMENU
+CAPTION "Add User"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_USERID_BOX,86,131,89,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_COMMENT_BOX,86,147,89,12,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         "Current",IDC_RADIO_CURRENT,"Button",BS_AUTORADIOBUTTON | WS_DISABLED,188,33,41,12
+    CONTROL         "Supervisor",IDC_RADIO_SUPERVISOR,"Button",BS_AUTORADIOBUTTON | WS_DISABLED,188,56,52,12
+    CONTROL         "User",IDC_RADIO_USER,"Button",BS_AUTORADIOBUTTON | WS_DISABLED,262,56,46,12
+    CONTROL         "Custom",IDC_RADIO_CUSTOM,"Button",BS_AUTORADIOBUTTON | WS_DISABLED,262,34,52,12
+    CONTROL         "System Preferences",IDC_CHECK_USER_PREF,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,186,144,76,12
+    CONTROL         "User Admin",IDC_CHECK_USER_ADMIN,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,186,156,62,12
+    CONTROL         "Measurement",IDC_CHECK_MEAS_DEF,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,186,120,59,12
+    CONTROL         "Assay",IDC_CHECK_ASSAY_DEF,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,186,108,60,12
+    CONTROL         "Template Add",IDC_CHECK_TEMPL_ADD,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,186,96,60,12
+    CONTROL         "Manual Operation",IDC_CHECK_MANUAL_OP,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,186,132,72,12
+    LISTBOX         IDC_USER_LIST_BOX,7,23,167,100,LBS_SORT | LBS_NOINTEGRALHEIGHT | LBS_DISABLENOSCROLL | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Existing Users:",IDC_STATIC,7,10,86,12
+    LTEXT           "New User Name:",IDC_STATIC,7,132,62,11
+    GROUPBOX        "Permissions:",IDC_STATIC,180,84,137,90
+    GROUPBOX        "Typical Permissions:",IDC_STATIC,181,19,137,56
+    LTEXT           "Comment:",IDC_STATIC,7,148,62,11
+    PUSHBUTTON      "Undo",IDC_UNDO_BUTTON,125,193,50,15
+END
+
+IDD_USER_EDIT DIALOGEX 0, 0, 325, 215
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION | WS_SYSMENU
+CAPTION "Edit User"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    LISTBOX         IDC_USER_LIST_BOX,7,23,167,100,LBS_SORT | LBS_NOINTEGRALHEIGHT | LBS_DISABLENOSCROLL | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_COMMENT_BOX,86,147,89,12,ES_AUTOHSCROLL | WS_DISABLED
+    PUSHBUTTON      "Undo",IDC_UNDO_BUTTON,125,193,50,15
+    CONTROL         "Current ",IDC_RADIO_CURRENT,"Button",BS_AUTORADIOBUTTON | WS_DISABLED,188,33,48,12
+    CONTROL         "Supervisor",IDC_RADIO_SUPERVISOR,"Button",BS_AUTORADIOBUTTON | WS_DISABLED,188,56,56,12
+    CONTROL         "Custom",IDC_RADIO_CUSTOM,"Button",BS_AUTORADIOBUTTON | WS_DISABLED,262,34,52,12
+    CONTROL         "User",IDC_RADIO_USER,"Button",BS_AUTORADIOBUTTON | WS_DISABLED,262,56,46,12
+    CONTROL         "Template Add",IDC_CHECK_TEMPL_ADD,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,186,96,79,12
+    CONTROL         "Assay",IDC_CHECK_ASSAY_DEF,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,186,108,79,12
+    CONTROL         "Measurement",IDC_CHECK_MEAS_DEF,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,186,120,79,12
+    CONTROL         "Manual Operation",IDC_CHECK_MANUAL_OP,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,186,132,79,12
+    CONTROL         "System Preferences",IDC_CHECK_USER_PREF,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,186,144,79,12
+    CONTROL         "User Admin",IDC_CHECK_USER_ADMIN,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,186,156,79,12
+    PUSHBUTTON      "Reset User",IDC_RESET_BUTTON,5,193,50,15
+    PUSHBUTTON      "Inhibit User",IDC_INHIBIT_BUTTON,65,193,50,15
+    EDITTEXT        IDC_USERID_BOX,86,131,89,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_TABSTOP
+    LTEXT           "Existing Users:",IDC_STATIC,7,10,86,12
+    GROUPBOX        "Permissions:",IDC_STATIC,180,84,137,90
+    GROUPBOX        "Typical Permissions:",IDC_STATIC,181,19,137,56
+    LTEXT           "User Name:",IDC_STATIC,7,132,62,11
+    LTEXT           "Comment:",IDC_STATIC,7,148,62,11
+END
+
+IDD_REAGENT_LEVS DIALOGEX 0, 0, 129, 51
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION
+EXSTYLE WS_EX_CLIENTEDGE
+CAPTION "Reagent Levels"
+FONT 7, "MS Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "Progress1",IDC_PROGRESS1,"msctls_progress32",0x0,19,6,80,8
+    CONTROL         "Progress2",IDC_PROGRESS2,"msctls_progress32",0x0,19,22,80,8
+    CONTROL         "Progress3",IDC_PROGRESS3,"msctls_progress32",0x0,19,38,80,8
+    LTEXT           "1",IDC_STATIC,5,6,8,8
+    LTEXT           "2",IDC_STATIC,5,22,8,8
+    LTEXT           "3",IDC_STATIC,5,38,8,8
+    EDITTEXT        IDC_EDIT1,103,5,24,12,ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    EDITTEXT        IDC_EDIT2,103,21,24,12,ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    EDITTEXT        IDC_EDIT3,103,37,24,12,ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+END
+
+IDD_RPT_PG_WKL DIALOG 0, 0, 320, 175
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Workloads"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LISTBOX         IDC_RPT_WKL_FILE_LIST,7,7,199,161,LBS_SORT | LBS_NOINTEGRALHEIGHT | LBS_WANTKEYBOARDINPUT | LBS_EXTENDEDSEL | WS_VSCROLL | WS_HSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Add Workloads",IDC_RPT_WKL_ADD_BTN,222,7,91,17
+    PUSHBUTTON      "Delete Workloads",IDC_RPT_WKL_DEL_BTN,222,34,91,17
+    CONTROL         "Include Retests",IDC_RPT_WKL_RTST_CHK,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,223,61,82,10
+END
+
+IDD_RPT_PG_QRY DIALOGEX 0, 0, 320, 178
+STYLE DS_SETFONT | WS_CHILD | WS_CAPTION
+CAPTION "Query"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    LISTBOX         IDC_RPT_QRY_LIST,7,7,306,63,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Tab1",IDC_RPT_QRY_TAB,"SysTabControl32",0x0,7,91,306,81
+    COMBOBOX        IDC_RPT_QRY_OPERATOR,32,135,68,64,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_RPT_QRY_VALUE,107,135,192,64,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Add Params",IDC_RPT_QRY_ADD_BUT,7,72,59,16
+    CONTROL         "Include only records where this field is:",IDC_RPT_QRY_COND_BUT,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,17,113,140,12
+    PUSHBUTTON      "Reset",IDC_RPT_QRY_RESET_BUT,254,72,59,16
+    PUSHBUTTON      "Preview",IDC_RPT_QRY_PREVIEW_BUT,191,72,59,16
+    GROUPBOX        "Select connector",IDC_RPT_PG_QRY_GROUP,193,110,105,23
+    CONTROL         "AND",IDC_RPT_PG_QRY_AND,"Button",BS_AUTORADIOBUTTON | WS_GROUP,210,120,31,10,WS_EX_RIGHT
+    CONTROL         "OR",IDC_RPT_PG_QRY_OR,"Button",BS_AUTORADIOBUTTON,260,120,27,10
+END
+
+IDD_RPT_PG_FMT DIALOG 0, 0, 320, 186
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Format"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Include Standard Header",IDC_RPT_FMT_STD_HDR,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,6,96,11
+    CONTROL         "Include Report Header",IDC_RPT_FMT_RPT_HDR,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,21,96,11
+    CONTROL         "Include  Report Summary:",IDC_RPT_FMT_SUM,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,59,117,11
+    CONTROL         "Include Standard Footer",IDC_RPT_FMT_STD_FTR,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,163,96,11
+    CONTROL         "Include Report Footer",IDC_RPT_FMT_RPT_FTR,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,144,96,11
+    EDITTEXT        IDC_RPT_FMT_RPT_HDR_TXT,114,26,183,16,ES_AUTOHSCROLL
+    EDITTEXT        IDC_RPT_FMT_RPT_FTR_TXT,114,144,183,16,ES_AUTOHSCROLL
+    GROUPBOX        "",IDC_STATIC,30,70,268,50
+    CONTROL         "workload list",IDC_RPT_FMT_SUM_WKL_LIST,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,35,77,94,12
+    CONTROL         "query conditions",IDC_RPT_FMT_SUM_QRY_LIST,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,35,91,94,12
+    EDITTEXT        IDC_RPT_FMT_STD_HDR_TXT,114,6,183,16,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_RPT_FMT_STD_FTR_TXT,114,163,183,16,ES_AUTOHSCROLL | ES_READONLY
+    CONTROL         "Include Data Grid",IDC_RPT_FMT_GRID,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,44,94,11
+    CONTROL         "sort criteria",IDC_RPT_FMT_SUM_SORT_ORD,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,170,77,94,12
+    CONTROL         "data integrity",IDC_RPT_FMT_SUM_DAT_INT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,170,92,94,12
+    CONTROL         "Include Graph",IDC_RPT_FMT_GRAPH,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,125,94,11
+    CONTROL         "assay settings",IDC_RPT_FMT_SUM_ASY_LIST,"Button",BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_TABSTOP,35,105,94,12
+END
+
+IDD_RPT_PG_FRM DIALOG 0, 0, 320, 180
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Formulae"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Tab1",IDC_RPT_FRM_TAB,"SysTabControl32",0x0,7,93,306,80
+    PUSHBUTTON      "Preview All",IDC_RPT_FRM_PREV_ALL_BUT,250,49,63,16
+    CONTROL         "Minimum",IDC_RPT_PG_FRM_CHK_MIN,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,29,153,64,14
+    CONTROL         "Average",IDC_RPT_PG_FRM_CHK_AVG,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,29,112,64,14
+    CONTROL         "Coefficient of Variance",IDC_RPT_PG_FRM_CHK_VAR,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,189,133,113,14
+    CONTROL         "Standard Deviation",IDC_RPT_PG_FRM_CHK_SDV,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,189,113,112,14
+    CONTROL         "Maximum",IDC_RPT_PG_FRM_CHK_MAX,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,29,133,64,14
+    LTEXT           "Formula tabs appear for numeric fields only",IDC_STATIC,7,10,300,13
+    LISTBOX         IDC_RPT_FRM_LIST,7,27,225,59,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Preview Selected",IDC_RPT_FRM_PREV_SEL_BUT,250,27,63,16
+    PUSHBUTTON      "Reset",IDC_RPT_FRM_RESET_BUT,250,71,63,16
+END
+
+IDD_PICK_BATCH DIALOG 0, 0, 186, 95
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Select Batch"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,29,73,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,103,73,50,14
+    RTEXT           "Batch:",IDC_STATIC,35,24,37,8
+    EDITTEXT        IDC_EDITBAT,80,24,40,14,ES_AUTOHSCROLL | ES_READONLY
+    CONTROL         "Spin1",IDC_SPINBAT,"msctls_updown32",UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,120,24,10,14
+END
+
+IDD_PICK_SAMP DIALOG 0, 0, 186, 95
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Select Batch/Sample"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,28,74,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,103,74,50,14
+    RTEXT           "Batch:",IDC_STATIC,41,24,32,8
+    EDITTEXT        IDC_EDITBAT,83,24,40,14,ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPINBAT,"msctls_updown32",UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,123,24,11,14
+    RTEXT           "Sample:",IDC_STATIC,41,50,32,8
+    EDITTEXT        IDC_EDITSAMP,83,50,40,14,ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPINSAMP,"msctls_updown32",UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,121,50,11,14
+END
+
+IDD_RPT_PG_COL DIALOG 0, 0, 320, 178
+STYLE DS_SETFONT | WS_CHILD | WS_CAPTION | WS_SYSMENU
+CAPTION "Columns"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LISTBOX         IDC_RPT_COL_LIST,7,7,306,63,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Tab1",IDC_RPT_COL_TAB,"SysTabControl32",0x0,7,91,306,81
+    CONTROL         "Include this column in the report",IDC_RPT_COL_COL_BUT,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,17,129,244,12
+    PUSHBUTTON      "Reset",IDC_RPT_COL_RESET_BUT,254,72,59,16
+    PUSHBUTTON      "Preview",IDC_RPT_COL_PREVIEW_BUT,191,72,59,16
+END
+
+IDD_LUCY_BAR DIALOGEX 0, 0, 578, 32
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    CONTROL         "Progress1",IDC_REAGENT_A,"msctls_progress32",0x0,66,12,90,12
+    CONTROL         "Progress2",IDC_REAGENT_B,"msctls_progress32",0x0,162,12,90,12
+    CONTROL         "Progress3",IDC_REAGENT_C,"msctls_progress32",0x0,258,12,90,12
+    GROUPBOX        "Reagent Levels",IDC_STATIC,60,0,396,30
+    GROUPBOX        "Temp",IDC_TEMPERATURE_FRAME,522,0,48,30
+    GROUPBOX        "Time",IDC_STATIC,462,0,54,30
+    CONTROL         "",IDC_TIME_DISP,"Static",SS_BLACKRECT | SS_SUNKEN | WS_BORDER,468,12,42,12
+    CONTROL         "",IDC_TEMP_DISP,"Static",SS_BLACKRECT | SS_SUNKEN | WS_BORDER,528,12,38,12
+    CONTROL         "Stop",IDC_STOP,"MfcButton",WS_TABSTOP,6,6,48,24,WS_EX_TRANSPARENT
+    CONTROL         "",IDC_REAGENT_D,"msctls_progress32",0x0,354,12,96,12
+END
+
+IDD_RPT_PG_SRT DIALOG 0, 0, 320, 180
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION | WS_SYSMENU
+CAPTION "Sort"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LISTBOX         IDC_RPT_SRT_LIST,7,7,306,63,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Tab1",IDC_RPT_SRT_TAB,"SysTabControl32",0x0,7,91,306,81
+    GROUPBOX        "Sort On This Column",IDC_STATIC,32,122,256,34
+    CONTROL         "No sort",IDC_RPT_SRT_SORT_NONE,"Button",BS_AUTORADIOBUTTON | WS_GROUP,45,134,74,13
+    CONTROL         "Ascending",IDC_RPT_SRT_SORT_ASC,"Button",BS_AUTORADIOBUTTON,122,134,74,13
+    CONTROL         "Descending",IDC_RPT_SRT_SORT_DESC,"Button",BS_AUTORADIOBUTTON,199,134,74,13
+    PUSHBUTTON      "Reset",IDC_RPT_SRT_RESET_BUT,254,72,59,16
+    PUSHBUTTON      "Preview",IDC_RPT_SRT_PREVIEW_BUT,190,72,59,16
+END
+
+IDD_HANDCONTROL DIALOGEX 0, 0, 312, 236
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Hand Control"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "Lift",IDC_STATIC,7,7,106,69
+    CONTROL         636,IDC_STATIC,"Static",SS_BITMAP,19,27,41,27
+    CONTROL         "Up",IDC_LIFT_UP,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,68,30,25,10
+    CONTROL         "Half",IDC_LIFT_HALF,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,68,44,29,10
+    CONTROL         "Down",IDC_LIFT_DOWN,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,68,58,35,10
+    GROUPBOX        "Injectors",IDC_STATIC,128,7,177,69
+    EDITTEXT        IDC_INJECT_1_EDIT,135,57,40,14,ES_AUTOHSCROLL | ES_READONLY | ES_NUMBER
+    CONTROL         "Spin1",IDC_INJECT_1_SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_NOTHOUSANDS | WS_TABSTOP,174,57,11,14
+    EDITTEXT        IDC_INJECT_2_EDIT,192,58,40,14,ES_AUTOHSCROLL | ES_READONLY | ES_NUMBER
+    CONTROL         "Spin2",IDC_INJECT_2_SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_NOTHOUSANDS | WS_TABSTOP,232,58,11,14
+    EDITTEXT        IDC_INJECT_3_EDIT,250,58,40,14,ES_AUTOHSCROLL | ES_READONLY | ES_NUMBER
+    CONTROL         "Spin3",IDC_INJECT_3_SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_NOTHOUSANDS | WS_TABSTOP,288,58,11,14
+    GROUPBOX        "Chain",IDC_STATIC,7,86,298,40
+    PUSHBUTTON      "Forwards",IDC_CHAIN_F,17,103,44,14
+    PUSHBUTTON      "Backwards",IDC_CHAIN_B,65,103,44,14
+    CONTROL         313,IDC_STATIC,"Static",SS_BITMAP,131,97,66,23
+    LTEXT           "Move",IDC_STATIC,214,103,19,8
+    EDITTEXT        IDC_CHAIN_EDIT,228,102,33,14,ES_AUTOHSCROLL
+    CONTROL         "Spin4",IDC_CHAIN_SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_NOTHOUSANDS | WS_TABSTOP,260,103,10,14
+    LTEXT           "Steps",IDC_STATIC,275,103,19,8
+    GROUPBOX        "Lock",IDC_STATIC,7,136,106,69
+    CONTROL         "Open",IDC_LOCK_OPEN,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,68,170,33,10
+    CONTROL         "Closed",IDC_LOCK_CLOSED,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,68,185,37,10
+    GROUPBOX        "Luminosity Measurement",IDC_STATIC,128,136,177,69
+    CONTROL         314,IDC_STATIC,"Static",SS_BITMAP,137,150,15,13
+    LTEXT           "Integration Time (S)",IDC_STATIC,135,170,64,8
+    COMBOBOX        IDC_LUMIN_COMBO,135,183,61,30,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Start",IDC_LUMIN_START,202,183,31,14
+    LTEXT           "RLU",IDC_STATIC,250,144,16,8
+    LTEXT           "Static",IDC_HC_RLU,251,154,41,14,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "Close",IDCANCEL,255,215,50,14
+    CONTROL         "INJECT",IDC_HC_INJ1,"Button",BS_OWNERDRAW | WS_TABSTOP,135,18,40,35
+    CONTROL         "INJECT",IDC_HC_INJ2,"Button",BS_OWNERDRAW | WS_TABSTOP,192,18,40,35
+    CONTROL         "INJECT",IDC_HC_INJ3,"Button",BS_OWNERDRAW | WS_TABSTOP,250,18,40,35
+    CONTROL         "OFFLINE",IDC_HC_OFFLINE,"Button",BS_OWNERDRAW | BS_FLAT,95,217,31,12
+    CONTROL         "READY",IDC_HC_READY,"Button",BS_OWNERDRAW | BS_FLAT,132,217,31,12
+    CONTROL         "BUSY",IDC_HC_BUSY,"Button",BS_OWNERDRAW | BS_FLAT,168,217,31,12
+    LTEXT           "Background",IDC_STATIC,250,172,40,8
+    LTEXT           "Static",IDC_HC_BKG,251,183,41,14,0,WS_EX_STATICEDGE
+    CONTROL         254,IDC_STATIC,"Static",SS_BITMAP,17,153,19,39
+END
+
+IDD_MANUAL DIALOGEX 0, 0, 390, 256
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Manual Control"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "Lift",IDC_STATIC,7,7,106,69
+    CONTROL         636,IDC_STATUS_LABEL,"Static",SS_BITMAP,19,27,41,27
+    CONTROL         "Up",IDC_LIFT_UP,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,68,30,25,10
+    CONTROL         "Half",IDC_LIFT_HALF,"Button",BS_AUTORADIOBUTTON,68,44,29,10
+    CONTROL         "Down",IDC_LIFT_DOWN,"Button",BS_AUTORADIOBUTTON,68,58,35,10
+    GROUPBOX        "Injectors",IDC_STATIC,128,7,254,69
+    CONTROL         "INJECT",IDC_BUTTON_INJ_P,"Button",BS_OWNERDRAW | WS_DISABLED | WS_TABSTOP,135,18,40,30
+    CONTROL         "INJECT",IDC_BUTTON_INJ_1,"Button",BS_OWNERDRAW | WS_DISABLED | WS_TABSTOP,192,18,40,30
+    CONTROL         "INJECT",IDC_BUTTON_INJ_2,"Button",BS_OWNERDRAW | WS_DISABLED | WS_TABSTOP,249,18,40,30
+    CONTROL         "INJECT",IDC_BUTTON_INJ_3,"Button",BS_OWNERDRAW | WS_DISABLED | WS_TABSTOP,307,18,40,30
+    CTEXT           "Inject P",IDC_LABEL_INJECT_P,135,48,35,8
+    CTEXT           "Inject 1",IDC_LABEL_INJECT_1,192,48,35,8
+    CTEXT           "Inject 2",IDC_LABEL_INJECT_2,249,48,35,8
+    LTEXT           "Inject 3/Measure",IDC_LABEL_INJECT_3,307,48,59,8
+    EDITTEXT        IDC_INJECT_P_EDIT,135,58,40,14,ES_AUTOHSCROLL | ES_READONLY | ES_NUMBER
+    CONTROL         "",IDC_INJECT_P_SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_NOTHOUSANDS | WS_TABSTOP,175,58,11,14
+    EDITTEXT        IDC_INJECT_1_EDIT,192,57,40,14,ES_AUTOHSCROLL | ES_READONLY | ES_NUMBER
+    CONTROL         "",IDC_INJECT_1_SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_NOTHOUSANDS | WS_TABSTOP,231,57,11,14
+    EDITTEXT        IDC_INJECT_2_EDIT,249,58,40,14,ES_AUTOHSCROLL | ES_READONLY | ES_NUMBER
+    CONTROL         "",IDC_INJECT_2_SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_NOTHOUSANDS | WS_TABSTOP,289,58,11,14
+    EDITTEXT        IDC_INJECT_3_EDIT,307,58,40,14,ES_AUTOHSCROLL | ES_READONLY | ES_NUMBER
+    CONTROL         "",IDC_INJECT_3_SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_NOTHOUSANDS | WS_TABSTOP,345,58,11,14
+    GROUPBOX        "Carousel",IDC_STATIC,7,86,375,60
+    PUSHBUTTON      "Forwards",IDC_CHAIN_F,17,103,35,14
+    PUSHBUTTON      "Back",IDC_CHAIN_B,56,103,35,14
+    PUSHBUTTON      "Stop",IDC_BUTTON_STOP,95,103,35,14
+    CONTROL         360,IDC_CAROUSEL_BMP,"Static",SS_BITMAP,144,96,66,23
+    LTEXT           "Move",IDC_STATIC,219,103,19,8
+    EDITTEXT        IDC_CHAIN_EDIT,249,101,45,14,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_CHAIN_SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_NOTHOUSANDS | WS_TABSTOP,293,101,10,14
+    LTEXT           "Steps",IDC_STATIC,299,103,19,8
+    CTEXT           "Static",IDC_TXT_STEPS,320,101,40,14,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "First Segment",IDC_BUTTON_FIRST_SEG,17,127,55,14
+    PUSHBUTTON      "Next Segment",IDC_BUTTON_NEXT_SEG,76,127,55,14
+    PUSHBUTTON      "Find First Vial",IDC_BUTTON_FINDVIAL,144,127,68,14
+    LTEXT           "Position",IDC_STATIC_POSITION,218,128,26,8
+    COMBOBOX        IDC_COMBO_FINDVIAL,249,126,48,77,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Door",IDC_STATIC,7,156,107,70
+    CONTROL         361,IDC_STATIC_DOOR_BMP,"Static",SS_BITMAP,12,168,41,27
+    GROUPBOX        "",IDC_STATIC,60,156,53,37,NOT WS_VISIBLE
+    CONTROL         "Open",IDC_DOOR_OPEN,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,66,168,33,10
+    CONTROL         "Closed",IDC_DOOR_CLOSED,"Button",BS_AUTORADIOBUTTON,66,181,37,10
+    GROUPBOX        "Luminosity Measurement",IDC_STATIC,128,156,254,70
+    CONTROL         314,IDC_STATIC,"Static",SS_BITMAP,137,170,15,18
+    LTEXT           "Integration Time (S)",IDC_STATIC,135,190,64,8
+    EDITTEXT        IDC_EDIT_INTEGRATION_TIME,135,203,61,14,ES_AUTOHSCROLL | ES_NUMBER
+    GROUPBOX        "",IDC_STATIC,60,188,53,38,NOT WS_VISIBLE
+    CONTROL         "Unlock",IDC_LOCK_OPEN,"Button",BS_AUTORADIOBUTTON | NOT WS_VISIBLE | WS_TABSTOP,68,196,37,10
+    CONTROL         "Lock",IDC_LOCK_CLOSED,"Button",BS_AUTORADIOBUTTON | NOT WS_VISIBLE,68,210,30,10
+    CONTROL         "OFFLINE",IDC_HC_OFFLINE,"Button",BS_OWNERDRAW | BS_FLAT,95,235,31,12
+    CONTROL         "READY",IDC_HC_READY,"Button",BS_OWNERDRAW | BS_FLAT,132,235,31,12
+    CONTROL         "BUSY",IDC_HC_BUSY,"Button",BS_OWNERDRAW | BS_FLAT,168,235,31,12
+    PUSHBUTTON      "Start",IDC_LUMIN_START,237,203,44,14
+    LTEXT           "RLU",IDC_STATIC,298,164,16,8
+    LTEXT           "Static",IDC_TXT_RLU,298,174,50,14,WS_TABSTOP,WS_EX_CONTROLPARENT | WS_EX_STATICEDGE,HIDC_TXT_RLU
+    LTEXT           "Background",IDC_STATIC,298,192,40,8
+    LTEXT           "Static",IDC_TXT_BACKGROUND,298,203,50,14,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "Close",IDCANCEL,333,235,50,14
+    CONTROL         254,IDC_STATIC_LOCK_BMP,"Static",SS_BITMAP,24,174,19,39
+    CONTROL         313,IDC_CHAIN_BMP,"Static",SS_BITMAP,144,96,66,23
+END
+
+IDD_AD_PG_MAIN DIALOGEX 0, 0, 235, 156
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Assay"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_AD_EDIT_REPL,135,61,46,14,ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_AD_SPIN_REPL,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,170,62,11,14
+    EDITTEXT        IDC_AD_EDIT_MAXTUBES,135,79,46,14,ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_AD_SPIN_MAXTUBE,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,170,79,11,14
+    COMBOBOX        IDC_AD_MEAS_METH,13,124,130,69,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "New...",IDC_AD_NEW_MEASMETH,161,124,50,14
+    RTEXT           "Created by:",IDC_STATIC,11,20,43,8,NOT WS_GROUP
+    RTEXT           "Modified by:",IDC_STATIC,11,37,43,8,NOT WS_GROUP
+    LTEXT           "Arthur Author",IDC_AD_CREATOR,64,20,64,8,NOT WS_GROUP
+    LTEXT           "Dec 7, 1942",IDC_AD_CREATED_ON,135,20,91,8,NOT WS_GROUP
+    LTEXT           "Feb 29, 2000",IDC_AD_MODIFIED_ON,135,37,91,8,NOT WS_GROUP
+    RTEXT           "Default Number of Replicates",IDC_STATIC,29,63,98,8,NOT WS_GROUP
+    RTEXT           "Maximum tubes in batch",IDC_STATIC,33,82,94,8,NOT WS_GROUP
+    GROUPBOX        "Assay Name",IDC_AD_ASSAY_GROUP,7,7,221,90,0,0,HIDC_AD_ASSAY_GROUP
+    GROUPBOX        "Measurement Method",IDC_STATIC,7,103,221,46
+    LTEXT           "Arthur Author",IDC_AD_MODIFIER,64,37,64,8,NOT WS_GROUP
+END
+
+IDD_AD_PG_ACALC DIALOG 0, 0, 235, 156
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Calculation"
+FONT 8, "MS Sans Serif"
+BEGIN
+    COMBOBOX        IDC_AD_CALC_METH,58,21,119,69,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_AD_CALC_PARMS,7,63,104,86,LBS_NOINTEGRALHEIGHT | WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_AD_CPARM_VAL,127,63,101,59,CBS_DROPDOWN | CBS_SORT | WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Calculation Parameters",IDC_STATIC,7,48,97,8,NOT WS_GROUP
+    LTEXT           "Parameter Value",IDC_STATIC,128,48,70,8,NOT WS_GROUP
+    RTEXT           "Maximum",IDC_STATIC,128,99,32,8,NOT WS_GROUP
+    RTEXT           "Default",IDC_STATIC,136,84,24,8,NOT WS_GROUP
+    RTEXT           "Minimum",IDC_STATIC,128,113,32,8,NOT WS_GROUP
+    CTEXT           "999",IDC_AD_MAX_VAL,170,99,58,10,SS_SUNKEN | NOT WS_GROUP
+    CTEXT           "666",IDC_AD_DEF_VAL,170,84,58,10,SS_SUNKEN | NOT WS_GROUP
+    CTEXT           "0",IDC_AD_MIN_VAL,170,113,58,10,SS_SUNKEN | NOT WS_GROUP
+    LTEXT           "Assay Calculation Method",IDC_STATIC,7,7,90,8
+END
+
+IDD_AD_PG_CALIB DIALOG 0, 0, 235, 156
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Calibrators"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Use Default Calibrator Samples",IDC_USE_DEFAULT_CAL,
+                    "Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,54,7,117,10
+    COMBOBOX        IDC_AD_CAL_SEL,85,27,113,69,CBS_DROPDOWNLIST | WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Clear",IDC_CLEAR_DEFAULT_CAL,137,100,50,14,WS_DISABLED
+    CONTROL         "Automatically Update Reference",IDC_UPDATE_DEFAULT_CAL,
+                    "Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,59,124,118,10
+    RTEXT           "Calibrator Type",IDC_STATIC,15,30,60,8
+    LTEXT           "Sample Reference",IDC_STATIC,14,68,107,8
+    CONTROL         "",IDC_DEF_CAL_REF,"Static",SS_LEFTNOWORDWRAP | SS_SUNKEN | WS_GROUP,13,78,209,11
+    GROUPBOX        "Default Calibrator Sample",IDC_STATIC,7,50,221,99
+END
+
+IDD_AD_PG_NAMES DIALOG 0, 0, 235, 156
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Sample Types"
+FONT 8, "MS Sans Serif"
+BEGIN
+    COMBOBOX        IDC_AD_TYPE_SEL,57,44,113,69,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_AD_TYPE_NAME,58,76,113,14,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "Sample Type",IDC_STATIC,56,30,88,8
+    LTEXT           "Display Name",IDC_STATIC,58,63,56,8
+END
+
+IDD_AD_PG_FLAGS DIALOG 0, 0, 235, 156
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Flags"
+FONT 8, "MS Sans Serif"
+BEGIN
+    COMBOBOX        IDC_FLAG_SEL,17,7,38,52,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_FLAG_POLARITY,65,7,38,41,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_FLAG_ACTION,126,7,102,84,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_FLAG_COND_LIST,7,36,221,65,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Add Condition",IDC_ADD_CONDITION,7,107,63,14,WS_DISABLED
+    PUSHBUTTON      "Delete Condition",IDC_DEL_CONDITION,86,107,63,14,WS_DISABLED
+    PUSHBUTTON      "Reset Conditions",IDC_RST_CONDITION,165,107,63,14
+    COMBOBOX        IDC_FLAG_FIELD,7,137,68,77,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_FIELD_TEST,81,137,57,85,CBS_DROPDOWNLIST | WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_FIELD_VALUE,141,134,87,15,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "If",IDC_STATIC,7,7,8,8
+    LTEXT           "is",IDC_STATIC,57,7,8,8
+    LTEXT           "then",IDC_STATIC,107,7,14,8
+    LTEXT           "Flag is true if:",IDC_STATIC,7,25,57,8
+    LTEXT           "New condition",IDC_STATIC,7,126,85,8
+END
+
+IDD_CAL_TYPE DIALOG 0, 0, 186, 95
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Calibrator Type"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,39,74,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,99,74,50,14
+    CONTROL         "Use default calibrators",IDC_DEFAULT_CALS,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,49,24,86,10
+    CONTROL         "Add calibrator samples",IDC_ADD_CAL_SAMPS,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,49,35,87,10
+END
+
+IDD_RPT_PG_GPH DIALOG 0, 0, 320, 180
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Graph"
+FONT 8, "MS Sans Serif"
+BEGIN
+    COMBOBOX        IDC_RPT_GPH_Y_CMB,7,160,88,42,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_RPT_GPH_X_CMB,225,160,88,41,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "",IDC_RPT_GPH_CHART,
+                    "{92D71E93-25A8-11CF-A640-9986B64D9618}",0x0,7,7,305,138
+    LTEXT           "Y Axis:",IDC_STATIC,7,149,70,10
+    LTEXT           "X Axis:",IDC_STATIC,225,149,70,10
+    COMBOBOX        IDC_RPT_GPH_TYPE_CMB,116,160,88,42,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Graph Type:",IDC_STATIC,116,149,70,10
+END
+
+IDD_MAINTPROC_SEL DIALOG 0, 0, 186, 132
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Maintenance Procedure"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,35,111,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,101,111,50,14
+    LISTBOX         IDC_MPROC_LIST,50,31,84,61,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Select procedure:",IDC_STATIC,16,17,71,8
+END
+
+IDD_LUCY_BAR_V DIALOG 0, 0, 99, 286
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Progress1",IDC_PROGRESS1,"msctls_progress32",0x0,20,192,42,8
+    CONTROL         "Progress2",IDC_PROGRESS2,"msctls_progress32",0x0,20,207,42,8
+    CONTROL         "Progress3",IDC_PROGRESS3,"msctls_progress32",0x0,20,222,42,8
+    LTEXT           "1",IDC_STATIC,12,192,8,8
+    LTEXT           "2",IDC_STATIC,12,208,8,8
+    LTEXT           "3",IDC_STATIC,12,222,8,8
+    EDITTEXT        IDC_EDIT1,64,192,25,12,ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    EDITTEXT        IDC_EDIT2,64,207,25,12,ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    EDITTEXT        IDC_EDIT3,64,222,25,12,ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    GROUPBOX        "Reagent Levels",IDC_STATIC,8,176,83,60
+    CONTROL         "GRID",IDC_GRIDVIEW,"Button",BS_OWNERDRAW | WS_TABSTOP,9,11,31,29
+    PUSHBUTTON      "New Workload",IDC_NEWWORKLOAD,9,49,31,29
+    PUSHBUTTON      "Scan Chain",IDC_SCANCHAIN,51,11,31,29
+    GROUPBOX        "Time",IDC_STATIC,8,123,83,24
+    CONTROL         "",IDC_TIME_DISP,"Static",SS_BLACKRECT | SS_SUNKEN | WS_BORDER,37,132,38,11
+    GROUPBOX        "Temp",IDC_STATIC,8,149,83,24
+    CONTROL         "",IDC_TEMP_DISP,"Static",SS_BLACKRECT | SS_SUNKEN | WS_BORDER,37,158,38,11
+    PUSHBUTTON      "Hand Control",IDC_MANUALMODE,51,49,31,29
+    PUSHBUTTON      "Help",IDC_HELPBUTTON,9,247,31,29
+    PUSHBUTTON      "Logout",IDC_LOGOUT,52,247,31,29
+    PUSHBUTTON      "Maintenance",IDC_MAINTENANCE,9,88,31,29
+    PUSHBUTTON      "Stop",IDC_STOP,51,88,31,29
+END
+
+IDD_SETUP DIALOG 0, 0, 203, 77
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Celsis - System Setup"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,47,58,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,105,58,50,14
+    GROUPBOX        "Workload Security",IDC_STATIC,12,6,178,45,WS_GROUP
+    CONTROL         "Standard Security",IDC_RDO_SEC_STD,"Button",BS_AUTORADIOBUTTON,30,19,133,10
+    CONTROL         "Lock Data Entry",IDC_RDO_SEC_PHARMA,"Button",BS_AUTORADIOBUTTON,30,33,140,10
+END
+
+IDD_COL_HIDE DIALOG 0, 0, 301, 169
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Field Show/Hide Selection"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,7,148,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,66,148,50,14
+    PUSHBUTTON      "Set Default",IDC_SH_SET_DEFAULT,125,148,50,14
+    LISTBOX         IDC_HIDELIST,194,19,100,105,LBS_SORT | LBS_NOINTEGRALHEIGHT | LBS_EXTENDEDSEL | WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_SHOWLIST,7,19,101,105,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Shown fields:",IDC_STATIC,8,7,51,8
+    LTEXT           "Hidden fields:",IDC_STATIC,194,7,53,8
+    PUSHBUTTON      "<< Show",IDC_SHOW,125,33,50,14
+    PUSHBUTTON      "Hide >>",IDC_HIDE,125,65,50,14
+    PUSHBUTTON      "Get Default",IDC_SH_GET_DEFAULT,184,148,50,14
+    LTEXT           "Single Selection\r\nManual Sorting",IDC_STATIC,7,126,84,19
+    LTEXT           "Multiple Selection\r\nAlphabetical Sorting",IDC_STATIC,194,126,86,19
+    PUSHBUTTON      "Reset",IDC_SH_RESET,244,148,50,14
+END
+
+IDD_AD_PG_FLDS DIALOG 0, 0, 235, 156
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Columns"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LISTBOX         IDC_SHOWLIST,7,22,84,106,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Shown fields:",IDC_STATIC,7,7,84,8
+    LISTBOX         IDC_HIDELIST,142,21,84,106,LBS_SORT | LBS_NOINTEGRALHEIGHT | LBS_EXTENDEDSEL | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Hidden fields:",IDC_STATIC,143,7,85,8
+    PUSHBUTTON      "<< Show",IDC_SHOW,97,33,39,14
+    PUSHBUTTON      "Hide >>",IDC_HIDE,97,54,39,14
+    LTEXT           "Single Selection\r\nManual Sorting",IDC_STATIC,7,131,102,16
+    LTEXT           "Multiple Selection\r\nAlphabetical Sorting",IDC_STATIC,142,131,86,16
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 3,1,0,1
+ PRODUCTVERSION 3,1,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "Program file"
+            VALUE "CompanyName", "Celsis International Plc"
+            VALUE "FileDescription", "Celsis"
+            VALUE "FileVersion", "4, 0, 2, 0"
+            VALUE "InternalName", "Celsis"
+            VALUE "LegalCopyright", "Copyright © 1997 - 2015 Celsis Inc"
+            VALUE "OriginalFilename", "Advance.EXE"
+            VALUE "ProductName", "Celsis Application"
+            VALUE "ProductVersion", "4, 0, 2, 0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 6
+        RIGHTMARGIN, 210
+        TOPMARGIN, 9
+        BOTTOMMARGIN, 67
+    END
+
+    IDD_WORKLOAD, DIALOG
+    BEGIN
+        LEFTMARGIN, 3
+        TOPMARGIN, 4
+        BOTTOMMARGIN, 222
+        HORZGUIDE, 35
+    END
+
+    IDD_ABOUT_GRAPH, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 301
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 200
+    END
+
+    IDD_SCAN_PAGE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 244
+        VERTGUIDE, 250
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 136
+    END
+
+    IDD_BATCH_PAGE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 230
+        VERTGUIDE, 88
+        VERTGUIDE, 188
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 180
+    END
+
+    IDD_LUM_STATUS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 378
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 62
+    END
+
+    IDD_SAMPLE, DIALOG
+    BEGIN
+        LEFTMARGIN, 6
+        RIGHTMARGIN, 433
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 235
+    END
+
+    IDD_SCANNING, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 64
+    END
+
+    IDD_SCAN_SUM_PG, DIALOG
+    BEGIN
+        RIGHTMARGIN, 250
+        VERTGUIDE, 95
+        VERTGUIDE, 136
+        BOTTOMMARGIN, 169
+    END
+
+    IDD_BATCHGRID_PG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 341
+        VERTGUIDE, 329
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 88
+    END
+
+    IDD_AD_ASSAY_SEL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 136
+        VERTGUIDE, 144
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 62
+    END
+
+    IDD_AD_ASSAY_NEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 195
+        VERTGUIDE, 77
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 104
+    END
+
+    IDD_MD_MEAS_NEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 201
+        VERTGUIDE, 87
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 104
+    END
+
+    IDD_MEAS_DEF, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 282
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 202
+    END
+
+    IDD_ACALC_CTNR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 254
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 214
+    END
+
+    IDD_MD_MEAS_SEL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 137
+        VERTGUIDE, 144
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+
+    IDD_LCC_INQUIRE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        VERTGUIDE, 88
+        VERTGUIDE, 97
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 185
+    END
+
+    IDD_MANUAL_MODE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 283
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 144
+    END
+
+    IDD_INJ_SEQUENCE, DIALOG
+    BEGIN
+        LEFTMARGIN, 6
+        RIGHTMARGIN, 338
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 216
+    END
+
+    IDD_ADD_REAGENTS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 244
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 137
+    END
+
+    IDD_USER_LOGON, DIALOG
+    BEGIN
+    END
+
+    IDD_USER_ADD, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 208
+    END
+
+    IDD_USER_EDIT, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 209
+        HORZGUIDE, 78
+    END
+
+    IDD_REAGENT_LEVS, DIALOG
+    BEGIN
+    END
+
+    IDD_RPT_PG_WKL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 313
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 168
+    END
+
+    IDD_RPT_PG_QRY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 313
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 171
+    END
+
+    IDD_RPT_PG_FMT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 313
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 179
+    END
+
+    IDD_RPT_PG_FRM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 313
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 173
+    END
+
+    IDD_PICK_BATCH, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+        HORZGUIDE, 24
+    END
+
+    IDD_PICK_SAMP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        VERTGUIDE, 83
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+        HORZGUIDE, 24
+        HORZGUIDE, 51
+    END
+
+    IDD_RPT_PG_COL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 313
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 171
+    END
+
+    IDD_LUCY_BAR, DIALOG
+    BEGIN
+        LEFTMARGIN, 4
+        RIGHTMARGIN, 572
+        VERTGUIDE, 490
+        TOPMARGIN, 1
+        BOTTOMMARGIN, 26
+    END
+
+    IDD_RPT_PG_SRT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 313
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 173
+    END
+
+    IDD_HANDCONTROL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 305
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 229
+    END
+
+    IDD_MANUAL, DIALOG
+    BEGIN
+    END
+
+    IDD_AD_PG_ACALC, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        VERTGUIDE, 128
+        VERTGUIDE, 160
+        VERTGUIDE, 170
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 149
+        HORZGUIDE, 21
+        HORZGUIDE, 56
+        HORZGUIDE, 63
+        HORZGUIDE, 84
+        HORZGUIDE, 99
+        HORZGUIDE, 113
+    END
+
+    IDD_AD_PG_CALIB, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        VERTGUIDE, 76
+        VERTGUIDE, 86
+        VERTGUIDE, 118
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 149
+    END
+
+    IDD_AD_PG_NAMES, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 149
+    END
+
+    IDD_AD_PG_FLAGS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 149
+        HORZGUIDE, 107
+    END
+
+    IDD_CAL_TYPE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+
+    IDD_RPT_PG_GPH, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 313
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 173
+    END
+
+    IDD_MAINTPROC_SEL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 125
+    END
+
+    IDD_LUCY_BAR_V, DIALOG
+    BEGIN
+        LEFTMARGIN, 8
+        RIGHTMARGIN, 91
+        VERTGUIDE, 15
+        VERTGUIDE, 52
+        VERTGUIDE, 89
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 279
+    END
+
+    IDD_SETUP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 196
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 70
+    END
+
+    IDD_COL_HIDE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 294
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 162
+    END
+
+    IDD_AD_PG_FLDS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 149
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_NULL                CURSOR                  "NULL.CUR"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_MANUAL DLGINIT
+BEGIN
+    IDC_COMBO_FINDVIAL, 0x403, 6, 0
+0x6e49, 0x206a, 0x0050, 
+    IDC_COMBO_FINDVIAL, 0x403, 6, 0
+0x6e49, 0x206a, 0x0031, 
+    IDC_COMBO_FINDVIAL, 0x403, 6, 0
+0x6e49, 0x206a, 0x0032, 
+    IDC_COMBO_FINDVIAL, 0x403, 6, 0
+0x6e49, 0x206a, 0x0033, 
+    0
+END
+
+IDD_SAMPLE DLGINIT
+BEGIN
+    IDC_SAMP_TYPE, 0x403, 8, 0
+0x6552, 0x7567, 0x616c, 0x0072, 
+    IDC_SAMP_TYPE, 0x403, 9, 0
+0x654e, 0x2067, 0x6e43, 0x6c74, "\000" 
+    IDC_SAMP_TYPE, 0x403, 1, 0
+"\000" 
+    0
+END
+
+IDD_ABOUT_GRAPH DLGINIT
+BEGIN
+    IDC_CHART, 0x37a, 1378, 0
+0x0020, 0x0000, 0x0043, 0x006f, 0x0070, 0x0079, 0x0072, 0x0069, 0x0067, 
+0x0068, 0x0074, 0x0020, 0x0028, 0x0063, 0x0029, 0x0020, 0x0031, 0x0039, 
+0x0039, 0x0036, 0x0020, 0x004b, 0x004c, 0x0020, 0x0047, 0x0072, 0x006f, 
+0x0075, 0x0070, 0x0020, 0x0049, 0x006e, 0x0063, 0x002e, 0x0012, 0x0000, 
+0x0001, 0x0000, 0x000a, 0x0000, 0x0015, 0x0000, 0x0000, 0x0000, 0x0005, 
+0x0004, 0x4b0b, 0x5f4c, 0x4843, 0x5241, 0x2e54, 0x4432, 0x2d2a, 0x0000, 
+0x1a5b, 0x0000, 0x0000, 0x0000, 0x0002, 0x0000, 0x0004, 0x0000, 0x0002, 
+0x00ff, 0x0000, 0x0001, 0x0000, 0x0002, 0x00ff, 0x0000, 0x0004, 0x00ff, 
+0x00ff, 0x0007, 0x0000, 0x0002, 0xb4d2, 0x008c, 0x0001, 0x0000, 0x0002, 
+0xb4d2, 0x008c, 0x0003, 0xff00, 0x0000, 0x0007, 0x0000, 0x0002, 0xff32, 
+0x0000, 0x0001, 0x0000, 0x0002, 0xff32, 0x0000, 0x0002, 0x0000, 0x00cd, 
+0x0007, 0x0000, 0x0002, 0xd148, 0x00cc, 0x0001, 0x0000, 0x0002, 0xd148, 
+0x00cc, 0x0005, 0x00ff, 0x0000, 0x0007, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0001, 0x0100, 0xa000, 0xebc8, 0xf385, 0xe1cc, 0x047f, 0x0000, 
+0x0500, 0x0000, 0x0000, 0x0000, 0x0000, 0xf000, 0x003f, 0x0000, 0x0000, 
+0x3400, 0x0040, 0x0000, 0x0000, 0x2000, 0x0040, 0x0000, 0x0000, 0x2400, 
+0x0040, 0x0000, 0x0000, 0x3000, 0x0040, 0x0000, 0x0000, 0x0000, 0x0040, 
+0x0000, 0x0000, 0x3600, 0x0040, 0x0000, 0x0000, 0x2800, 0x0040, 0x0000, 
+0x0000, 0x3000, 0x0040, 0x0000, 0x0000, 0x3300, 0x0040, 0x0000, 0x0000, 
+0x0800, 0x0040, 0x0000, 0x0000, 0x3300, 0x0040, 0x0000, 0x0000, 0x2400, 
+0x0040, 0x0000, 0x0000, 0x3100, 0x0040, 0x0000, 0x0000, 0x2e00, 0x0040, 
+0x0000, 0x0000, 0x1000, 0x0040, 0x0000, 0x0000, 0x3800, 0x0040, 0x0000, 
+0x0000, 0x2800, 0x0040, 0x0000, 0x0000, 0x2e00, 0x0040, 0x0000, 0x0000, 
+0x3600, 0x0040, 0x0000, 0x0000, 0x1400, 0x0040, 0x0000, 0x0000, 0x3900, 
+0x0040, 0x0000, 0x0000, 0x2e00, 0x0040, 0x0000, 0x0000, 0x3700, 0x0040, 
+0x0000, 0x0000, 0x3200, 0x0140, 0x0100, 0x0100, 0x0100, 0x0100, 0x0100, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 0x0100, 0xa000, 0xebc8, 
+0xf385, 0xe1cc, 0x007f, 0x0000, 0x0100, 0x0200, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0002, 0x0000, 0xff00, 
+0xffff, 0xffff, 0xffff, 0x00ff, 0x0001, 0xda00, 0x0000, 0x0100, 0x0002, 
+0x0000, 0x0001, 0x4105, 0x6972, 0x6c61, 0xd4c0, 0x0001, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0190, 0x0000, 0x0301, 0x0000, 0x0200, 0x0000, 0x0000, 
+0xffff, 0xffff, 0xffff, 0xffff, 0x0100, 0x0000, 0x00da, 0x0000, 0xfb01, 
+0x0000, 0x0100, 0x0500, 0x7241, 0x6169, 0xc06c, 0x01d4, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x9000, 0x0001, 0x0100, 0x0003, 0x0000, 0x0002, 0x0000, 
+0xffff, 0xffff, 0xffff, 0xffff, 0x0100, 0x0000, 0x01a6, 0x0000, 0x7d01, 
+0x0000, 0x0100, 0x0500, 0x7241, 0x6169, 0xc06c, 0x01d4, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x9000, 0x0001, 0x0100, 0x0001, 0x0001, 0x0000, 0x0002, 
+0x0000, 0xffff, 0x00ff, 0x0000, 0x0000, 0x0100, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0002, 0x0000, 0xffff, 0xffff, 0xffff, 0xffff, 0x0100, 0x0000, 
+0x0014, 0x0000, 0x0c01, 0x0000, 0x0100, 0x018d, 0x0000, 0xe701, 0x0000, 
+0x0100, 0x0000, 0x0000, 0x0032, 0x0000, 0x0200, 0xff00, 0x00ff, 0x0300, 
+0x0100, 0x0000, 0x0000, 0x0000, 0x0000, 0x0100, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0100, 0xff00, 0xffff, 0xffff, 0xffff, 
+0x00ff, 0x0001, 0x1100, 0x0000, 0x0100, 0x0025, 0x0000, 0x2001, 0x0000, 
+0x0100, 0x000f, 0x0000, 0x0001, 0x0003, 0x0000, 0x0000, 0x0000, 0x0000, 
+0xf000, 0x013f, 0x0000, 0x0000, 0x0000, 0x4014, 0x0001, 0x0000, 0x0000, 
+0xf000, 0x013f, 0x0000, 0x0000, 0x0000, 0x4014, 0x0001, 0x0000, 0x0000, 
+0xf000, 0x013f, 0x0000, 0x0000, 0x0000, 0x3fe0, 0x0001, 0x0000, 0x0100, 
+0x0000, 0x0000, 0x0001, 0x0000, 0x0000, 0x0000, 0x3ff0, 0x0001, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0004, 0x0000, 0x0000, 0x0001, 0x0000, 0x0801, 
+0x4825, 0x253a, 0x3a4d, 0x5325, 0x0101, 0x0000, 0x0000, 0x4000, 0xd8f8, 
+0x0040, 0x4105, 0x6972, 0x6c61, 0xd4c0, 0x0001, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0190, 0x0000, 0x0001, 0x0100, 0x0100, 0x0000, 0x0100, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x4020, 0x0001, 0x0000, 0x0000, 0x3900, 0x0140, 0x0000, 0x0000, 0x0000, 
+0x4014, 0x0001, 0x0000, 0x0000, 0x3900, 0x0140, 0x0000, 0x0000, 0x0000, 
+0x4014, 0x0001, 0x0000, 0x0000, 0x0400, 0x0140, 0x0000, 0x0000, 0x0001, 
+0x0000, 0x0100, 0x0000, 0x0000, 0x0000, 0x1400, 0x0140, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0400, 0x0000, 0x0000, 0x0100, 0x0000, 0x0100, 0x0000, 
+0x0000, 0x8000, 0x4056, 0x0001, 0x4105, 0x6972, 0x6c61, 0xd4c0, 0x0001, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0190, 0x0000, 0x0001, 0x0100, 0x0100, 
+0x0000, 0x0100, 0x0000, 0x0000, 0x0000, 0xa000, 0xebc8, 0xf385, 0xe1cc, 
+0x017f, 0xc8a0, 0x85eb, 0xccf3, 0x7fe1, 0xa001, 0xebc8, 0xf385, 0xe1cc, 
+0x017f, 0xc8a0, 0x85eb, 0xccf3, 0x7fe1, 0xa001, 0xebc8, 0xf385, 0xe1cc, 
+0x017f, 0xc8a0, 0x85eb, 0xccf3, 0x7fe1, 0x0001, 0x0000, 0x0100, 0x0000, 
+0x0000, 0x0001, 0x0000, 0x0000, 0x8000, 0x4056, 0x0001, 0x4105, 0x6972, 
+0x6c61, 0xd4c0, 0x0001, 0x0000, 0x0000, 0x0000, 0x0000, 0x0190, 0x0000, 
+0x0001, 0x0100, 0x0100, 0x0000, 0x0100, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0002, 0x0000, 0x0005, 0x0000, 
+0x0000, 0x0001, 0x0000, 0x0001, 0x0000, 0x0001, 0x0000, 0x0001, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 
+0x0000, 0x0100, 0x0001, 0x0005, 0x0000, 0x0000, 0x0001, 0x0000, 0x0001, 
+0x0000, 0x0001, 0x0000, 0x0001, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 0x0000, 0x0100, 0x0002, 0x0101, 
+0x0000, 0x0000, 0x0101, 0x0100, 0x0100, 
+    0
+END
+
+IDD_ACALC_CTNR DLGINIT
+BEGIN
+    IDC_ACALC_CTRL, 0x376, 20, 0
+0x0000, 0x0000, 0x0000, 0x0001, 0x2658, 0x0000, 0x1f6b, 0x0000, 0x0000, 
+0x0000, 
+    0
+END
+
+IDD_AD_PG_FLAGS DLGINIT
+BEGIN
+    IDC_FLAG_SEL, 0x403, 6, 0
+0x6c46, 0x6761, 0x0031, 
+    IDC_FLAG_SEL, 0x403, 6, 0
+0x6c46, 0x6761, 0x0032, 
+    IDC_FLAG_SEL, 0x403, 6, 0
+0x6c46, 0x6761, 0x0033, 
+    IDC_FLAG_POLARITY, 0x403, 6, 0
+0x6146, 0x736c, 0x0065, 
+    IDC_FLAG_POLARITY, 0x403, 5, 0
+0x7254, 0x6575, "\000" 
+    IDC_FLAG_ACTION, 0x403, 8, 0
+0x6f4e, 0x6874, 0x6e69, 0x0067, 
+    IDC_FLAG_ACTION, 0x403, 21, 0
+0x6b53, 0x7069, 0x6220, 0x7461, 0x6863, 0x6120, 0x646e, 0x7020, 0x7561, 
+0x6573, "\000" 
+    IDC_FLAG_ACTION, 0x403, 24, 0
+0x6b53, 0x7069, 0x6220, 0x7461, 0x6863, 0x6120, 0x646e, 0x6320, 0x6e6f, 
+0x6974, 0x756e, 0x0065, 
+    IDC_FLAG_ACTION, 0x403, 14, 0
+0x7453, 0x706f, 0x7720, 0x726f, 0x6c6b, 0x616f, 0x0064, 
+    0
+END
+
+IDD_RPT_PG_GPH DLGINIT
+BEGIN
+    IDC_RPT_GPH_CHART, 0x37a, 1378, 0
+0x0020, 0x0000, 0x0043, 0x006f, 0x0070, 0x0079, 0x0072, 0x0069, 0x0067, 
+0x0068, 0x0074, 0x0020, 0x0028, 0x0063, 0x0029, 0x0020, 0x0031, 0x0039, 
+0x0039, 0x0036, 0x0020, 0x004b, 0x004c, 0x0020, 0x0047, 0x0072, 0x006f, 
+0x0075, 0x0070, 0x0020, 0x0049, 0x006e, 0x0063, 0x002e, 0x0012, 0x0000, 
+0x0001, 0x0000, 0x000a, 0x0000, 0x0015, 0x0000, 0x0000, 0x0000, 0x0005, 
+0x0004, 0x4b0b, 0x5f4c, 0x4843, 0x5241, 0x2e54, 0x4432, 0x2f56, 0x0000, 
+0x1727, 0x0000, 0x0000, 0x0000, 0x0002, 0x0000, 0x0004, 0x0000, 0x0002, 
+0x00ff, 0x0000, 0x0001, 0x0000, 0x0002, 0x00ff, 0x0000, 0x0004, 0x00ff, 
+0x00ff, 0x0007, 0x0000, 0x0002, 0xb4d2, 0x008c, 0x0001, 0x0000, 0x0002, 
+0xb4d2, 0x008c, 0x0003, 0xff00, 0x0000, 0x0007, 0x0000, 0x0002, 0xff32, 
+0x0000, 0x0001, 0x0000, 0x0002, 0xff32, 0x0000, 0x0002, 0x0000, 0x00cd, 
+0x0007, 0x0000, 0x0002, 0xd148, 0x00cc, 0x0001, 0x0000, 0x0002, 0xd148, 
+0x00cc, 0x0005, 0x00ff, 0x0000, 0x0007, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0001, 0x0100, 0xa000, 0xebc8, 0xf385, 0xe1cc, 0x047f, 0x0000, 
+0x0500, 0x0000, 0x0000, 0x0000, 0x0000, 0xf000, 0x003f, 0x0000, 0x0000, 
+0x3400, 0x0040, 0x0000, 0x0000, 0x2000, 0x0040, 0x0000, 0x0000, 0x2400, 
+0x0040, 0x0000, 0x0000, 0x3000, 0x0040, 0x0000, 0x0000, 0x0000, 0x0040, 
+0x0000, 0x0000, 0x3600, 0x0040, 0x0000, 0x0000, 0x2800, 0x0040, 0x0000, 
+0x0000, 0x3000, 0x0040, 0x0000, 0x0000, 0x3300, 0x0040, 0x0000, 0x0000, 
+0x0800, 0x0040, 0x0000, 0x0000, 0x3300, 0x0040, 0x0000, 0x0000, 0x2400, 
+0x0040, 0x0000, 0x0000, 0x3100, 0x0040, 0x0000, 0x0000, 0x2e00, 0x0040, 
+0x0000, 0x0000, 0x1000, 0x0040, 0x0000, 0x0000, 0x3800, 0x0040, 0x0000, 
+0x0000, 0x2800, 0x0040, 0x0000, 0x0000, 0x2e00, 0x0040, 0x0000, 0x0000, 
+0x3600, 0x0040, 0x0000, 0x0000, 0x1400, 0x0040, 0x0000, 0x0000, 0x3900, 
+0x0040, 0x0000, 0x0000, 0x2e00, 0x0040, 0x0000, 0x0000, 0x3700, 0x0040, 
+0x0000, 0x0000, 0x3200, 0x0140, 0x0100, 0x0100, 0x0100, 0x0100, 0x0100, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 0x0100, 0xa000, 0xebc8, 
+0xf385, 0xe1cc, 0x007f, 0x0000, 0x0100, 0x0200, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0002, 0x0000, 0xff00, 
+0xffff, 0xffff, 0xffff, 0x00ff, 0x0001, 0xe500, 0x0000, 0x0100, 0x0002, 
+0x0000, 0x0001, 0x4105, 0x6972, 0x6c61, 0xd4c0, 0x0001, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0190, 0x0000, 0x0301, 0x0000, 0x0200, 0x0000, 0x0000, 
+0xffff, 0xffff, 0xffff, 0xffff, 0x0100, 0x0000, 0x00e5, 0x0000, 0xdc01, 
+0x0000, 0x0100, 0x0500, 0x7241, 0x6169, 0xc06c, 0x01d4, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x9000, 0x0001, 0x0100, 0x0003, 0x0000, 0x0002, 0x0000, 
+0xffff, 0xffff, 0xffff, 0xffff, 0x0100, 0x0000, 0x01bb, 0x0000, 0x6e01, 
+0x0000, 0x0100, 0x0500, 0x7241, 0x6169, 0xc06c, 0x01d4, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x9000, 0x0001, 0x0100, 0x0001, 0x0001, 0x0000, 0x0002, 
+0x0000, 0xffff, 0x00ff, 0x0000, 0x0000, 0x0100, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0002, 0x0000, 0xffff, 0xffff, 0xffff, 0xffff, 0x0100, 0x0000, 
+0x0014, 0x0000, 0x0b01, 0x0000, 0x0100, 0x01a2, 0x0000, 0xca01, 0x0000, 
+0x0100, 0x0000, 0x0000, 0x0032, 0x0000, 0x0200, 0xff00, 0x00ff, 0x0300, 
+0x0100, 0x0000, 0x0000, 0x0000, 0x0000, 0x0100, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0100, 0xff00, 0xffff, 0xffff, 0xffff, 
+0x00ff, 0x0001, 0x1100, 0x0000, 0x0100, 0x0025, 0x0000, 0x2001, 0x0000, 
+0x0100, 0x000f, 0x0000, 0x0001, 0x0003, 0x0000, 0x0000, 0x0000, 0x0000, 
+0xf000, 0x013f, 0x0000, 0x0000, 0x0000, 0x4014, 0x0001, 0x0000, 0x0000, 
+0xf000, 0x013f, 0x0000, 0x0000, 0x0000, 0x4014, 0x0001, 0x0000, 0x0000, 
+0xf000, 0x013f, 0x0000, 0x0000, 0x0000, 0x3fe0, 0x0001, 0x0000, 0x0100, 
+0x0000, 0x0000, 0x0001, 0x0000, 0x0000, 0x0000, 0x3ff0, 0x0001, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0004, 0x0000, 0x0000, 0x0001, 0x0000, 0x0801, 
+0x4825, 0x253a, 0x3a4d, 0x5325, 0x0101, 0x0000, 0x0000, 0x4000, 0xd8f8, 
+0x0040, 0x4105, 0x6972, 0x6c61, 0xd4c0, 0x0001, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0190, 0x0000, 0x0001, 0x0100, 0x0100, 0x0000, 0x0100, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x4020, 0x0001, 0x0000, 0x0000, 0x3900, 0x0140, 0x0000, 0x0000, 0x0000, 
+0x4014, 0x0001, 0x0000, 0x0000, 0x3900, 0x0140, 0x0000, 0x0000, 0x0000, 
+0x4014, 0x0001, 0x0000, 0x0000, 0x0400, 0x0140, 0x0000, 0x0000, 0x0001, 
+0x0000, 0x0100, 0x0000, 0x0000, 0x0000, 0x1400, 0x0140, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0400, 0x0000, 0x0000, 0x0100, 0x0000, 0x0100, 0x0000, 
+0x0000, 0x8000, 0x4056, 0x0001, 0x4105, 0x6972, 0x6c61, 0xd4c0, 0x0001, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0190, 0x0000, 0x0001, 0x0100, 0x0100, 
+0x0000, 0x0100, 0x0000, 0x0000, 0x0000, 0xa000, 0xebc8, 0xf385, 0xe1cc, 
+0x017f, 0xc8a0, 0x85eb, 0xccf3, 0x7fe1, 0xa001, 0xebc8, 0xf385, 0xe1cc, 
+0x017f, 0xc8a0, 0x85eb, 0xccf3, 0x7fe1, 0xa001, 0xebc8, 0xf385, 0xe1cc, 
+0x017f, 0xc8a0, 0x85eb, 0xccf3, 0x7fe1, 0x0001, 0x0000, 0x0100, 0x0000, 
+0x0000, 0x0001, 0x0000, 0x0000, 0x8000, 0x4056, 0x0001, 0x4105, 0x6972, 
+0x6c61, 0xd4c0, 0x0001, 0x0000, 0x0000, 0x0000, 0x0000, 0x0190, 0x0000, 
+0x0001, 0x0100, 0x0100, 0x0000, 0x0100, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0002, 0x0000, 0x0005, 0x0000, 
+0x0000, 0x0001, 0x0000, 0x0001, 0x0000, 0x0001, 0x0000, 0x0001, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 
+0x0000, 0x0100, 0x0001, 0x0005, 0x0000, 0x0000, 0x0001, 0x0000, 0x0001, 
+0x0000, 0x0001, 0x0000, 0x0001, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 0x0000, 0x0100, 0x0002, 0x0101, 
+0x0000, 0x0000, 0x0101, 0x0100, 0x0100, 
+    0
+END
+
+IDD_LUCY_BAR DLGINIT
+BEGIN
+    IDC_STOP, 0x37c, 370, 0
+0x4d3c, 0x4346, 0x7542, 0x7474, 0x6e6f, 0x535f, 0x7974, 0x656c, 0x373e, 
+0x2f3c, 0x464d, 0x4243, 0x7475, 0x6f74, 0x5f6e, 0x7453, 0x6c79, 0x3e65, 
+0x4d3c, 0x4346, 0x7542, 0x7474, 0x6e6f, 0x415f, 0x7475, 0x736f, 0x7a69, 
+0x3e65, 0x4146, 0x534c, 0x3c45, 0x4d2f, 0x4346, 0x7542, 0x7474, 0x6e6f, 
+0x415f, 0x7475, 0x736f, 0x7a69, 0x3e65, 0x4d3c, 0x4346, 0x7542, 0x7474, 
+0x6e6f, 0x545f, 0x6f6f, 0x746c, 0x7069, 0x3c3e, 0x4d2f, 0x4346, 0x7542, 
+0x7474, 0x6e6f, 0x545f, 0x6f6f, 0x746c, 0x7069, 0x3c3e, 0x464d, 0x4243, 
+0x7475, 0x6f74, 0x5f6e, 0x7546, 0x6c6c, 0x6554, 0x7478, 0x6f54, 0x6c6f, 
+0x543e, 0x5552, 0x3c45, 0x4d2f, 0x4346, 0x7542, 0x7474, 0x6e6f, 0x465f, 
+0x6c75, 0x546c, 0x7865, 0x5474, 0x6f6f, 0x3e6c, 0x4d3c, 0x4346, 0x7542, 
+0x7474, 0x6e6f, 0x435f, 0x7275, 0x6f73, 0x5472, 0x7079, 0x3e65, 0x3131, 
+0x2f3c, 0x464d, 0x4243, 0x7475, 0x6f74, 0x5f6e, 0x7543, 0x7372, 0x726f, 
+0x7954, 0x6570, 0x3c3e, 0x464d, 0x4243, 0x7475, 0x6f74, 0x5f6e, 0x6d49, 
+0x6761, 0x5465, 0x7079, 0x3e65, 0x3031, 0x2f3c, 0x464d, 0x4243, 0x7475, 
+0x6f74, 0x5f6e, 0x6d49, 0x6761, 0x5465, 0x7079, 0x3e65, 0x4d3c, 0x4346, 
+0x7542, 0x7474, 0x6e6f, 0x495f, 0x616d, 0x6567, 0x6e4f, 0x6f54, 0x3e70, 
+0x4146, 0x534c, 0x3c45, 0x4d2f, 0x4346, 0x7542, 0x7474, 0x6e6f, 0x495f, 
+0x616d, 0x6567, 0x6e4f, 0x6f54, 0x3e70, 0x4d3c, 0x4346, 0x7542, 0x7474, 
+0x6e6f, 0x495f, 0x616d, 0x6567, 0x6e4f, 0x6952, 0x6867, 0x3e74, 0x4146, 
+0x534c, 0x3c45, 0x4d2f, 0x4346, 0x7542, 0x7474, 0x6e6f, 0x495f, 0x616d, 
+0x6567, 0x6e4f, 0x6952, 0x6867, 0x3e74, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDP_OLE_INIT_FAILED     "OLE initialization failed.  Make sure that the OLE libraries are the correct version."
+    IDP_FAILED_TO_CREATE    "Failed to create object.  Make sure the object is entered in the system registry."
+END
+
+STRINGTABLE
+BEGIN
+    IDR_MAINFRAME           "Celsis"
+    IDR_WORKLOAD            "\nWkload\nWorkload\nWorkloads (*.wkl)\n.wkl\nAdvance.Workload\nAdvance Workload"
+    IDR_WORKLOAD_WKT        "\nWkld\nWorkload (from Template)\nWorkload Templates (*.wkt)\n.wkt\nAdvance.Workload.Template\nAdvance Workload Template"
+    IDR_LUCYTYPE            "\nLum\n\n\n.lum\nAdvance.Lum.Doc\nAdvance Luminometer Document"
+    IDR_REPORT              "\nReport\nReport\nReports  (*.rpt)\n.rpt\nAdvance.Report \nAdvance Report"
+    IDR_LCCTYPE             "\nUntitled\nLcc Dialog\nText Files (*.txt)\n.txt\nTextFileType\nTEXT File Type\nTEXT\nText Files\n"
+    IDR_REPORT_TPT          "\nReport Template\n\nReport Templates  (*.tpt)\n.tpt\nAdvance.Report Template\nAdvance Report Template"
+    IDR_REPORT_PREVIEW_TYPE "\nReport Preview\nReport Preview\nReport Previews  (*.xyz)\n.xyz\nAdvance.Report.Preview \nAdvance Report Preview"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_APP_TITLE       "Celsis"
+    AFX_IDS_IDLEMESSAGE     "For Help, press F1"
+    AFX_IDS_HELPMODEMESSAGE "Select an object on which to get Help"
+END
+
+STRINGTABLE
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE
+BEGIN
+    ID_INDICATOR_USER       "0123456789012345678901234"
+    ID_INDICATOR_INSTRUMENT "Advance 2 four injectorsxxx"
+    ID_FILE_SAVE_TEMPLATE   "Save report format without workload data"
+    ID_FILE_EXPORT          "Export report to another data format\nExport"
+    ID_GRID_VIEW            "Show workload grids\nGrid View"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_NO_BATCH            "Must create a batch first."
+    IDS_WKL_BUSY            "This workload is active.  \n Stop the workload before closing the window."
+    IDS_PARAM_TOO_BIG       "Parameter value exceeds allowable maximum."
+    IDS_PARAM_TOO_SMALL     "Parameter value is less than allowable minimum."
+    IDS_NO_ACTION           "No action selected."
+    IDS_ABORTING_WKL        "Aborting Workload Run!"
+    IDS_SCAN_CHAIN_OPEN_ERR "Error opening scan procedure with LCC."
+    IDS_WKL_STAT_STOPPED    "Workload run stopped by user."
+    IDS_WKL_STAT_ABORTED    "Workload run aborted due to errors encountered in processing."
+    IDS_FATAL_LUC_ERR       "Fatal Error in Program Lucept\n Error = 0x%X (%s)"
+    IDS_ERR_READING_MEASS   "Error reading measurement definitions."
+    IDS_ERR_READING_ASSAYS  "Error reading assay definitions"
+    IDS_INDICATOR_KO        "No exceptions have been returned by the luminometer."
+    IDS_BATCHGRID_SHEET     "Batch Grid Sheet"
+    IDS_SPACE               " "
+    IDS_DELETE              "DELETE"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_NEW             "Create a new document\nNew"
+    ID_FILE_OPEN            "Open an existing document\nOpen"
+    ID_FILE_CLOSE           "Close the active document\nClose"
+    ID_FILE_SAVE            "Save the active document\nSave"
+    ID_FILE_SAVE_AS         "Save the active document with a new name\nSave As"
+    ID_FILE_PAGE_SETUP      "Change the printing options\nPage Setup"
+    ID_FILE_PRINT_SETUP     "Change the printer and printing options\nPrint Setup"
+    ID_FILE_PRINT           "Print the active document\nPrint"
+    ID_FILE_PRINT_PREVIEW   "Display full pages\nPrint Preview"
+END
+
+STRINGTABLE
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+    ID_HELP_FINDER          "List Help topics\nHelp"
+    ID_CONTEXT_HELP         "Display help for clicked on buttons, menus and windows\nHelp"
+    ID_HELP                 "Display help for current task or command\nHelp"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_MRU_FILE1       "Open this document"
+    ID_FILE_MRU_FILE2       "Open this document"
+    ID_FILE_MRU_FILE3       "Open this document"
+    ID_FILE_MRU_FILE4       "Open this document"
+    ID_FILE_MRU_FILE5       "Open this document"
+    ID_FILE_MRU_FILE6       "Open this document"
+    ID_FILE_MRU_FILE7       "Open this document"
+    ID_FILE_MRU_FILE8       "Open this document"
+    ID_FILE_MRU_FILE9       "Open this document"
+    ID_FILE_MRU_FILE10      "Open this document"
+    ID_FILE_MRU_FILE11      "Open this document"
+    ID_FILE_MRU_FILE12      "Open this document"
+    ID_FILE_MRU_FILE13      "Open this document"
+    ID_FILE_MRU_FILE14      "Open this document"
+    ID_FILE_MRU_FILE15      "Open this document"
+    ID_FILE_MRU_FILE16      "Open this document"
+END
+
+STRINGTABLE
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE
+BEGIN
+    ID_WINDOW_NEW           "Open another window for the active document\nNew Window"
+    ID_WINDOW_ARRANGE       "Arrange icons at the bottom of the window\nArrange Icons"
+    ID_WINDOW_CASCADE       "Arrange windows so they overlap\nCascade Windows"
+    ID_WINDOW_TILE_HORZ     "Arrange windows as non-overlapping tiles\nTile Windows"
+    ID_WINDOW_TILE_VERT     "Arrange windows as non-overlapping tiles\nTile Windows"
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_PASTE_LINK      "Insert Clipboard contents and a link to its source\nPaste Link"
+    ID_EDIT_PASTE_SPECIAL   "Insert Clipboard contents with options\nPaste Special"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE
+BEGIN
+    ID_VIEW_TOOLBAR         "Show or hide the toolbar\nToggle ToolBar"
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle StatusBar"
+END
+
+STRINGTABLE
+BEGIN
+    ID_OLE_INSERT_NEW       "Insert new embedded object\nNew Object"
+    ID_OLE_EDIT_LINKS       "Edit linked objects\nEdit Links"
+    ID_OLE_EDIT_CONVERT     "Convert object to different type\nConvert Object"
+END
+
+STRINGTABLE
+BEGIN
+    ID_OLE_VERB_FIRST       "Activate embedded or linked object"
+    57873                   "Activate embedded or linked object"
+    57874                   "Activate embedded or linked object"
+    57875                   "Activate embedded or linked object"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+    IDS_RPT_DOC_PREV_ERR    "Selected workloads contain no previewable data."
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+    AFX_IDS_MDICHILD        "Activate this window"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "Close print preview mode\nCancel Preview"
+    IDS_RPT_DOC_FILE_OP_ERR "Error reading file:  %s"
+    IDS_RPT_DOC_EXP_ERR     "Export Error:  %s\r\n\r\nExport to specified file type not supported"
+    IDS_RPT_DOC_EXP_ERR_TBLDEF "Error defining exported table."
+    IDS_RPT_DOC_EXP_ERR_RECSET "Error creating recordset in exported table."
+    IDS_RPT_DOC_PREV_WIN_CAP "Recordset Preview"
+    IDS_RPT_FMT_STD_HDR     "Celsis Workload Report"
+    IDS_RPT_FMT_STD_FTR     "File: %s Printed: %s"
+    IDS_RPT_FMT_RPT_FTR     "User Defineable Report Footer"
+    IDS_RPT_FMT_RPT_HDR     "User Defineable Report Header"
+    IDS_RPT_FRM_COL_NOT_IN_QRY "%s %s  Column not in query"
+END
+
+STRINGTABLE
+BEGIN
+    ID_MAINTENANCE_MANUAL   "Control individual luminometer functions\nManual Control"
+    ID_ADD_WORKLOAD         "Specify workloads used for Report\nSpecify Workloads"
+END
+
+STRINGTABLE
+BEGIN
+    ID_EDIT_HEADER          "Edit Report Header\nHeader"
+    ID_EDIT_FOOTER          "Edit Report Footer\nFooter"
+    ID_COLUMNS              "Select/edit columns\nColumn Menu"
+    ID_ROWS                 "Edit row selection criteria\nRow Selection"
+    ID_FORMULAE             "Edit Report formulae\nFormula"
+    ID_INSERT_WORKLOAD      "Select Workloads used by Report.\nSelect Workloads"
+    ID_INSERT_HEADER        "Add Report header.\nHeader"
+    ID_INSERT_FOOTER        "Add Report footer.\nFooter"
+    ID_INSERT_FORMULA       "Modify Report Formula.\nFormula"
+    ID_VIEW_COLUMNS         "Select or arrange columns.\nColumns"
+    ID_VIEW_ROWS            "Select Rows.\nRows"
+    IDS_RPT_WKL_TAB_LBL     "Workloads"
+    IDS_RPT_FMT_TAB_LBL     "Format"
+    IDS_RPT_QRY_TAB_LBL     "Query"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_RPT_FRM_TAB_LBL     "Formulae"
+    IDS_RPT_SNP_TAB_LBL     "Snapshot"
+    IDS_RPT_SAV_TAB_LBL     "Save"
+    ID_GRAPHIC_VIEW         "Show workload graphically as tubes\nTube View"
+    ID_GRAPH                "Edit Graph\nGraph"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SF_BKG_CV           "Bkgnd_CV"
+    IDS_SF_RLU_SD           "Std_Dev"
+    IDS_SF_BKG_SD           "Bkg_SD"
+    IDS_SF_POSITION         "Chain_Pos"
+    IDS_SF_ATTITUDE         "Color"
+    IDS_SF_SAMPNUM          "Sample"
+    IDS_SF_READ_TIME        "Read_Time"
+    IDS_SF_TEXT01           "Text01"
+    IDS_SF_TEXT02           "Text02"
+    IDS_SF_TEXT03           "Text03"
+    IDS_SF_TEXT04           "Text04"
+    IDS_SF_TEXT05           "Text05"
+    IDS_SF_TEXT06           "Text06"
+    IDS_SF_TEXT07           "Text07"
+    IDS_SF_TEXT08           "Text08"
+    IDS_SF_TEXT09           "Text09"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_BATCH_NAME_PREFIX   "Batch "
+    IDS_BATCH_NAME_SUFFIX   " "
+    IDS_BATCH_NAME_SYMBOLS  "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    IDS_ADF_EXTENSION       "ADF"
+    IDS_ADO_EXTENSION       "ADO"
+    IDS_ADFORMAT            "AD%6.6d"
+    IDS_NO_ADF_DIR          "No Assay Definition Directory Defined."
+    IDS_RD_ERR_ADF_DIR      "Error reading from Assay Definition directory:\n"
+    IDS_AD_NEW_NONAME       "Must specify a name for the assay."
+    IDS_AD_NEW_NAME_USED    "This assay name is already in use."
+    IDS_AD_FILE_PREFIX      "AD"
+    IDS_BAD_MEAS_ID         "Bad Measurement Set ID"
+    IDS_NO_MSR_DIR          "No Measurement Definition Directory Defined"
+    IDS_MS_FILE_PREFIX      "MS"
+    IDS_MSFORMAT            "MS%6.6d"
+    IDS_MSR_EXTENSION       "MSR"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_MSO_EXTENSION       "MSO"
+    IDS_RD_ERR_MSR_DIR      "Error reading from Measurement Definition directory:\n"
+    IDS_NO_MEAS_DEFINED     "No Measurement Sets Defined"
+    IDS_MD_NEW_NONAME       "Must specify a name for the measurement set."
+    IDS_MD_NEW_NAME_USED    "This measurement set name is already in use."
+    IDS_FILE_READ_ERROR     "Error reading file:\n"
+    IDS_NO_ASSAYS_DEFINED   "No Assays Defined"
+    IDS_BAD_ASSAY_ID        "Bad Assay ID"
+    IDS_NO_ACMETH_DEF       "None Defined"
+    IDS_BAD_PAR_VAL         "Invalid parameter value specified."
+    IDS_ACMETH_NOT_SUPPORTED 
+                            "Specified Assay Calculation Method not supported."
+    IDS_MEAS_METH_INVALID   "The specified measurement method is invalid."
+    IDS_ACPARAMS_INVALID    "The specified assay calculation parameters are invalid."
+    IDS_CALC_METH_INVALID   "The specified assay calculation method is invalid."
+    IDS_SEL_ASSAY_EDIT      "Select Assay to Edit"
+    IDS_SEL_ASSAY_DEL       "Select Assay to Delete"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SF_NAME             "Sample_ID"
+    IDS_SF_TYPE             "Sample_Type"
+    IDS_SF_STAT             "Status"
+    IDS_SF_REPLS            "Repls"
+    IDS_SF_RLU              "RLU"
+    IDS_SF_RESULT           "Result"
+    IDS_SF_NRESULT          "NResult"
+    IDS_SF_NUNITS           "NUnits"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SF_SAMP_DATE        "Sample_Date"
+    IDS_SF_READ_DATE        "Read_Date"
+    IDS_SF_NOTIF            "Notification"
+    IDS_SF_FLAG1            "Flag1"
+    IDS_SF_FLAG2            "Flag2"
+    IDS_SF_FLAG3            "Flag3"
+    IDS_SF_CV               "CV_Pct"
+    IDS_SF_LOCATION         "Location"
+    IDS_SF_PRODUCT          "Product"
+    IDS_SF_LOT              "Lot"
+    IDS_SF_COMMENT          "Comment"
+    IDS_SF_RLU1             "RLU1"
+    IDS_SF_RLU2             "RLU2"
+    IDS_SF_RLU3             "RLU3"
+    IDS_SF_RLU4             "RLU4"
+    IDS_SF_RLU5             "RLU5"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SF_RLU6             "RLU6"
+    IDS_SF_RLU7             "RLU7"
+    IDS_SF_RLU8             "RLU8"
+    IDS_SF_RLU9             "RLU9"
+    IDS_SF_RLU10            "RLU10"
+    IDS_SF_BKG              "Bkgnd"
+    IDS_SF_BKG1             "Bkg1"
+    IDS_SF_BKG2             "Bkg2"
+    IDS_SF_BKG3             "Bkg3"
+    IDS_SF_BKG4             "Bkg4"
+    IDS_SF_BKG5             "Bkg5"
+    IDS_SF_BKG6             "Bkg6"
+    IDS_SF_BKG7             "Bkg7"
+    IDS_SF_BKG8             "Bkg8"
+    IDS_SF_BKG9             "Bkg9"
+    IDS_SF_BKG10            "Bkg10"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STNAME_NORMAL       "Normal"
+    IDS_NO_ASSAY_SEL        "No assay has been selected for this batch."
+    IDS_ASSAYDEF_NOT_FOUND  "Specified assay definition not found"
+    IDS_NO_CAL_SAMPS        "No calibration samples required."
+    IDS_NO_ACC              "Could not create assay calculation component."
+    IDS_TRUE                "True"
+    IDS_FALSE               "False"
+    IDS_MIN_SEC             "%d:%02d"
+    IDS_SELECT_MEAS_METH    "Error selecting measurement method"
+    IDS_BAT_NOT_SCANNED     "The workload defines %d real batches, but only %d were detected by the luminometer.  You must correct the problem and re-scan samples."
+    IDS_TUBES_NOT_SCANNED   "%s defines %d tubes, but the luminometer has\n detected %d.  If you select OK, this and all remaining batches\n will be redefined by the Batch Definition Wizard.  If you \nselect Cancel, the run will be stopped."
+    IDS_BATCH_READ_ONLY     "This batch is not editable."
+    IDS_SAMP_FMT            "Sample %d"
+    IDS_INSUF_REAGENT       "  Insufficient!"
+    IDS_BAD_MEAS_VAL        "The Measurement Definition specifies an invalid parameter set.  This batch cannot be run."
+    IDS_EXCEED_MAX_TUBES    "Batch contains more than the allowable number of tubes\nfor the selected assay type."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_USR_NAME_EXISTS     "Error:\r\nA user with the name '%s' already exists.\r\n\r\n User IDs must be unique.\r\n\r\nNew user was not added."
+    IDS_USR_NEW_USER        "new user"
+    IDS_USR_MIN_MAX_ERR     "Error:\r\nPassword minimum length is %d and maximum is %d characters long."
+    IDS_USR_SYS_MAN_EDIT    "Error:\r\n'%s'  User ID can't be changed."
+    IDS_USR_OLD_PWD_INCORRECT 
+                            "Error:\r\nOld password was not entered correctly."
+    IDS_USR_SYS_MAN_DEL_ERR "Error:\r\n%s can't be Inhibited."
+    IDS_USR_DATAFILE_NOT_FOUND 
+                            "Data file not found. Creating an empty database."
+    IDS_USR_EMPTY_STRING    "User ID can not be an empty string."
+    IDS_LCC_EXCEPTION       "The LCC returned exception 0x%X (%s)"
+    IDS_LUM_OFFLINE         "The luminometer is offline."
+    IDS_LCC_BUSY            "The Measurement Definition specifies an invalid parameter set.  This batch cannot be run.."
+    IDS_DEAD_LCC            "A previous error has locked a component of Celsis\n in memory.  You must re-boot the system to release it before\n you will be able to run this software."
+    IDS_LCC_ASYNC_ERR       "The LCC returns Asynchronous exception 0x%X"
+    IDS_LCC_ASYNC_NOT_FAULTED 
+                            "The LCC returned Asynchronous exception 0x%X \nbut does not report control session status as faulted.\n  Control session status reported is %d"
+    IDS_LUM_DOOR_OPEN       "Error -- The luminometer door is open."
+    IDS_BAD_READ_PROC_ID    "Read Procedure ID %d is Invalid"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SEL_MEAS_EDIT       "Select Measurement Set to Edit"
+    IDS_SEL_MEAS_DEL        "Select Measurement Set to Delete"
+    IDS_REAG_ML             "%03.1f ml"
+    IDS_REAG_NO_ML          "%03.1f"
+    IDS_RGT_MAX_WARNING_FMT "Amount entered would exceed %.1f ml maximum.\r\n\r\nPress OK to set total to maximum."
+    IDS_RGT_MIN_WARNING_FMT "Amount entered would be less than %.1f ml minimum.\r\n\r\nPress OK to set total to minimum."
+    IDS_INJ_SCRIPT_CANCELLED "Script cancelled due to error."
+    IDS_INJ_SCRIPT_UNDEFINED "Script undefined."
+    IDS_INJ_INVALID_SCRIPT  "Invalid Script constant entered."
+    IDS_INJ_NO_INJS_SELECTED "Error: No injectors selected."
+    IDS_INJ_ERR_LOCKING_DOOR 
+                            "Error: Locking door.\r\nFix the problem and press OK,\r\nor press Cancel to terminate the sequence."
+    IDS_INJ_ERR_MOVING_TUBES 
+                            "Error: Moving tubes to position.\r\nFix the problem and press OK,\r\nor press Cancel to terminate the sequence."
+    IDS_INJ_ERR_INJECTING   "Error: Injecting.\r\nFix the problem and press OK,\r\nor press Cancel to terminate the sequence."
+    IDS_INJ_ERR_CLEAR_CHAMBER 
+                            "Error: Clearing the chamber.\r\nFix the problem and press OK,\r\nor press Cancel to terminate the sequence."
+    IDS_INJ_ERR_UNLOCK_DOOR "Error: Releasing door.\r\nFix the problem and press OK,\r\nor press Cancel to terminate the sequence."
+    IDS_INJ_SEQ_STARTUP     "Injector Startup Sequence"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_BAD_CALC_METH_ID    "Calculation Method ID %d is Invalid"
+    IDS_READ_PROC_INVALID   "The specified read procedure ID %d is invalid"
+    IDS_READ_OPEN_ERR       "Error opening read procedure "
+    IDS_LCC_PARAM_ERR       "Error setting LCC parameters"
+    IDS_ACC_SAMPLE_WRITE_ERR 
+                            "Assay Calculation returns error 0x%X (%s) on sample evaluation."
+    IDS_ACC_SAMPLE_READ_ERR "Assay Calculation returns error 0x%X (%s) on sample read."
+    IDS_INVALID_BATCH       "The specified batch is invalid."
+    IDS_TUBE_NUMBER         "A sample tube not defined in the batch was read."
+    IDS_NO_CONNECT_LCC      "Cannot connect to luminometer."
+    IDS_NO_CONTROL_LCC      "Another procedure is controlling the luminometer"
+    IDS_STOP_RETURNS        "Luminometer Stop command returns error 0x%X (%s)"
+    IDS_APP_PATH_REG        "Could not read application path from system registry."
+    IDS_LCC_NOT_CONN        "The LCC is not connected"
+    IDS_ASSY_CALC_CREATE    "Error Creating the Assay Calculation Component"
+    IDS_SELECT_CALC_METH    "Error selecting calculation method"
+    IDS_EMPTY               "Empty"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_INJ_SCRIPT_FINISHED " Finished.\r\n\r\nPlease remove tubes prior to running a new workload.\r\n\r\nPress Close to Exit."
+    IDS_INJ_CLOSE_CAPTION   "Close"
+    IDS_INJ_TUBE_SEQ_GAP    "Gap in tube sequence.  Injection cancelled."
+    IDS_INJ_INSUFF_REAGENT  "This operation requires a minimum reagent volume of %.1f mls in each selected injector.\r\n\r\nAdd reagent and continue."
+    IDS_INJ_SEQ_CANCELLED   "Injector sequence cancelled."
+    IDS_SSTAT_NEW           "New"
+    IDS_SSTAT_CHECKED       "Checked"
+    IDS_SSTAT_COMMITTED     "Committed"
+    IDS_SSTAT_READING       "Reading"
+    IDS_SSTAT_READ          "Read"
+    IDS_SSTAT_DONE          "Done"
+    IDS_SSTAT_STOPPED       "Stopped"
+    IDS_SSTAT_ABORTED       "Aborted"
+    IDS_SSTAT_LOAD_ERR      "Error loading sample status names."
+    IDS_USR_ADD_NO_PWD      "Error:\r\nNew password not entered."
+    IDS_USR_PWD_NOT_VERIFIED "Error:\r\nNew password not verified."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_INJ_SEQ_SHUTDOWN    "Injector Shutdown Sequence"
+    IDS_INJ_SEQ_WASH        "Injector Wash Sequence"
+    IDS_INJ_SEQ_RINSE       "Injector Rinse Sequence"
+    IDS_INJ_SEQ_PRIME       "Prime Sequence"
+    IDS_INJ_SEQ_REFRESH     "Refresh Sequence"
+    IDS_INJ_LOAD_WASH_SOL   "Load Washing Solution in the Reagent Positions Selected.\r\n\r\nWhen finished, press Next."
+    IDS_INJ_SELECT_INJS     "Select Injectors.\r\n\r\nWhen finished, press Next."
+    IDS_INJ_FMT_WAIT_FOR_CYCLE "%s\r\n\r\nPlease wait for cycle to complete."
+    IDS_INJ_FMT_LOAD_N_TUBES 
+                            "Load %d Tubes.\r\n\r\nTubes must be loaded in one continuous sequence without any gaps.\r\n"
+    IDS_INJ_INJECTING_WASH  "Injecting Washing Solution"
+    IDS_INJ_INJECTING_RINSE "Injecting Rinsing Solution"
+    IDS_INJ_INJECTING_REAGENT "Injecting Reagent"
+    IDS_INJ_UNLOCKING_DOOR  "Releasing Door"
+    IDS_INJ_LOAD_RINSE_SOL  "Load Rinsing Solution in the Reagent Positions Selected.\r\n\r\nWhen finished, press Next."
+    IDS_INJ_LOAD_REAGENT_SOL 
+                            "Load Reagent in the Reagent Positions Selected.\r\n\r\nWhen finished, press Next."
+    IDS_INJ_ENTER_REAGENT_VOL 
+                            "Enter Reagent Volume Actually Loaded.\r\n\r\nWhen finished, press Next."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ACC_ERR_MSG         """%s is not properly formatted for this assay.\nIf you select OK, this and all remaining batches\n will be redefined by the Batch Definition Wizard.\nIf you select Cancel, the run will be stopped."
+    IDS_CUT                 "Cut"
+    IDS_COPY                "Copy"
+    IDS_PASTE               "Paste"
+    IDS_LUM_COM_ERR         "Error communicating with Luminometer."
+    IDS_INJ_REAG_OVERFLOW   "One or more reagent levels entered exceeded the maximum.\r\n\r\nLevel was set to maximum."
+    IDS_ERR_USERTITLE       "Invalid field name specified in Advance.Ini:\n   '%s' \nUsing default field name."
+    IDS_INI_SECT_FIELDS     "Fields"
+    IDS_WKL_SELECT          "Select Workload"
+    IDS_SYS_RESULT_ROOT     "$RESULTS\\"
+    IDS_ERR_WKL_VER         "Cannot read Workload file version %d"
+    IDS_WKL_VER_UPDATE      "The Workload file version %d is not the latest.\r\nIf you continue, the workload will be updated to version  %d.\r\nDo you want to continue?"
+    IDS_REF_UNKNOWN         "Reference"
+    IDS_REF_VIRTUAL         "Virtual"
+    IDS_REF_RETEST_OF       "RetestOf"
+    IDS_REF_RETEST_AS       "RetestAs"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SF_TEXT10           "Text10"
+    IDS_SF_TEXT11           "Text11"
+    IDS_RF_WORKLOAD         "Workload"
+    IDS_RF_WKL_STAT         "Wkl_Status"
+    IDS_RF_OPERATOR         "Operator"
+    IDS_RF_WKL_CREATED      "Wkl_Created"
+    IDS_RF_WKL_MODIFIED     "Wkl_Modified"
+    IDS_RF_BATCH            "Batch"
+    IDS_RF_BATCH_STAT       "Batch_Status"
+    IDS_RF_ASSAY            "Assay"
+    IDS_RF_MEAS             "Measurement"
+    IDS_RF_UPPER_CO         "Pos_Cutoff"
+    IDS_RF_LOWER_CO         "Neg_Cutoff"
+    IDS_RF_SAMP_NUM         "Sample"
+    IDS_SF_REFER            "References"
+    IDS_RF_RECORDID         "RecordID"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_REF_RETEST_PART_OF  "RetestPartOf"
+    IDS_REF_RETEST_PART_AS  "RetestPartAs"
+    IDS_FIELD_NAME_CHANGED  "Field title changed \nfrom '%s' \n  to '%s'"
+    IDS_NO_BATCHES          "Workload contains no batches."
+    IDS_INI_SECT_SV         "Sample View"
+    IDS_SV_UFLD1            "UserField1"
+    IDS_SV_UFLD2            "UserField2"
+    IDS_SV_UFLD3            "UserField3"
+    IDS_COPY_FOR_RETEST     "Copy for Re-test"
+    IDS_VIRTUAL_COPY        "Copy as Virtual Sample"
+    IDS_TEMPLATE_COPY       "Copy for Template"
+    IDS_MAINTENANCE_PRIME   "Prime"
+    IDS_MAINTENANCE_REFRESH "Refresh"
+    IDS_MAINTENANCE_INJECTOR_STARTUP "Startup"
+    IDS_MAINTENANCE_INJECTOR_SHUTDOWN "Shutdown"
+    IDS_MAINTENANCE_INJECTOR_WASH "Wash"
+END
+
+STRINGTABLE
+BEGIN
+    IDC_NEWWORKLOAD         "New Workload"
+    IDC_MAINTENANCE         "Maintenance"
+    IDC_MANUALMODE          "Manual Control"
+    IDC_LOGOUT              "Exit"
+    IDC_HELPBUTTON          "Help"
+    IDC_STOPRUN             "Stop"
+    IDC_SCANCHAIN           "Scan Chain"
+    IDC_GRIDVIEW            "Grid View"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_MAINTENANCE_RINSE   "Rinse"
+    IDS_SSTAT_VIRTUAL       "Virtual"
+    IDS_SSTAT_DEFCAL        "Default Cal"
+    IDS_MUST_SAVE_WKL       "This workload must first be saved to disk.\nSave it now?"
+    IDS_COPY_RETEST_PART    "Copy for Component Re-test "
+    IDS_BAD_VIRTUAL_SAMP    "The sample cannot be copied as a virtual sample\nbecause it has not been measured."
+    IDS_REF_DEFCAL          "DefaultCal"
+    IDS_FP_VER_UPDATE       "The Field Properties file version %d is not the latest.\n If the Field Propertoes file is updated it will be saved as version %d"
+    IDS_FLAG_ACT_NOTHING    "Do Nothing"
+    IDS_FLAG_ACT_PAUSE      "Skip Batch / Pause"
+    IDS_FLAG_ACT_CONT       "Skip Batch / Continue"
+    IDS_FLAG_ACT_STOP       "Stop Workload"
+    IDS_SSTAT_UNCAL         "Uncalibrated"
+    IDS_SSTAT_FSTOP         "Flagged"
+    IDS_MAINTENANCE_INJECT  "Inject"
+    IDS_ASSAY_DEF_TITLE     "Assay Definition"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SF_TEXT12           "Text12"
+    IDS_SF_TEXT13           "Text13"
+    IDS_SF_TEXT14           "Text14"
+    IDS_SF_TEXT15           "Text15"
+    IDS_SF_VIRTUAL          "Virtual"
+    IDS_SF_TEMPERATURE      "Temperature"
+END
+
+STRINGTABLE
+BEGIN
+    ID_SAMPLE_VIEW          "Show summary for a single workload sample\nSample View"
+END
+
+STRINGTABLE
+BEGIN
+    IDC_GRAPHVIEW           "Tube View"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STOPPING___         "Stoping..."
+    IDS_NO_SAMPLES_IN_BATCH "No samples in batch"
+    IDS_MUST_SAVE_TO_RUN    "You must save the workload before running it.\nSave it now?"
+    IDS_RUNNING___          "Running..."
+    IDS_STOPPED_BY_FLAG     "Workload run stopped by User Flag."
+    IDS_VIRT_SCANCHAIN      "The workload contains only virtual samples.\nWould you like to also check the luminometer for real samples?"
+    IDS_TOO_MANY_TUBES      "%s defines %d tubes but only %d were found.  Scan is aborting."
+    IDS_ACC_REJECT_BAT      "%s is not properly formatted for the selected assay."
+    IDS_CANT_ADD_CALS       "Batch contains too few tubes to add real calibrators."
+    IDS_NO_CALS_SPECD       "Required calibrator samples not specified."
+    IDS_BAD_SAMP_TYPE       "Invalid sample type specified."
+    IDS_NO_VISIBLE_FIELDS   "Assay must have at least one visible column."
+    IDS_SEL_ASSAY_PRINT     "Select Assay"
+    IDS_SEL_MEAS_PRINT      "Select Measurement to Print"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_RPT_GPH_SORT_SEQ    "[sorted sequence]"
+    IDS_RPT_GPH_PLOT        "Plot"
+    IDS_RPT_GPH_AREA        "Area"
+    IDS_RPT_GPH_BAR         "Bar"
+    IDS_RPT_GPH_AXIS_X      "              X Axis"
+    IDS_RPT_GPH_AXIS_Y      "Y Axis"
+    IDS_RPT_QRY_NO_WKLS     "No workloads have been selected."
+    IDS_RPT_QRY_NO_PARMS    "The condition box was checked,\r\nbut one or more query parameters was not selected.\r\n\r\nNo condition was added to the query."
+    IDS_RPT_QRY_NO_COND     "No condition was selected for column '%s'."
+    IDS_RPT_QRY_DUP_QRY     "'%s' already exists in the query."
+    IDS_RPT_QRY_NO_REF_FOUND "No references to '%s' were found in the query."
+    IDS_RPT_WKL_DLG_CAP     "Select Workloads for Report"
+    IDS_RPT_VW_SAVE_CHNGS   "Do you want to save the changes in the current report?"
+    IDS_RPT_VW_TEMPL_DLG_CAP "Select Filename for Report Template"
+    IDS_RPT_VW_FRM_RPT_HDG  "FORMULAE RESULTS:"
+    IDS_RPT_VW_SUM_WKL_HDG  "Workloads:"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_RPT_VW_SUM_COL_HDG  "Columns:"
+    IDS_RPT_VW_SUM_CND_HDG  "Conditions:"
+    IDS_RPT_VW_SUM_SRT_HDG  "Sorted By:"
+    IDS_RPT_VW_SUM_DAT_HDG  "Data Integrity:"
+    IDS_RPT_VW_SUM_DAT_MOD_BY "  Report last modified by:  "
+    IDS_RPT_VW_SUM_DAT_GEN  "  Report generated on:  "
+    IDS_RPT_VW_SUM_DAT_GEN_BY "  Report generated by:  "
+    IDS_RPT_VW_SUM_RPT_HDG  "REPORT SUMMARY:"
+    IDS_RPT_VW_SUM_NONE_SEL "[None selected]"
+    IDS_RPT_VW_SUM_UNSVD_MODS 
+                            "  Report contained unsaved modifications at time of generation."
+    IDS_RPT_VW_SUM_FILE     "  Report file:  "
+    IDS_RPT_VW_GPH_MSG      "[GRAPH PREVIEW UNAVAILABLE]"
+    IDS_RPT_VW_NO_PRN_DAT   "Selected workloads contain no printable data."
+    IDS_SETUP_CANCELLED     "Celsis setup was not completed.\r\n\r\nContact a System Manager to complete setup.\r\n\r\nCelsis will now terminate."
+    IDS_RPT_VW_SUM_ASY_HDG  "Assay Settings:"
+    IDS_ERROR_FILE_EXISTS   "A file with this name already exists.\r\nPlease choose a different file name."
+END
+
+STRINGTABLE
+BEGIN
+    ID_SETUP_SYSTEM         "Setup system\tSetup system"
+    ID_SETUP_ASSAY_PRINT    "Print assay parameters"
+    ID_SETUP_MEAS_PRINT     "Print measurement parameters"
+    ID_SETUP_CHANGEPASSWORD "Change current user password"
+    ID_SETUP_ASSAY_HISTORY  "View and print selected assay definition"
+    ID_SETUP_MES_HISTORY    "View and print selected measurement"
+    ID_SETUP_MEAS_HISTORY   "View and print selected measuement definition"
+    ID_SETUP_SYSTEMLOG      "System log view and print"
+    ID_VIEW_FONTSIZE        "Choose Font Size"
+END
+
+STRINGTABLE
+BEGIN
+    ID_VIEW_AUTOSIZECOLUMNS "Automatically calculate optimum column size"
+    ID_FILE_PRINTPROPERTIES "Display Print Properties"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ERROR_NO_GRID       "Print Properties cannot be displayed as there are no batches in the worklist."
+    IDS_CONTROL_GRAPH       "Olectra Chart Control"
+    IDS_RESULT_GRAPH_INDEX  "The number of the graph displayed in a cell"
+END
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United Kingdom) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENG)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_UK
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_RIBBON_MAIN         BITMAP                  "res\\main.bmp"
+IDB_RIBBON_FILESMALL    BITMAP                  "res\\filesmall.bmp"
+IDB_RIBBON_FILELARGE    BITMAP                  "C:\\Projects\\835\\BuildTree\\EXE\\res\\filelarge.bmp"
+IDB_RIBBON_HOMESMALL    BITMAP                  "C:\\Projects\\835\\BuildTree\\EXE\\res\\homesmall.bmp"
+IDB_RIBBON_HOMELARGE    BITMAP                  "res\\homelarge.bmp"
+IDB_BACKGROUND_BMP      BITMAP                  "res\\Background.bmp"
+IDB_CAROUSEL_BMP        BITMAP                  "res\\Carousel.bmp"
+IDB_DOOR_BMP            BITMAP                  "res\\Door.bmp"
+IDB_BACKGROUND_C3       BITMAP                  "res\\C3Background.bmp"
+IDB_LUMINOMETER_TUBES_COUPE BITMAP                  "res\\coupe.bmp"
+IDB_LUMINOMETER_TUBES_SEDAN BITMAP                  "res\\sedan.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_USER_PASSWORD DIALOGEX 0, 0, 225, 125
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Change User Password"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_PASSWORD_NEW,90,40,100,14,ES_PASSWORD | ES_AUTOHSCROLL
+    EDITTEXT        IDC_PASSWORD_VERIFY,90,60,100,14,ES_PASSWORD | ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "Apply",IDOK,140,95,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,39,95,50,14
+    LTEXT           "Change Password for:",IDC_USER_TEXT,15,15,70,8,0,WS_EX_RIGHT
+    LTEXT           "New Password:",IDC_STATIC,15,43,70,8,0,WS_EX_RIGHT
+    LTEXT           "Verify:",IDC_STATIC,15,63,70,8,0,WS_EX_RIGHT
+    EDITTEXT        IDC_USER_ID,90,15,100,14,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP,WS_EX_TRANSPARENT
+END
+
+IDD_SETUP_SYSLOG_FILTER DIALOG 0, 0, 145, 76
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "System Event Log"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,11,55,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,80,55,50,14
+    EDITTEXT        IDC_SETUP_SYSLOG_FILTER_FROM,11,20,50,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_SETUP_SYSLOG_FILTER_TO,80,20,50,14,ES_AUTOHSCROLL
+    LTEXT           "From ID number",IDC_SETUP_SYSLOG_FROM_TX,11,10,51,8
+    LTEXT           "To ID number",IDC_SETUP_SYSLOG_FILTER_TO_TX,80,10,44,8
+END
+
+IDD_UNLOCK_APP DIALOGEX 0, 0, 237, 74
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Locked"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_PASSWORD,6,54,102,14,ES_PASSWORD | ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,126,54,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,180,54,50,14
+    LTEXT           "Password",IDC_STATIC,6,42,90,8
+    EDITTEXT        IDC_EDIT_MESSAGE,6,6,216,36,ES_MULTILINE | ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+END
+
+IDD_REPORT_EDITOR DIALOGEX 0, 0, 261, 434
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_CHILD | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LISTBOX         IDC_LIST_WORKLOADS,12,18,240,150,LBS_SORT | LBS_MULTIPLESEL | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Workloads",IDC_STATIC,12,6,120,8
+    CONTROL         "",IDC_TREE_TERMS,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | WS_BORDER | WS_HSCROLL | WS_TABSTOP,12,186,240,216
+    LTEXT           "Terms",IDC_STATIC,12,174,138,8
+    PUSHBUTTON      "Preview",IDC_BUTTON_PREVIEW,60,408,132,24,NOT WS_VISIBLE
+END
+
+IDD_REPORT_EDIT_COLUMN DIALOGEX 0, 0, 277, 188
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Celsis"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,114,169,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,168,169,50,14
+    LTEXT           "Select Columns to be included in the report",IDC_STATIC,18,12,258,12
+    LISTBOX         IDC_LIST_COLUMNS,12,25,258,138,LBS_SORT | LBS_OWNERDRAWFIXED | LBS_HASSTRINGS | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_REPORT_EDIT_SORT DIALOGEX 0, 0, 189, 110
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Celsis"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,48,90,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,126,90,50,14
+    COMBOBOX        IDC_COMBO_COLUMN,12,24,162,30,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Choose which column to sort on",IDC_STATIC,12,12,162,8
+    GROUPBOX        "Sort Direction",IDC_STATIC,12,48,162,30
+    CONTROL         "Ascending",IDC_RADIO_ASCENDING,"Button",BS_AUTORADIOBUTTON,18,60,72,10
+    CONTROL         "Descending",IDC_RADIO_DESCENDING,"Button",BS_AUTORADIOBUTTON,114,60,53,10
+END
+
+IDD_REPORT_EDIT_FILTER DIALOGEX 0, 0, 213, 164
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Celsis"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,102,144,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,156,144,50,14
+    COMBOBOX        IDC_COMBO_COLUMN,12,42,156,30,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Column",IDC_STATIC,12,30,156,8
+    COMBOBOX        IDC_COMBO_RELATION,12,73,48,30,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Comparison",IDC_STATIC,12,60,78,8
+    LTEXT           "Value",IDC_STATIC,102,60,54,8
+    LTEXT           "Filter the records that appear in the report by comparing the entries in a column to a value",IDC_STATIC,12,6,186,24
+    GROUPBOX        "Connection to previous filter",IDC_STATIC_AND_OR,6,96,198,42
+    CONTROL         "Include records that satisfy both filters (AND)",IDC_RADIO_CONNECT_AND,
+                    "Button",BS_AUTORADIOBUTTON,12,108,186,10
+    CONTROL         "Include records that satisfy either filter (OR)",IDC_RADIO_CONNECT_OR,
+                    "Button",BS_AUTORADIOBUTTON,12,120,186,10
+    COMBOBOX        IDC_COMBO_VALUE,100,70,105,30,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_REPORT_EDIT_FORMULA DIALOGEX 0, 0, 225, 116
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Celsis"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,114,96,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,168,96,50,14
+    COMBOBOX        IDC_COMBO_COLUMN,12,36,204,30,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Column",IDC_STATIC,12,24,156,8
+    LTEXT           "Select a field that is calculated to include in the report",IDC_STATIC,12,6,204,8
+    COMBOBOX        IDC_COMBO_FORMULA,12,72,204,30,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Formula",IDC_STATIC,12,60,192,8
+END
+
+IDD_REPORT_EDIT_FORMAT DIALOGEX 0, 0, 267, 110
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Celsis"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,150,90,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,204,90,50,14
+    LTEXT           "Describe a formatting option",IDC_STATIC_FORMATTING_OPTION,12,12,246,12
+    LTEXT           "Text",IDC_STATIC_TEXT,12,54,90,8
+    EDITTEXT        IDC_EDIT_TEXT,12,66,246,14,ES_AUTOHSCROLL
+    CONTROL         "Include this option in the report",IDC_CHECK_INCLUDE,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,12,30,240,18
+END
+
+IDD_REPORT_EDIT_GRAPH DIALOGEX 0, 0, 281, 302
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Celsis"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,170,285,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,224,285,50,14
+    COMBOBOX        IDC_COMBO_X_AXIS,10,115,120,30,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_Y_AXIS,150,115,120,30,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "OK",IDOK2,170,285,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL2,224,285,50,14
+    CONTROL         "",IDC_COLOUR_1,"MfcColorButton",WS_TABSTOP,5,75,132,14
+    EDITTEXT        IDC_EDIT_TEXT,5,46,270,14,ES_AUTOHSCROLL
+    LTEXT           "Title Text",IDC_STATIC,5,36,234,8
+    LTEXT           "Line Color",IDC_STATIC_COLOUR_1,5,65,126,8
+    LTEXT           "Fill Color",IDC_STATIC_COLOUR_2,145,65,120,8
+    CONTROL         "",IDC_COLOUR_2,"MfcColorButton",WS_TABSTOP,145,75,132,14
+    GROUPBOX        "X Axis",IDC_STATIC,5,95,132,185
+    CONTROL         "Hidden",IDC_CHECK_X_HIDDEN,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,10,160,55,10
+    CONTROL         "Logarithmic",IDC_CHECK_X_LOGARITHMIC,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,75,160,52,10
+    CONTROL         "Reversed",IDC_CHECK_X_REVERSED,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,10,175,47,10
+    LTEXT           "Title",IDC_STATIC,10,130,14,8
+    EDITTEXT        IDC_EDIT_X_TITLE,10,140,120,14,ES_AUTOHSCROLL
+    GROUPBOX        "Y Axis",IDC_STATIC,145,95,132,185
+    CONTROL         "Hidden",IDC_CHECK_Y_HIDDEN,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,150,160,54,10
+    CONTROL         "Logarithmic",IDC_CHECK_Y_LOGARITHMIC,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,215,160,52,10
+    CONTROL         "Reversed",IDC_CHECK_Y_REVERSED,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,150,175,47,10
+    LTEXT           "Title",IDC_STATIC,150,130,14,8
+    EDITTEXT        IDC_EDIT_Y_TITLE,150,140,120,14,ES_AUTOHSCROLL
+    CONTROL         "Percentage",IDC_CHECK_Y_PERCENTAGE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,215,175,53,10
+    LTEXT           "Minimum",IDC_STATIC_MINIMUM_X,10,190,72,8
+    LTEXT           "Maximum",IDC_STATIC_MAXIMUM_X,10,220,78,8
+    EDITTEXT        IDC_EDIT_MINIMUM_X,10,200,45,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_MAXIMUM_X,10,230,45,14,ES_AUTOHSCROLL
+    LTEXT           "Origin",IDC_STATIC_ORIGIN_X,10,250,20,8
+    EDITTEXT        IDC_EDIT_ORIGIN_X,10,260,45,14,ES_AUTOHSCROLL
+    CONTROL         "Automatic",IDC_CHECK_AUTO_MINIMUM_X,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,60,200,48,10
+    CONTROL         "Automatic",IDC_CHECK_AUTO_MAXIMUM_X,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,60,230,48,10
+    CONTROL         "Automatic",IDC_CHECK_AUTO_ORIGIN_X,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,60,260,48,10
+    LTEXT           "Maximum",IDC_STATIC_MAXIMUM_Y,150,220,78,8
+    EDITTEXT        IDC_EDIT_MAXIMUM_Y,150,230,45,14,ES_AUTOHSCROLL
+    LTEXT           "Origin",IDC_STATIC_ORIGIN_Y,150,250,20,8
+    EDITTEXT        IDC_EDIT_ORIGIN_Y,150,260,45,14,ES_AUTOHSCROLL
+    CONTROL         "Automatic",IDC_CHECK_AUTO_MAXIMUM_Y,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,200,230,48,10
+    CONTROL         "Automatic",IDC_CHECK_AUTO_ORIGIN_Y,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,200,260,48,10
+    LTEXT           "Minimum",IDC_STATIC_MINIMUM_Y,150,190,72,8
+    EDITTEXT        IDC_EDIT_MINIMUM_Y,150,200,45,14,ES_AUTOHSCROLL
+    CONTROL         "Automatic",IDC_CHECK_AUTO_MINIMUM_Y,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,200,200,48,10
+    COMBOBOX        IDC_COMBO_GRAPH_TYPE,5,15,200,30,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Type of Graph",IDC_STATIC,5,5,130,8
+    LTEXT           "Value",IDC_STATIC,10,105,105,8
+    LTEXT           "Value",IDC_STATIC,150,105,55,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_USER_PASSWORD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 218
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 118
+    END
+
+    IDD_SETUP_SYSLOG_FILTER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 138
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 69
+    END
+
+    IDD_UNLOCK_APP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 230
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 67
+    END
+
+    IDD_REPORT_EDITOR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 254
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 427
+    END
+
+    IDD_REPORT_EDIT_COLUMN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 270
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 181
+    END
+
+    IDD_REPORT_EDIT_SORT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 182
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 103
+    END
+
+    IDD_REPORT_EDIT_FILTER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 206
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 157
+    END
+
+    IDD_REPORT_EDIT_FORMULA, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 218
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 109
+    END
+
+    IDD_REPORT_EDIT_FORMAT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 260
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 103
+    END
+
+    IDD_REPORT_EDIT_GRAPH, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 274
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 295
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_REPORT_EDIT_GRAPH DLGINIT
+BEGIN
+    IDC_COLOUR_1, 0x37c, 215, 0
+0x4d3c, 0x4346, 0x6f43, 0x6f6c, 0x4272, 0x7475, 0x6f74, 0x5f6e, 0x6e45, 
+0x6261, 0x656c, 0x744f, 0x6568, 0x4272, 0x7475, 0x6f74, 0x3e6e, 0x5254, 
+0x4555, 0x2f3c, 0x464d, 0x4343, 0x6c6f, 0x726f, 0x7542, 0x7474, 0x6e6f, 
+0x455f, 0x616e, 0x6c62, 0x4f65, 0x6874, 0x7265, 0x7542, 0x7474, 0x6e6f, 
+0x3c3e, 0x464d, 0x4343, 0x6c6f, 0x726f, 0x7542, 0x7474, 0x6e6f, 0x455f, 
+0x616e, 0x6c62, 0x4165, 0x7475, 0x6d6f, 0x7461, 0x6369, 0x7542, 0x7474, 
+0x6e6f, 0x463e, 0x4c41, 0x4553, 0x2f3c, 0x464d, 0x4343, 0x6c6f, 0x726f, 
+0x7542, 0x7474, 0x6e6f, 0x455f, 0x616e, 0x6c62, 0x4165, 0x7475, 0x6d6f, 
+0x7461, 0x6369, 0x7542, 0x7474, 0x6e6f, 0x3c3e, 0x464d, 0x4343, 0x6c6f, 
+0x726f, 0x7542, 0x7474, 0x6e6f, 0x435f, 0x6c6f, 0x6d75, 0x736e, 0x6f43, 
+0x6e75, 0x3e74, 0x3c35, 0x4d2f, 0x4346, 0x6f43, 0x6f6c, 0x4272, 0x7475, 
+0x6f74, 0x5f6e, 0x6f43, 0x756c, 0x6e6d, 0x4373, 0x756f, 0x746e, "\076" 
+    IDC_COLOUR_2, 0x37c, 215, 0
+0x4d3c, 0x4346, 0x6f43, 0x6f6c, 0x4272, 0x7475, 0x6f74, 0x5f6e, 0x6e45, 
+0x6261, 0x656c, 0x744f, 0x6568, 0x4272, 0x7475, 0x6f74, 0x3e6e, 0x5254, 
+0x4555, 0x2f3c, 0x464d, 0x4343, 0x6c6f, 0x726f, 0x7542, 0x7474, 0x6e6f, 
+0x455f, 0x616e, 0x6c62, 0x4f65, 0x6874, 0x7265, 0x7542, 0x7474, 0x6e6f, 
+0x3c3e, 0x464d, 0x4343, 0x6c6f, 0x726f, 0x7542, 0x7474, 0x6e6f, 0x455f, 
+0x616e, 0x6c62, 0x4165, 0x7475, 0x6d6f, 0x7461, 0x6369, 0x7542, 0x7474, 
+0x6e6f, 0x463e, 0x4c41, 0x4553, 0x2f3c, 0x464d, 0x4343, 0x6c6f, 0x726f, 
+0x7542, 0x7474, 0x6e6f, 0x455f, 0x616e, 0x6c62, 0x4165, 0x7475, 0x6d6f, 
+0x7461, 0x6369, 0x7542, 0x7474, 0x6e6f, 0x3c3e, 0x464d, 0x4343, 0x6c6f, 
+0x726f, 0x7542, 0x7474, 0x6e6f, 0x435f, 0x6c6f, 0x6d75, 0x736e, 0x6f43, 
+0x6e75, 0x3e74, 0x3c35, 0x4d2f, 0x4346, 0x6f43, 0x6f6c, 0x4272, 0x7475, 
+0x6f74, 0x5f6e, 0x6f43, 0x756c, 0x6e6d, 0x4373, 0x756f, 0x746e, "\076" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Ribbon
+//
+
+IDR_RIBBON_MAIN         RT_RIBBON_XML           "res\\ribbon1.mfcribbon-ms"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PNG
+//
+
+IDB_MAINTENANCE_LARGE_PNG PNG                     "res\\maintenanceLarge.png"
+IDB_MAINTENANCE_SMALL_PNG PNG                     "res\\maintenanceSmall.png"
+IDB_VIEW_LARGE_PNG      PNG                     "res\\ViewLarge.png"
+IDB_VIEW_SMALL_PNG      PNG                     "res\\ViewSmall.png"
+IDB_SETUP_LARGE_PNG     PNG                     "res\\SetupLarge.png"
+IDB_MAIN_ICON_PNG       PNG                     "res\\Lucept main Icon.png"
+IDB_STOP_PNG            PNG                     "res\\Stop.png"
+IDB_START_PNG           PNG                     "res\\Start.png"
+IDB_SCAN_PNG            PNG                     "res\\Scan.png"
+IDB_UNLOCK_PNG          PNG                     "res\\Unlock.png"
+IDB_SAVE_PNG            PNG                     "res\\Save.png"
+IDB_HELP_PNG            PNG                     "res\\Help.png"
+IDB_HELP_LARGE_PNG      PNG                     "res\\HelpLarge.png"
+IDB_RIBBON_FILE_LARGE_PNG PNG                     "res\\RibbonFileLarge.png"
+IDB_RIBBON_FILE_SMALL_PNG PNG                     "res\\RibbonFileSmall.png"
+IDB_RIBBON_SETUP_SMALL_PNG PNG                     "res\\RibbonSetupSmall.png"
+IDB_RIBBON_HOME_LARGE_PNG PNG                     "res\\RibbonHomeLarge.png"
+IDB_RIBBON_HOME_SMALL_PNG PNG                     "res\\RibbonHomeSmall.png"
+IDB_RIBBON_REPORTS_LARGE_PNG PNG                     "res\\RibbonReportsLarge.png"
+IDB_RIBBON_REPORTS_SMALL_PNG PNG                     "res\\RibbonReportsSmall.png"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    ID_WINDOW_CASCADE       "Cascade Windows"
+    ID_WINDOW_TILE_HORZ     "Tile Horizontal"
+END
+
+STRINGTABLE
+BEGIN
+    ID_WINDOW_MANAGER       "&Windows..."
+END
+
+STRINGTABLE
+BEGIN
+    ID_VIEW_FONTSIZE_6      "Font Size 6"
+    ID_VIEW_FONTSIZE_7      "Font Size 7"
+    ID_VIEW_FONTSIZE_8      "Font Size 8"
+    ID_VIEW_FONTSIZE_9      "Font Size 9"
+    ID_VIEW_FONTSIZE_10     "Font Size 10"
+    ID_VIEW_FONTSIZE_11     "Font Size 11"
+END
+
+STRINGTABLE
+BEGIN
+    ID_VIEW_FONTSIZE_12     "Font Size 12"
+    ID_VIEW_FONTSIZE_13     "Font Size 13"
+    ID_VIEW_FONTSIZE_14     "Font Size 14"
+    ID_VIEW_FONTSIZE_15     "Font Size 15"
+    ID_VIEW_FONTSIZE_16     "Font Size 16"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_OPEN_REPORT_TEMPLATE "Open Report Template"
+    ID_BUTTON9              "6"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_OPEN_WORKLOAD   "Open a Workload"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_OPEN_WORKLOAD_TEMPLATE "Open Workload Template"
+    ID_FILE_OPEN_REPORT     "Open a report"
+END
+
+#endif    // English (United Kingdom) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif
+#include "res\Lucept.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#include "afxprint.rc"       // printing/print preview resources
+#include "afxolecl.rc"       // OLE container resources
+#if !defined(_AFXDLL)
+#include "afxribbon.rc"        // MFC ribbon and control bar resources
+#endif
+#include "Grid/gxres.rc"
+#endif
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

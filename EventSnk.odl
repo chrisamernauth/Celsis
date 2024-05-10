@@ -1,0 +1,82 @@
+/************************************************************************************
+COPYRIGHT © 2001 Celsis Limited
+All International Rights Reserved
+(This work is unpublished)
+
+CONFIDENTIAL TRADE SECRET
+This material is the property of Celsis Limited and may not be 
+used, copied, or distributed in any form without written 
+permission from Celsis.
+
+     Celsis Limited
+     Cambridge Science Park
+     Milton Road, Cambridge, CB4 0FX, UK
+     Telephone: +44 (0)1223 426008
+     Facsimile:   +44 (0)1223 426003
+     Web address: http://www.Celsis.com
+
+FILE STATUS
+Design Specification:  887/S/02
+
+Modifications:
+(WHO)           DD-MMM-YY   		(REASON)
+ITL				01-Sept-01			New documentation base line of version 2.1.7
+
+************************************************************************************/
+
+// Uic.odl : type library source for Uic.exe
+
+#define TWO_EVENT_SINK
+// Must be consistent with LucDef.h!
+#undef  TWO_EVENT_SINK
+
+#define THREE_EVENT_SINK
+// Must be consistent with LucDef.h!
+#undef  THREE_EVENT_SINK
+
+// This file will be processed by the MIDL compiler to produce the
+// type library (Uic.tlb).
+
+[ uuid(8069DBBF-F2E8-11D0-A196-444553540000), version(1.0) ]
+library Uic
+{
+	importlib("stdole32.tlb");
+	
+	//  Primary dispatch interface for Event Sink
+	
+	[ uuid(79027C23-F39F-11D0-A196-444553540000) ]
+	dispinterface ILccEventSink
+	{
+		properties:
+			// NOTE - ClassWizard will maintain property information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_PROP(CLccEventSink)
+			//}}AFX_ODL_PROP
+			
+		methods:
+			// NOTE - ClassWizard will maintain method information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_METHOD(CLccEventSink)
+			[id(1)] void Event1(long exceptCode); 
+			[id(2)] void Event2(BSTR eventText);
+#ifndef TWO_EVENT_SINK
+			[id(3)] void Event3(BSTR eventText);
+	#ifndef THREE_EVENT_SINK
+				[id(4)] void Event4(BSTR eventText);
+	#endif
+#endif
+			//}}AFX_ODL_METHOD
+
+	};
+
+	//  Class information for CLccEventSink
+
+	[ uuid(79027C25-F39F-11D0-A196-444553540000) ]
+	coclass LccEventSink
+	{
+		[default] dispinterface ILccEventSink;
+	};
+
+	//{{AFX_APPEND_ODL}}
+	//}}AFX_APPEND_ODL}}
+};

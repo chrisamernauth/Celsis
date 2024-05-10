@@ -1,0 +1,786 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MacroDebug|Win32">
+      <Configuration>MacroDebug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Template|Win32">
+      <Configuration>Template</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <Keyword>MFCProj</Keyword>
+    <ProjectGuid>{755FB57D-C919-42C6-8A0D-E9E8A6EDF957}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110_xp</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110_xp</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MacroDebug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110_xp</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110_xp</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='MacroDebug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>c:\Projects\835\BuildTree\Compiled</OutDir>
+    <IntDir>.\Release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\Projects\835\Stingray Studio\Include;$(ProjectDir)\..\include;$(ProjectDir)\include;C:\Projects\835\BuildTree\EXE;..\Olectra;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Projects\835\Stingray Studio\Lib;$(LibraryPath)</LibraryPath>
+    <TargetName>Advance</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MacroDebug|Win32'">
+    <OutDir>c:\Projects\835\BuildTree\Compiled</OutDir>
+    <IntDir>.\Macro\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Projects\835\Stingray Studio\Include;$(ProjectDir)\..\include;$(ProjectDir)\include;C:\Projects\835\BuildTree\EXE;..\Olectra;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Projects\835\Stingray Studio\Lib;$(LibraryPath)</LibraryPath>
+    <TargetName>Advance</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>c:\Projects\835\BuildTree\Compiled</OutDir>
+    <IntDir>.\Debug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+    <TargetName>Advance</TargetName>
+    <IncludePath>C:\Projects\835\Stingray Studio\Include;$(ProjectDir)\..\include;$(ProjectDir)\include;C:\Projects\835\BuildTree\EXE;..\Olectra;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Projects\835\Stingray Studio\Src\objs\og904d;C:\Projects\835\Stingray Studio\Lib;$(LibraryPath)</LibraryPath>
+    <GenerateManifest>true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">
+    <IncludePath>C:\Projects\835\Stingray Studio\Include;$(ProjectDir)\..\include;$(ProjectDir)\include;C:\Projects\835\BuildTree\EXE;..\Olectra;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Projects\835\Stingray Studio\Lib;$(LibraryPath)</LibraryPath>
+    <OutDir>c:\Projects\835\BuildTree\Compiled</OutDir>
+    <TargetName>Advance</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>DO_CGX;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=_WIN32_WINNT_MAXVER;_GXNOAUTOLIB;_CRT_NON_CONFORMING_SWPRINTFS;%(PreprocessorDefinitions);_CRT_NONCONFORMING_SWPRINTF</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\Release\</AssemblerListingLocation>
+      <BrowseInformation>true</BrowseInformation>
+      <PrecompiledHeaderOutputFile>.\Release\Lucept.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <ObjectFileName>.\Release\</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release\</ProgramDataBaseFileName>
+      <CompileAsManaged>false</CompileAsManaged>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\Release\Lucept.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Projects\835\Stingray Studio\Include\Grid;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Release\Lucept.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>c:\Projects\835\BuildTree\Compiled\Advance.exe</OutputFile>
+      <AdditionalDependencies>..\PhilUtil\Release\PhilUtil.lib;..\Olectra\Release\Olectra.lib;winmm.lib;htmlhelp.lib;setupapi.lib;version.lib;..\..\Stingray Studio\Src\objs\og904au\og904au.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MacroDebug|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <PreprocessorDefinitions>DO_CGX;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=_WIN32_WINNT_MAXVER;_GXNOAUTOLIB;_CRT_NON_CONFORMING_SWPRINTFS;%(PreprocessorDefinitions);_CRT_NONCONFORMING_SWPRINTF</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\Macro\</AssemblerListingLocation>
+      <BrowseInformation>true</BrowseInformation>
+      <PrecompiledHeaderOutputFile>.\Macro\Lucept.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <ObjectFileName>.\Macro\</ObjectFileName>
+      <ProgramDataBaseFileName>.\Macro\</ProgramDataBaseFileName>
+      <PreprocessToFile>true</PreprocessToFile>
+      <PreprocessSuppressLineNumbers>false</PreprocessSuppressLineNumbers>
+      <CompileAsManaged>false</CompileAsManaged>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\Macro\Lucept.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Projects\835\Stingray Studio\Include\Grid;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>Macro/Lucept.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <OutputFile>c:\Projects\835\BuildTree\Compiled\Advance.exe</OutputFile>
+      <AdditionalDependencies>htmlhelp.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <MinimalRebuild>true</MinimalRebuild>
+      <PreprocessorDefinitions>_EMULATE;DO_CGX;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=_WIN32_WINNT_MAXVER;_GXNOAUTOLIB;_CRT_NON_CONFORMING_SWPRINTFS;NO_USER_ADMIN;%(PreprocessorDefinitions);_CRT_NONCONFORMING_SWPRINTF</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\Debug\</AssemblerListingLocation>
+      <BrowseInformation>true</BrowseInformation>
+      <PrecompiledHeaderOutputFile>.\Debug\Lucept.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <ObjectFileName>.\Debug\</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug\</ProgramDataBaseFileName>
+      <CompileAsManaged>false</CompileAsManaged>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\Debug\Lucept.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Projects\835\Stingray Studio\Include\Grid;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>false</SuppressStartupBanner>
+      <OutputFile>.\Debug\Lucept.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>c:\Projects\835\BuildTree\Compiled\Advance.exe</OutputFile>
+      <AdditionalDependencies>..\PhilUtil\Debug\PhilUtil.lib;..\Olectra\Debug\Olectra.lib;htmlhelp.lib;winmm.lib;setupapi.lib;version.lib;..\..\Stingray Studio\Src\objs\og904aud\og904aud.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+      <GenerateMapFile>true</GenerateMapFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">
+    <ClCompile>
+      <CompileAsManaged>false</CompileAsManaged>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>DO_CGX;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=_WIN32_WINNT_MAXVER;_GXNOAUTOLIB;_CRT_NON_CONFORMING_SWPRINTFS;%(PreprocessorDefinitions);_CRT_NONCONFORMING_SWPRINTF</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <OutputFile>c:\Projects\835\BuildTree\Compiled\Advance.exe</OutputFile>
+    </Link>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>C:\Projects\835\Stingray Studio\Include\Grid;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="ACCMgr.cpp" />
+    <ClCompile Include="ACCtnr.cpp" />
+    <ClCompile Include="ACCtrl.cpp" />
+    <ClCompile Include="acdisp.cpp" />
+    <ClCompile Include="AddCSamp.cpp" />
+    <ClCompile Include="Addreag.cpp" />
+    <ClCompile Include="ADPgACal.cpp" />
+    <ClCompile Include="ADPgCal.cpp" />
+    <ClCompile Include="ADPgFil.cpp" />
+    <ClCompile Include="ADPgFlag.cpp" />
+    <ClCompile Include="ADPgFld.cpp" />
+    <ClCompile Include="ADPgMain.cpp" />
+    <ClCompile Include="ADPgName.cpp" />
+    <ClCompile Include="ADPrpSh.cpp" />
+    <ClCompile Include="AssayNew.cpp" />
+    <ClCompile Include="Assays.cpp" />
+    <ClCompile Include="AssaySel.cpp" />
+    <ClCompile Include="AssyDef.cpp" />
+    <ClCompile Include="AssyPrDc.cpp" />
+    <ClCompile Include="AssyPrVw.cpp" />
+    <ClCompile Include="BatCalc.cpp" />
+    <ClCompile Include="Batch.cpp" />
+    <ClCompile Include="BatchPg.cpp" />
+    <ClCompile Include="BatRef.cpp" />
+    <ClCompile Include="BCFrame.cpp" />
+    <ClCompile Include="BGridPg.cpp" />
+    <ClCompile Include="BPickDlg.cpp" />
+    <ClCompile Include="BTabCtrl.cpp" />
+    <ClCompile Include="CalTypeD.cpp" />
+    <ClCompile Include="CondFrm.cpp" />
+    <ClCompile Include="Conduct.cpp" />
+    <ClCompile Include="CugRpt.CPP" />
+    <ClCompile Include="CugWkl.CPP" />
+    <ClCompile Include="CustPal.cpp" />
+    <ClCompile Include="DaoUtils.cpp" />
+    <ClCompile Include="dibapi.cpp" />
+    <ClCompile Include="DIBUtil.cpp" />
+    <ClCompile Include="Event.cpp" />
+    <ClCompile Include="Eventsnk.cpp" />
+    <ClCompile Include="FldProp.cpp" />
+    <ClCompile Include="GenBox.cpp" />
+    <ClCompile Include="GenDef.cpp" />
+    <ClCompile Include="Generics.cpp" />
+    <ClCompile Include="GnDfPrDc.cpp" />
+    <ClCompile Include="GnDfPrVw.cpp" />
+    <ClCompile Include="GXBatchGrid.cpp" />
+    <ClCompile Include="GXGraphCell.cpp" />
+    <ClCompile Include="HandCtrl.cpp" />
+    <ClCompile Include="hidedlg.cpp" />
+    <ClCompile Include="IniFiles.cpp" />
+    <ClCompile Include="InjSeq.cpp" />
+    <ClCompile Include="LccInq.cpp" />
+    <ClCompile Include="LccMgr.cpp" />
+    <ClCompile Include="LCCUser.cpp" />
+    <ClCompile Include="LccVDoc.cpp" />
+    <ClCompile Include="LccView.cpp" />
+    <ClCompile Include="LCDWnd.cpp" />
+    <ClCompile Include="LEDDisp.cpp" />
+    <ClCompile Include="Level.cpp" />
+    <ClCompile Include="LiftWnd.cpp" />
+    <ClCompile Include="LogonDlg.cpp" />
+    <ClCompile Include="Lucept.cpp" />
+    <ClCompile Include="LucSamp.cpp" />
+    <ClCompile Include="LucyBar.cpp" />
+    <ClCompile Include="LucyDoc.cpp" />
+    <ClCompile Include="LucyFrm.cpp" />
+    <ClCompile Include="LucyView.cpp" />
+    <ClCompile Include="LumActor.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="MDefDlg.cpp" />
+    <ClCompile Include="MeasDef.cpp" />
+    <ClCompile Include="MeasNew.cpp" />
+    <ClCompile Include="MeasPrDc.cpp" />
+    <ClCompile Include="MeasPrVw.cpp" />
+    <ClCompile Include="MeasSel.cpp" />
+    <ClCompile Include="Measures.cpp" />
+    <ClCompile Include="MProcDlg.cpp" />
+    <ClCompile Include="PasswordChange.cpp" />
+    <ClCompile Include="PPUAdd.cpp" />
+    <ClCompile Include="PPUEdit.cpp" />
+    <ClCompile Include="ReagentGauge.cpp" />
+    <ClCompile Include="RefList.cpp" />
+    <ClCompile Include="ReportEditColumn.cpp" />
+    <ClCompile Include="ReportEditFiltercpp.cpp" />
+    <ClCompile Include="ReportEditFormat.cpp" />
+    <ClCompile Include="ReportEditFormula.cpp" />
+    <ClCompile Include="ReportEditGraphBase.cpp" />
+    <ClCompile Include="ReportEditSort.cpp" />
+    <ClCompile Include="ReportPage.cpp" />
+    <ClCompile Include="ReportTerms.cpp" />
+    <ClCompile Include="RGraphView.cpp" />
+    <ClCompile Include="RGridBase.cpp" />
+    <ClCompile Include="RGridGraph.cpp" />
+    <ClCompile Include="RGridGraphCollection.cpp" />
+    <ClCompile Include="RGridView.cpp" />
+    <ClCompile Include="RptDoc.cpp" />
+    <ClCompile Include="RptFInfo.cpp" />
+    <ClCompile Include="RptFrame.cpp" />
+    <ClCompile Include="RptPgCol.cpp" />
+    <ClCompile Include="RptPgFmt.cpp" />
+    <ClCompile Include="RptPgFrm.cpp" />
+    <ClCompile Include="RptPgGph.cpp" />
+    <ClCompile Include="RptPgQry.cpp" />
+    <ClCompile Include="RptPgSrt.cpp" />
+    <ClCompile Include="RptPgWkl.cpp" />
+    <ClCompile Include="RptRibbonView.cpp" />
+    <ClCompile Include="RptSummaryInfo.cpp" />
+    <ClCompile Include="RptUgDao.cpp" />
+    <ClCompile Include="RptView.cpp" />
+    <ClCompile Include="RSummaryGridView.cpp" />
+    <ClCompile Include="SampFrm.cpp" />
+    <ClCompile Include="Sample.cpp" />
+    <ClCompile Include="SampRef.cpp" />
+    <ClCompile Include="SampView.cpp" />
+    <ClCompile Include="ScanPage.cpp" />
+    <ClCompile Include="ScanSht.cpp" />
+    <ClCompile Include="ScnChain.cpp" />
+    <ClCompile Include="ScnSumPg.cpp" />
+    <ClCompile Include="SetupDlg.cpp" />
+    <ClCompile Include="Specification.cpp" />
+    <ClCompile Include="SPickDlg.cpp" />
+    <ClCompile Include="StdAfx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MacroDebug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MacroDebug|Win32'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">stdafx.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="SysLogView.cpp" />
+    <ClCompile Include="SystemLog.cpp" />
+    <ClCompile Include="SystemLogDoc.cpp" />
+    <ClCompile Include="TempDisp.cpp" />
+    <ClCompile Include="TimeDisp.cpp" />
+    <ClCompile Include="Tube.cpp" />
+    <ClCompile Include="TubeDisplay.cpp" />
+    <ClCompile Include="ultgrid\UGCBTYPE.CPP" />
+    <ClCompile Include="ultgrid\Ugcell.cpp" />
+    <ClCompile Include="ultgrid\UGCELTYP.CPP" />
+    <ClCompile Include="ultgrid\UGCNRBTN.CPP" />
+    <ClCompile Include="ultgrid\Ugctafnt.cpp" />
+    <ClCompile Include="ultgrid\Ugctarrw.cpp" />
+    <ClCompile Include="ultgrid\UGCTBUTN.CPP" />
+    <ClCompile Include="ultgrid\UGCTELPS.CPP" />
+    <ClCompile Include="ultgrid\UGCTPIE.CPP" />
+    <ClCompile Include="ultgrid\Ugctpro1.cpp" />
+    <ClCompile Include="ultgrid\UGCTPROG.CPP" />
+    <ClCompile Include="ultgrid\Ugctrado.cpp" />
+    <ClCompile Include="ultgrid\Ugctrl.cpp" />
+    <ClCompile Include="ultgrid\UGCTSARW.CPP" />
+    <ClCompile Include="ultgrid\Ugctspin.cpp" />
+    <ClCompile Include="ultgrid\Ugdao.cpp" />
+    <ClCompile Include="ultgrid\Ugdltype.cpp" />
+    <ClCompile Include="ultgrid\UGDRGDRP.CPP" />
+    <ClCompile Include="ultgrid\Ugdrwhnt.cpp" />
+    <ClCompile Include="ultgrid\Ugdtasrc.cpp" />
+    <ClCompile Include="ultgrid\Ugedit.cpp" />
+    <ClCompile Include="ultgrid\Uggrid.cpp" />
+    <ClCompile Include="ultgrid\Ughint.cpp" />
+    <ClCompile Include="ultgrid\UGHSCROL.CPP" />
+    <ClCompile Include="ultgrid\Uglstbox.cpp" />
+    <ClCompile Include="ultgrid\UGMEMMAN.CPP" />
+    <ClCompile Include="ultgrid\Ugmultis.cpp" />
+    <ClCompile Include="ultgrid\Ugprint.cpp" />
+    <ClCompile Include="ultgrid\Ugroutin.cpp" />
+    <ClCompile Include="ultgrid\UGSIDEHD.CPP" />
+    <ClCompile Include="ultgrid\UGTab.cpp" />
+    <ClCompile Include="ultgrid\UGTOPHDG.CPP" />
+    <ClCompile Include="ultgrid\UGVSCROL.CPP" />
+    <ClCompile Include="UnlockDlg.cpp" />
+    <ClCompile Include="User.cpp" />
+    <ClCompile Include="UserDB.cpp" />
+    <ClCompile Include="UserFlag.cpp" />
+    <ClCompile Include="UsrAdmin.cpp" />
+    <ClCompile Include="WklDoc.cpp" />
+    <ClCompile Include="WklFrame.cpp" />
+    <ClCompile Include="WklMods.cpp" />
+    <ClCompile Include="WklRead.cpp" />
+    <ClCompile Include="WklRef.cpp" />
+    <ClCompile Include="WklView.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Midl Include="EventSnk.odl">
+      <TargetEnvironment Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Win32</TargetEnvironment>
+      <TargetEnvironment Condition="'$(Configuration)|$(Platform)'=='MacroDebug|Win32'">Win32</TargetEnvironment>
+      <TargetEnvironment Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Win32</TargetEnvironment>
+    </Midl>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="res\Lucept.rc2" />
+    <CustomBuild Include="Null.cur" />
+    <CustomBuild Include="Advance.ini" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Lucept.rc">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OUTDIR);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='MacroDebug|Win32'">$(OUTDIR);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OUTDIR);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\FldEnum.h" />
+    <ClInclude Include="..\include\LucDef.h" />
+    <ClInclude Include="..\include\LuceErr.h" />
+    <ClInclude Include="..\include\WklDef.h" />
+    <ClInclude Include="CLcc.h" />
+    <ClInclude Include="CLccControl.h" />
+    <ClInclude Include="include\ACCMgr.h" />
+    <ClInclude Include="include\ACCtnr.h" />
+    <ClInclude Include="include\ACCtrl.h" />
+    <ClInclude Include="include\ACDisp.h" />
+    <ClInclude Include="include\AddCSamp.h" />
+    <ClInclude Include="include\Addreag.h" />
+    <ClInclude Include="include\ADPgACal.h" />
+    <ClInclude Include="include\ADPgCal.h" />
+    <ClInclude Include="include\ADPgFil.h" />
+    <ClInclude Include="include\ADPgFlag.h" />
+    <ClInclude Include="include\ADPgFld.h" />
+    <ClInclude Include="include\ADPgMain.h" />
+    <ClInclude Include="include\ADPgName.h" />
+    <ClInclude Include="include\ADPrpSh.h" />
+    <ClInclude Include="include\AssayNew.h" />
+    <ClInclude Include="include\Assays.h" />
+    <ClInclude Include="include\AssaySel.h" />
+    <ClInclude Include="include\AssyDef.h" />
+    <ClInclude Include="include\AssyPrDc.h" />
+    <ClInclude Include="include\AssyPrVw.h" />
+    <ClInclude Include="include\BatCalc.h" />
+    <ClInclude Include="include\Batch.h" />
+    <ClInclude Include="include\batchpg.h" />
+    <ClInclude Include="include\BatRef.h" />
+    <ClInclude Include="include\BCFrame.h" />
+    <ClInclude Include="include\BGridPg.h" />
+    <ClInclude Include="include\BPickDlg.h" />
+    <ClInclude Include="include\BTabCtrl.h" />
+    <ClInclude Include="include\CalTypeD.h" />
+    <ClInclude Include="include\CondFrm.h" />
+    <ClInclude Include="include\Conduct.h" />
+    <ClInclude Include="include\CugRpt.h" />
+    <ClInclude Include="include\CugWkl.h" />
+    <ClInclude Include="include\CustPal.h" />
+    <ClInclude Include="include\DaoUtils.h" />
+    <ClInclude Include="include\dibapi.h" />
+    <ClInclude Include="include\dummy.h" />
+    <ClInclude Include="include\Event.h" />
+    <ClInclude Include="include\Eventsnk.h" />
+    <ClInclude Include="include\FldProp.h" />
+    <ClInclude Include="include\GenBox.h" />
+    <ClInclude Include="include\GenDef.h" />
+    <ClInclude Include="include\Generics.h" />
+    <ClInclude Include="include\GnDfPrDc.h" />
+    <ClInclude Include="include\GnDfPrVw.h" />
+    <ClInclude Include="include\GXBatchGrid.h" />
+    <ClInclude Include="include\GXGraphCell.h" />
+    <ClInclude Include="include\HandCtrl.h" />
+    <ClInclude Include="include\HideDlg.h" />
+    <ClInclude Include="include\IniFiles.h" />
+    <ClInclude Include="include\InjSeq.h" />
+    <ClInclude Include="include\LccBar.h" />
+    <ClInclude Include="include\LCCDef.h" />
+    <ClInclude Include="include\LccInq.h" />
+    <ClInclude Include="include\LccMgr.h" />
+    <ClInclude Include="include\LccMgrDiagnostics.h" />
+    <ClInclude Include="include\LCCProxy.h" />
+    <ClInclude Include="include\LCCUser.h" />
+    <ClInclude Include="include\LccVDoc.h" />
+    <ClInclude Include="include\LccView.h" />
+    <ClInclude Include="include\LCDWnd.h" />
+    <ClInclude Include="include\LEDDisp.h" />
+    <ClInclude Include="include\Level.h" />
+    <ClInclude Include="include\LiftWnd.h" />
+    <ClInclude Include="include\LogonDlg.h" />
+    <ClInclude Include="include\LucColor.h" />
+    <ClInclude Include="include\Lucept.h" />
+    <ClInclude Include="include\LucOle.h" />
+    <ClInclude Include="include\LucSamp.h" />
+    <ClInclude Include="include\Lucy.h" />
+    <ClInclude Include="include\LucyBar.h" />
+    <ClInclude Include="include\Lucydef.h" />
+    <ClInclude Include="include\LucyDoc.h" />
+    <ClInclude Include="include\LucyFrm.h" />
+    <ClInclude Include="include\LucyView.h" />
+    <ClInclude Include="include\LumActor.h" />
+    <ClInclude Include="include\MainFrm.h" />
+    <ClInclude Include="include\MDefDlg.h" />
+    <ClInclude Include="include\MeasDef.h" />
+    <ClInclude Include="include\MeasNew.h" />
+    <ClInclude Include="include\MeasPrDc.h" />
+    <ClInclude Include="include\MeasPrVw.h" />
+    <ClInclude Include="include\MeasSel.h" />
+    <ClInclude Include="include\Measures.h" />
+    <ClInclude Include="include\MProcDlg.h" />
+    <ClInclude Include="include\PasswordChange.h" />
+    <ClInclude Include="include\PPUAdd.h" />
+    <ClInclude Include="include\PPUEdit.h" />
+    <ClInclude Include="include\ReagentGauge.h" />
+    <ClInclude Include="include\RefList.h" />
+    <ClInclude Include="include\ReportEditColumn.h" />
+    <ClInclude Include="include\ReportEditFilter.h" />
+    <ClInclude Include="include\ReportEditFormat.h" />
+    <ClInclude Include="include\ReportEditFormula.h" />
+    <ClInclude Include="include\ReportEditGraphBase.h" />
+    <ClInclude Include="include\ReportEditSort.h" />
+    <ClInclude Include="include\ReportPage.h" />
+    <ClInclude Include="include\ReportTerms.h" />
+    <ClInclude Include="include\RGraphView.h" />
+    <ClInclude Include="include\RGridBase.h" />
+    <ClInclude Include="include\RGridFrm.h" />
+    <ClInclude Include="include\RGridGraph.h" />
+    <ClInclude Include="include\RGridGraphCollection.h" />
+    <ClInclude Include="include\RptDoc.h" />
+    <ClInclude Include="include\RptFInfo.h" />
+    <ClInclude Include="include\RptFrame.h" />
+    <ClInclude Include="include\RptPgCol.h" />
+    <ClInclude Include="include\RptPgFmt.h" />
+    <ClInclude Include="include\RptPgFrm.h" />
+    <ClInclude Include="include\RptPgGph.h" />
+    <ClInclude Include="include\RptPgQry.h" />
+    <ClInclude Include="include\RptPgSrt.h" />
+    <ClInclude Include="include\RptPgWkl.h" />
+    <ClInclude Include="include\RptRibbonView.h" />
+    <ClInclude Include="include\RptSummaryInfo.h" />
+    <ClInclude Include="include\RptUgDao.h" />
+    <ClInclude Include="include\RptView.h" />
+    <ClInclude Include="include\RSummaryGridView.h" />
+    <ClInclude Include="include\SampFrm.h" />
+    <ClInclude Include="include\Sample.h" />
+    <ClInclude Include="include\SampRef.h" />
+    <ClInclude Include="include\SampView.h" />
+    <ClInclude Include="include\ScanPage.h" />
+    <ClInclude Include="include\ScanSht.h" />
+    <ClInclude Include="include\ScnChain.h" />
+    <ClInclude Include="include\ScnSumPg.h" />
+    <ClInclude Include="include\SetupDlg.h" />
+    <ClInclude Include="include\Specification.h" />
+    <ClInclude Include="include\SPickDlg.h" />
+    <ClInclude Include="include\StdAfx.h" />
+    <ClInclude Include="include\SysLogView.h" />
+    <ClInclude Include="include\SystemLog.h" />
+    <ClInclude Include="include\SystemLogDoc.h" />
+    <ClInclude Include="include\TempDisp.h" />
+    <ClInclude Include="include\TimeDisp.h" />
+    <ClInclude Include="include\Tube.h" />
+    <ClInclude Include="include\TubeDisplay.h" />
+    <ClInclude Include="include\TubeMap.h" />
+    <ClInclude Include="include\UnlockDlg.h" />
+    <ClInclude Include="include\User.h" />
+    <ClInclude Include="include\UserDB.h" />
+    <ClInclude Include="include\UserFlag.h" />
+    <ClInclude Include="include\UserPriv.h" />
+    <ClInclude Include="include\UsrAdmin.h" />
+    <ClInclude Include="include\WklDoc.h" />
+    <ClInclude Include="include\WklFrame.h" />
+    <ClInclude Include="include\WklMods.h" />
+    <ClInclude Include="include\WklRead.h" />
+    <ClInclude Include="include\WklRef.h" />
+    <ClInclude Include="include\wklview.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="ultgrid\UGCBTYPE.H" />
+    <ClInclude Include="ultgrid\Ugcell.h" />
+    <ClInclude Include="ultgrid\UGCELTYP.H" />
+    <ClInclude Include="ultgrid\UGCNRBTN.H" />
+    <ClInclude Include="ultgrid\UGCTAFNT.H" />
+    <ClInclude Include="ultgrid\UGCTARRW.H" />
+    <ClInclude Include="ultgrid\UGCTBUTN.H" />
+    <ClInclude Include="ultgrid\UGCTELPS.H" />
+    <ClInclude Include="ultgrid\UGCTPIE.H" />
+    <ClInclude Include="ultgrid\UGCTPRO1.H" />
+    <ClInclude Include="ultgrid\UGCTPROG.H" />
+    <ClInclude Include="ultgrid\UGCTRADO.H" />
+    <ClInclude Include="ultgrid\Ugctrl.h" />
+    <ClInclude Include="ultgrid\UGCTSARW.H" />
+    <ClInclude Include="ultgrid\UGCTSPIN.H" />
+    <ClInclude Include="ultgrid\UGDAO.H" />
+    <ClInclude Include="ultgrid\Ugdefine.h" />
+    <ClInclude Include="ultgrid\UGDLTYPE.H" />
+    <ClInclude Include="ultgrid\UGDRGDRP.H" />
+    <ClInclude Include="ultgrid\UGDRWHNT.H" />
+    <ClInclude Include="ultgrid\UGDTASRC.H" />
+    <ClInclude Include="ultgrid\UGEDIT.H" />
+    <ClInclude Include="ultgrid\Uggrid.h" />
+    <ClInclude Include="ultgrid\UGHINT.H" />
+    <ClInclude Include="ultgrid\UGHSCROL.H" />
+    <ClInclude Include="ultgrid\UGLSTBOX.H" />
+    <ClInclude Include="ultgrid\UGMEMMAN.H" />
+    <ClInclude Include="ultgrid\UGMULTIS.H" />
+    <ClInclude Include="ultgrid\UGPRINT.H" />
+    <ClInclude Include="ultgrid\UGSIDEHD.H" />
+    <ClInclude Include="ultgrid\UGSTRUCT.H" />
+    <ClInclude Include="ultgrid\UGTab.h" />
+    <ClInclude Include="ultgrid\UGTOPHDG.H" />
+    <ClInclude Include="ultgrid\UGVSCROL.H" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\About.png" />
+    <Image Include="res\Background.bmp" />
+    <Image Include="res\bitmap3.bmp" />
+    <Image Include="res\bitmap5.bmp" />
+    <Image Include="res\bitmap6.bmp" />
+    <Image Include="res\bitmap7.bmp" />
+    <Image Include="res\bitmap8.bmp" />
+    <Image Include="res\bitmap9.bmp" />
+    <Image Include="res\bmp00001.bmp" />
+    <Image Include="res\bmp00002.bmp" />
+    <Image Include="res\bmp00003.bmp" />
+    <Image Include="res\bmp00004.bmp" />
+    <Image Include="res\bmp00005.bmp" />
+    <Image Include="res\bmp00006.bmp" />
+    <Image Include="res\bmp00007.bmp" />
+    <Image Include="res\bmp00008.bmp" />
+    <Image Include="res\bmp00009.bmp" />
+    <Image Include="res\bmp00010.bmp" />
+    <Image Include="res\bmp00011.bmp" />
+    <Image Include="res\bmp00012.bmp" />
+    <Image Include="res\bmp00013.bmp" />
+    <Image Include="res\bmp00014.bmp" />
+    <Image Include="res\bmp00015.bmp" />
+    <Image Include="res\bmp00016.bmp" />
+    <Image Include="res\bmp00017.bmp" />
+    <Image Include="res\bmp00019.bmp" />
+    <Image Include="res\bmp00020.bmp" />
+    <Image Include="res\bmp60001.bmp" />
+    <Image Include="res\busyd.bmp" />
+    <Image Include="res\busyu.bmp" />
+    <Image Include="res\C3Background.bmp" />
+    <Image Include="res\Carousel.bmp" />
+    <Image Include="res\chain.bmp" />
+    <Image Include="res\coupe.bmp" />
+    <Image Include="res\CustomerService.png" />
+    <Image Include="res\Door.bmp" />
+    <Image Include="res\filelarge.bmp" />
+    <Image Include="res\filesmall.bmp" />
+    <Image Include="res\Gears\Gears1.png" />
+    <Image Include="res\Gears\Gears2.png" />
+    <Image Include="res\Gears\Gears3.png" />
+    <Image Include="res\Gears\Gears4.png" />
+    <Image Include="res\Gears\Gears5.png" />
+    <Image Include="res\Gears\Gears6.png" />
+    <Image Include="res\Gears\Gears7.png" />
+    <Image Include="res\Gears\Gears8.png" />
+    <Image Include="res\graph_d.bmp" />
+    <Image Include="res\graph_f.bmp" />
+    <Image Include="res\graph_x.bmp" />
+    <Image Include="res\graphvie.bmp" />
+    <Image Include="res\grid_d.bmp" />
+    <Image Include="res\grid_f.bmp" />
+    <Image Include="res\grid_u.bmp" />
+    <Image Include="res\grid_x.bmp" />
+    <Image Include="res\gridview.bmp" />
+    <Image Include="res\Help.png" />
+    <Image Include="res\HelpLarge.png" />
+    <Image Include="res\homelarge.bmp" />
+    <Image Include="res\homesmall.bmp" />
+    <Image Include="res\injectd.bmp" />
+    <Image Include="res\injectf.bmp" />
+    <Image Include="res\injectu.bmp" />
+    <Image Include="res\injectx.bmp" />
+    <Image Include="res\lift.bmp" />
+    <Image Include="res\logoutd.bmp" />
+    <Image Include="res\logoutf.bmp" />
+    <Image Include="res\logoutu.bmp" />
+    <Image Include="res\logoutx.bmp" />
+    <Image Include="res\Lucept main Icon.png" />
+    <Image Include="res\Lucept.ico" />
+    <Image Include="res\lumin.bmp" />
+    <Image Include="res\main.bmp" />
+    <Image Include="res\mainfram.bmp" />
+    <Image Include="res\maintenanceLarge.bmp" />
+    <Image Include="res\maintenanceLarge.png" />
+    <Image Include="res\maintenanceSmall.png" />
+    <Image Include="res\maintend.bmp" />
+    <Image Include="res\maintenf.bmp" />
+    <Image Include="res\maintenu.bmp" />
+    <Image Include="res\maintenx.bmp" />
+    <Image Include="res\manualmd.bmp" />
+    <Image Include="res\manualmf.bmp" />
+    <Image Include="res\manualmu.bmp" />
+    <Image Include="res\manualmx.bmp" />
+    <Image Include="res\newrkldd.bmp" />
+    <Image Include="res\newrkldf.bmp" />
+    <Image Include="res\newrkldu.bmp" />
+    <Image Include="res\newrkldx.bmp" />
+    <Image Include="res\nextbatc.bmp" />
+    <Image Include="res\nextsamp.bmp" />
+    <Image Include="res\offline.bmp" />
+    <Image Include="res\offlined.bmp" />
+    <Image Include="res\prevbatc.bmp" />
+    <Image Include="res\prevbath.bmp" />
+    <Image Include="res\prevsamp.bmp" />
+    <Image Include="res\readyd.bmp" />
+    <Image Include="res\readyu.bmp" />
+    <Image Include="res\report.bmp" />
+    <Image Include="res\report.ico" />
+    <Image Include="res\RibbonFileLarge.png" />
+    <Image Include="res\RibbonFileSmall.png" />
+    <Image Include="res\RibbonHomeLarge.png" />
+    <Image Include="res\RibbonHomeSmall.png" />
+    <Image Include="res\RibbonReportsLarge.png" />
+    <Image Include="res\RibbonReportsSmall.png" />
+    <Image Include="res\RibbonSetupSmall.png" />
+    <Image Include="res\Save.png" />
+    <Image Include="res\Scan.png" />
+    <Image Include="res\scanchai.bmp" />
+    <Image Include="res\sedan.bmp" />
+    <Image Include="res\SetupLarge.png" />
+    <Image Include="res\Start.png" />
+    <Image Include="res\Stop.bmp" />
+    <Image Include="res\Stop.png" />
+    <Image Include="res\stoprun_.bmp" />
+    <Image Include="res\Toolbar.bmp" />
+    <Image Include="res\Unlock.png" />
+    <Image Include="res\ViewLarge.png" />
+    <Image Include="res\ViewSmall.png" />
+    <Image Include="res\workload.bmp" />
+    <Image Include="res\workload.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="res\ribbon1.mfcribbon-ms" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="Lucept.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
